@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "firebase.app.module": "file:node_modules/angularfire2/firebase.app.module.d.ts"
+  }
+}

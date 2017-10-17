@@ -1,0 +1,25 @@
+{
+  "name": "previa_1",
+  "description": "app de compartilhamento de proço",
+  "main": "sei la",
+  "authors": [
+    "fernando"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dibrei"
+  ],
+  "homepage": "src/home/home.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngCordova": "^0.1.27-alpha",
+    "angular": "^1.6.6"
+  }
+}
