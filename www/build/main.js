@@ -38,13 +38,14 @@ var User = (function () {
 }());
 
 var AutenticacaoPage = (function () {
-    function AutenticacaoPage(navCtrl, navParams, toastCtrl, authService, carregarCtrl, angFireAuth) {
+    function AutenticacaoPage(navCtrl, navParams, toastCtrl, authService, carregarCtrl, angFireAuth, alertCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.toastCtrl = toastCtrl;
         this.authService = authService;
         this.carregarCtrl = carregarCtrl;
         this.angFireAuth = angFireAuth;
+        this.alertCtrl = alertCtrl;
         this.user = new User(); // providers
         try {
             console.log('aqui foi');
@@ -117,15 +118,31 @@ var AutenticacaoPage = (function () {
     };
     AutenticacaoPage.prototype.deletarConta = function () {
         var _this = this;
-        var toast = this.toastCtrl.create({ duration: 3000, position: 'bottom' });
-        toast.setMessage('A conta foi excluida!');
-        this.authService.deleteAccount().then(function () {
-            toast.present();
-            _this.navCtrl.pop();
-        })
-            .catch(function (err) {
-            console.log(err);
+        var toast = this.toastCtrl.create({
+            duration: 3000,
+            message: 'Conta excluída com sucesso!'
         });
+        var alert = this.alertCtrl.create({
+            title: 'Você está certo disso?',
+            subTitle: 'Você está prestes a excluir sua conta',
+            buttons: [
+                {
+                    text: 'Cancelar',
+                },
+                {
+                    text: 'Excluir',
+                    handler: function () {
+                        _this.authService.deleteAccount().
+                            catch(function (err) {
+                            console.log(err);
+                        });
+                        toast.present();
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__home_home__["a" /* HomePage */]);
+                    }
+                }
+            ]
+        });
+        alert.present();
     };
     return AutenticacaoPage;
 }());
@@ -137,10 +154,10 @@ AutenticacaoPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-autenticacao',template:/*ion-inline-start:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/autenticacao/autenticacao.html"*/'<ion-header>\n    <ion-navbar color="laranja">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>\n            Login\n        </ion-title>\n        <ion-buttons end>\n            <button ion-button (click)="signOut()" *ngIf="logado">sair</button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n  \n  \n<ion-content padding>\n\n    <button ion-button (click)="signInWithFacebook()" block color="facebook" *ngIf="naologado">\n        Facebook\n    </button>\n\n    <br *ngIf="naologado">\n\n  \n    <button ion-button block color="primary" (click)="abrirPaginaLogin()" *ngIf="naologado">\n        Entrar\n    </button>\n    \n    <br *ngIf="naologado">\n  \n    <button ion-button block clear (click)="openPage()" *ngIf="naologado">\n        Ou criar uma conta\n    </button>\n\n    \n    <ion-label *ngIf="logado">\n        Logado como: {{email}}\n    </ion-label>\n\n\n    <ion-chip color="light" *ngIf="logado">\n        <ion-label>Logado como: {{email}}</ion-label>\n    </ion-chip>\n\n\n    <ion-footer no-shadow *ngIf="logado">\n        <ion-toolbar position="bottom">\n            <button ion-button color="danger" block (click)="deletarConta()">\n                Excluir minha conta\n            </button>\n        </ion-toolbar>\n    </ion-footer>    \n  \n</ion-content>\n\n'/*ion-inline-end:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/autenticacao/autenticacao.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__["a" /* AngularFireAuth */]) === "function" && _g || Object])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__["a" /* AngularFireAuth */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _h || Object])
 ], AutenticacaoPage);
 
-var _a, _b, _c, _d, _e, _f, _g;
+var _a, _b, _c, _d, _e, _f, _g, _h;
 //# sourceMappingURL=autenticacao.js.map
 
 /***/ }),
@@ -836,16 +853,20 @@ var LoginPage = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('form'),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* NgForm */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* NgForm */]) === "function" && _a || Object)
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* NgForm */])
 ], LoginPage.prototype, "form", void 0);
 LoginPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-login',template:/*ion-inline-start:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/login/login.html"*/'<ion-header>\n    <ion-navbar color="laranja">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>\n            Login\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n  \n  \n<ion-content padding>\n  \n    <form #form="ngForm" novalidate>\n        <ion-list>\n    \n            <ion-item>\n                <ion-label stacked block>E-mail</ion-label>\n                <ion-input type="text" name="email" [(ngModel)]="user.email" #email="ngModel" required></ion-input>\n            </ion-item>\n            \n            <ion-item *ngIf="email.errors && (email.dirty || email.touched)" class="text-danger">\n                O campo é obrigatório\n            </ion-item>\n    \n            <ion-item>\n                <ion-label stacked block>Senha</ion-label>\n                <ion-input type="password" name="password" [(ngModel)]="user.password" #password="ngModel" required></ion-input>\n            </ion-item>\n            \n            <ion-item *ngIf="password.errors && (password.dirty || password.touched)" class="text-danger">\n                O campo é obrigatório\n            </ion-item>\n    \n        </ion-list>\n  \n        <button ion-button block color="primary" [disabled]="!form.form.valid" (click)="signIn()">\n            Entrar\n        </button>\n    </form>\n    \n    <ion-footer no-shadow>\n        <ion-toolbar position="bottom">\n            <button ion-button block (click)="resetarSenha()" [disabled]="!form.form.valid">\n                Esqueci minha senha\n            </button>\n        </ion-toolbar>\n    </ion-footer>\n  \n</ion-content>'/*ion-inline-end:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/login/login.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_5_angularfire2_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5_angularfire2_auth__["a" /* AngularFireAuth */]) === "function" && _g || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */],
+        __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */],
+        __WEBPACK_IMPORTED_MODULE_5_angularfire2_auth__["a" /* AngularFireAuth */]])
 ], LoginPage);
 
-var _a, _b, _c, _d, _e, _f, _g;
 //# sourceMappingURL=login.js.map
 
 /***/ }),

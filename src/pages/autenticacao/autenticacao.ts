@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController, NavParams, ToastController, LoadingController } from 'ionic-angular';
+import { NavController, NavParams, ToastController, LoadingController, AlertController } from 'ionic-angular';
 import { NgForm } from '@angular/forms';
 import { AuthProvider } from '../../providers/auth/auth';
 import { HomePage } from '../home/home';
@@ -38,7 +38,8 @@ export class AutenticacaoPage {
         private toastCtrl: ToastController,
         private authService: AuthProvider,
         private carregarCtrl: LoadingController,
-        private angFireAuth: AngularFireAuth
+        private angFireAuth: AngularFireAuth,
+        private alertCtrl: AlertController
     ) {
         try {
             console.log('aqui foi');
@@ -116,16 +117,35 @@ export class AutenticacaoPage {
     }
 
     deletarConta(){
-        let toast = this.toastCtrl.create({ duration: 3000, position: 'bottom' });
-        toast.setMessage('A conta foi excluida!');
-        this.authService.deleteAccount().then(() => {
-            toast.present();
-            this.navCtrl.pop();
-        })
-        .catch((err) => {
-            console.log(err);
+
+        let toast = this.toastCtrl.create({
+            duration: 3000,
+            message: 'Conta excluída com sucesso!'
         });
 
+        let alert = this.alertCtrl.create({
+            title: 'Você está certo disso?',
+            subTitle: 'Você está prestes a excluir sua conta',
+            buttons: [
+                {
+                    text: 'Cancelar',
+                },
+                {
+                    text: 'Excluir',
+                    handler: () => {
+                        this.authService.deleteAccount().
+                        catch((err) => {
+                            console.log(err);
+                        });
+                        toast.present();
+                        this.navCtrl.setRoot(HomePage);
+                    }
+                }
+            ]
+        });
+        alert.present();
+        
+        
     }
 
     
