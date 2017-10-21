@@ -115,5 +115,18 @@ export class AutenticacaoPage {
         this.navCtrl.push(LoginPage);
     }
 
+    deletarConta(){
+        let toast = this.toastCtrl.create({ duration: 3000, position: 'bottom' });
+        toast.setMessage('A conta foi excluida!');
+        this.authService.deleteAccount().then(() => {
+            toast.present();
+            this.navCtrl.pop();
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+
+    }
+
     
 }

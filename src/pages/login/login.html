@@ -38,6 +38,14 @@
         <button ion-button block color="primary" [disabled]="!form.form.valid" (click)="signIn()">
             Entrar
         </button>
-    </form>  
+    </form>
+    
+    <ion-footer no-shadow>
+        <ion-toolbar position="bottom">
+            <button ion-button block (click)="resetarSenha()" [disabled]="!form.form.valid">
+                Esqueci minha senha
+            </button>
+        </ion-toolbar>
+    </ion-footer>
   
 </ion-content>

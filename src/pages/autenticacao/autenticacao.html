@@ -36,6 +36,20 @@
     <ion-label *ngIf="logado">
         Logado como: {{email}}
     </ion-label>
-    
+
+
+    <ion-chip color="light" *ngIf="logado">
+        <ion-label>Logado como: {{email}}</ion-label>
+    </ion-chip>
+
+
+    <ion-footer no-shadow *ngIf="logado">
+        <ion-toolbar position="bottom">
+            <button ion-button color="danger" block (click)="deletarConta()">
+                Excluir minha conta
+            </button>
+        </ion-toolbar>
+    </ion-footer>    
   
 </ion-content>
+

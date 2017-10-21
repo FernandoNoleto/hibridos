@@ -45,4 +45,13 @@ export class ListassalvasPage {
         });
     }
 
+
+    /*
+    swipe(id: string){
+        this.lista.remove(id).then(() => {
+            console.log("Exclui: "+ id);
+        });
+    }
+    */
+
 }

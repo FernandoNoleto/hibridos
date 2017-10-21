@@ -73,4 +73,21 @@ export class AuthProvider {
         return this.signOutFirebase();
     }
 
+    deleteAccount(){
+        try {
+
+            return this.autenticacaoAF.auth.currentUser.delete();
+            /*
+            let user = firebase.auth().currentUser;
+            user.delete().then( () => {
+                (<any>window).location = 'index.html';
+             }, (err) => {
+                 console.log(JSON.stringify(err));
+             });
+             */
+        }catch (err) {
+             console.log(JSON.stringify(err));
+        }
+    }
+
 }

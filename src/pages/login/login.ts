@@ -25,10 +25,6 @@ export class LoginPage {
 
     logado: boolean;
     naologado: boolean;
-    //nome: string = this.angFireAuth.auth.currentUser.displayName;
-    //email: string = this.angFireAuth.auth.currentUser.email
-    nome: string;
-    email: string;
 
     constructor(
         public navCtrl: NavController,
@@ -72,5 +68,29 @@ export class LoginPage {
         }
 
     }
+
+    resetarSenha(){
+        if (this.form.form.valid) {
+            let toast = this.toastCtrl.create({ duration: 3000, position: 'bottom' });
+            
+            this.authService.resetPassword(this.user.email)
+            .then(() => {
+                toast.setMessage('Solicitação foi enviada para o seu e-mail.')
+                toast.present();
+            
+                this.navCtrl.pop();
+            })
+            .catch((error: any) => {
+                if (error.code == 'auth/invalid-email') {
+                    toast.setMessage('O e-mail digitado não é valido.');
+                } else if (error.code == 'auth/user-not-found') {
+                    toast.setMessage('O usuário não foi encontrado.');
+                }
+            
+                toast.present();
+            });
+        }
+    }
+
 
 }
