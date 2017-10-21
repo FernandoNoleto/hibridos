@@ -10,43 +10,55 @@
             <button ion-button (click)="signOut()" *ngIf="logado">sair</button>
         </ion-buttons>
     </ion-navbar>
+
 </ion-header>
+
+
+
   
   
 <ion-content padding>
 
     <button ion-button (click)="signInWithFacebook()" block color="facebook" *ngIf="naologado">
-        Facebook
+        FACEBOOK
     </button>
 
     <br *ngIf="naologado">
 
   
     <button ion-button block color="primary" (click)="abrirPaginaLogin()" *ngIf="naologado">
-        Entrar
+        ENTRAR
     </button>
     
     <br *ngIf="naologado">
   
     <button ion-button block clear (click)="openPage()" *ngIf="naologado">
-        Ou criar uma conta
+        OU CRIAR UMA CONTA
     </button>
 
+
+    <ion-card *ngIf="logado" >
+        <ion-card-header>            
+            {{email}}
+        </ion-card-header>
+        <ion-list>
+            <button ion-item>
+                <ion-icon name="pin" item-start color="laranja"></ion-icon>
+                {{localizacao}}
+            </button>
+            <button ion-item>
+                <ion-icon name="ribbon" item-start color="laranja"></ion-icon>
+                VERSÃO {{versao}}
+            </button>
+        </ion-list>
+    </ion-card>
     
-    <ion-label *ngIf="logado">
-        Logado como: {{email}}
-    </ion-label>
-
-
-    <ion-chip color="light" *ngIf="logado">
-        <ion-label>Logado como: {{email}}</ion-label>
-    </ion-chip>
 
 
     <ion-footer no-shadow *ngIf="logado">
         <ion-toolbar position="bottom">
             <button ion-button color="danger" block (click)="deletarConta()">
-                Excluir minha conta
+                EXCLUIR MINHA CONTA
             </button>
         </ion-toolbar>
     </ion-footer>    

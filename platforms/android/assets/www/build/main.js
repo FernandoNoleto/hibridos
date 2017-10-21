@@ -38,13 +38,14 @@ var User = (function () {
 }());
 
 var AutenticacaoPage = (function () {
-    function AutenticacaoPage(navCtrl, navParams, toastCtrl, authService, carregarCtrl, angFireAuth) {
+    function AutenticacaoPage(navCtrl, navParams, toastCtrl, authService, carregarCtrl, angFireAuth, alertCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.toastCtrl = toastCtrl;
         this.authService = authService;
         this.carregarCtrl = carregarCtrl;
         this.angFireAuth = angFireAuth;
+        this.alertCtrl = alertCtrl;
         this.user = new User(); // providers
         try {
             console.log('aqui foi');
@@ -117,15 +118,31 @@ var AutenticacaoPage = (function () {
     };
     AutenticacaoPage.prototype.deletarConta = function () {
         var _this = this;
-        var toast = this.toastCtrl.create({ duration: 3000, position: 'bottom' });
-        toast.setMessage('A conta foi excluida!');
-        this.authService.deleteAccount().then(function () {
-            toast.present();
-            _this.navCtrl.pop();
-        })
-            .catch(function (err) {
-            console.log(err);
+        var toast = this.toastCtrl.create({
+            duration: 3000,
+            message: 'Conta excluída com sucesso!'
         });
+        var alert = this.alertCtrl.create({
+            title: 'Você está certo disso?',
+            subTitle: 'Você está prestes a excluir sua conta',
+            buttons: [
+                {
+                    text: 'Cancelar',
+                },
+                {
+                    text: 'Excluir',
+                    handler: function () {
+                        _this.authService.deleteAccount().
+                            catch(function (err) {
+                            console.log(err);
+                        });
+                        toast.present();
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__home_home__["a" /* HomePage */]);
+                    }
+                }
+            ]
+        });
+        alert.present();
     };
     return AutenticacaoPage;
 }());
@@ -142,7 +159,8 @@ AutenticacaoPage = __decorate([
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */],
         __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */],
-        __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__["a" /* AngularFireAuth */]])
+        __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__["a" /* AngularFireAuth */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
 ], AutenticacaoPage);
 
 //# sourceMappingURL=autenticacao.js.map

@@ -31,6 +31,8 @@ export class AutenticacaoPage {
     //email: string = this.angFireAuth.auth.currentUser.email
     nome: string;
     email: string;
+    versao: string = "FREE";
+    localizacao: string = "PALMAS - TO"
 
     constructor(
         public navCtrl: NavController,
