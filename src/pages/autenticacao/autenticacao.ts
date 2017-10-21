@@ -4,6 +4,7 @@ import { NgForm } from '@angular/forms';
 import { AuthProvider } from '../../providers/auth/auth';
 import { HomePage } from '../home/home';
 import { CriarContaPage } from '../criarconta/criarconta';
+import { LoginPage } from '../login/login';
 import { AngularFireAuth } from 'angularfire2/auth';
 
 export class User{
@@ -57,10 +58,6 @@ export class AutenticacaoPage {
         }
     }
 
-    ionViewDidLoad() {
-        console.log('ionViewDidLoad LoginPage');
-    }
-
     signIn() {
         let carregando = this.carregarCtrl.create({
             content: "Entrando...",
@@ -109,4 +106,14 @@ export class AutenticacaoPage {
         this.navCtrl.push(CriarContaPage);
     }
 
+    signInWithFacebook(){
+        this.authService.signInWithFacebook();
+        this.navCtrl.setRoot(HomePage);
+    }
+
+    abrirPaginaLogin(){
+        this.navCtrl.push(LoginPage);
+    }
+
+    
 }

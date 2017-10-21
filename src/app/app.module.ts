@@ -8,6 +8,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { Facebook, FacebookLoginResponse } from '@ionic-native/facebook';
 
 
 
@@ -18,6 +19,7 @@ import { ListaPage } from '../pages/listadecompras/listadecompras';
 import { ListassalvasPage } from '../pages/listassalvas/listassalvas';
 import { AutenticacaoPage } from '../pages/autenticacao/autenticacao';
 import { CriarContaPage } from '../pages/criarconta/criarconta';
+import { LoginPage } from '../pages/login/login';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -44,7 +46,8 @@ var config = {
     ListaPage,
     ListassalvasPage,
     AutenticacaoPage,
-    CriarContaPage
+    CriarContaPage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
@@ -61,7 +64,8 @@ var config = {
     ListaPage,
     ListassalvasPage,
     AutenticacaoPage,
-    CriarContaPage
+    CriarContaPage,
+    LoginPage
   ],
   providers: [
     StatusBar,
@@ -69,6 +73,7 @@ var config = {
     Geolocation,
     Camera,
     BarcodeScanner,
+    Facebook,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AngularFireAuth,
     PhotoProvider,

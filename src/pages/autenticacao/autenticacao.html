@@ -1,5 +1,5 @@
 <ion-header>
-    <ion-navbar color="primary">
+    <ion-navbar color="laranja">
         <button ion-button menuToggle>
             <ion-icon name="menu"></ion-icon>
         </button>
@@ -7,41 +7,26 @@
             Login
         </ion-title>
         <ion-buttons end>
-            <button ion-button (click)="signOut()">sair</button>
+            <button ion-button (click)="signOut()" *ngIf="logado">sair</button>
         </ion-buttons>
     </ion-navbar>
 </ion-header>
   
   
 <ion-content padding>
+
+    <button ion-button (click)="signInWithFacebook()" block color="facebook" *ngIf="naologado">
+        Facebook
+    </button>
+
+    <br *ngIf="naologado">
+
   
-    <form #form="ngForm" novalidate *ngIf="naologado">
-        <ion-list>
+    <button ion-button block color="primary" (click)="abrirPaginaLogin()" *ngIf="naologado">
+        Entrar
+    </button>
     
-            <ion-item>
-                <ion-label stacked block>E-mail</ion-label>
-                <ion-input type="text" name="email" [(ngModel)]="user.email" #email="ngModel" required></ion-input>
-            </ion-item>
-            
-            <ion-item *ngIf="email.errors && (email.dirty || email.touched)" class="text-danger">
-                O campo é obrigatório
-            </ion-item>
-    
-            <ion-item>
-                <ion-label stacked block>Senha</ion-label>
-                <ion-input type="password" name="password" [(ngModel)]="user.password" #password="ngModel" required></ion-input>
-            </ion-item>
-            
-            <ion-item *ngIf="password.errors && (password.dirty || password.touched)" class="text-danger">
-                O campo é obrigatório
-            </ion-item>
-    
-        </ion-list>
-  
-        <button ion-button block color="primary" [disabled]="!form.form.valid" (click)="signIn()">
-            Entrar
-        </button>
-    </form>
+    <br *ngIf="naologado">
   
     <button ion-button block clear (click)="openPage()" *ngIf="naologado">
         Ou criar uma conta

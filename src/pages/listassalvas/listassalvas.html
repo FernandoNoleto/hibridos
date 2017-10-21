@@ -1,18 +1,18 @@
 <ion-header>
-    <ion-navbar color="primary">
+    <ion-navbar color="laranja">
         <ion-title>Listas Salvas</ion-title>
     </ion-navbar>
 </ion-header>
 
 
 <ion-content padding>
-    <ion-card *ngFor="let itens of lista | async" color="azul">
+    <ion-card *ngFor="let itens of lista | async" color="laranja_c">
         <ion-card-header>
             {{itens.nome}}
         </ion-card-header>
         <ion-card-content>    
                 {{itens.produtos}}
-            <ion-item color="azul">
+            <ion-item color="laranja_c">
                 <ion-avatar item-end (click)="excluir(itens.$key)">
                     <ion-icon name="trash"></ion-icon>
                 </ion-avatar>

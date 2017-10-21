@@ -7,7 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { MapaPage } from '../pages/mapa/mapa';
 import { ListaPage } from '../pages/listadecompras/listadecompras';
 import { AutenticacaoPage } from '../pages/autenticacao/autenticacao';
-//import firebase from 'firebase';
+import { LoginPage} from '../pages/login/login';
 
 @Component({
   templateUrl: 'app.html'
@@ -40,7 +40,7 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       this.statusBar.overlaysWebView(true);
       //this.statusBar.styleDefault();
-      this.statusBar.backgroundColorByHexString('#0052e8');
+      this.statusBar.backgroundColorByHexString('#cc6908');
       this.splashScreen.hide();
     });
   }
