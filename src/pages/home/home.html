@@ -22,10 +22,23 @@
                 {{imgs.nome}}
             </ion-card-title>
             <p>
-                <ion-icon name="pin" item-start color="laranja"></ion-icon>
                 {{imgs.local}}
             </p>
         </ion-card-content>
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear small color="danger" icon-start>
+                <ion-icon name='heart'></ion-icon>
+                    Salvar
+                </button>
+            </ion-col>
+            <ion-col text-right>
+                <button ion-button clear small color="laranja" icon-start>
+                <ion-icon name='pin'></ion-icon>
+                    Ir até {{imgs.local}}
+                </button>
+            </ion-col>
+        </ion-row>
     </ion-card>
 
     <!--ion-card-content>

@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-//import { NavController } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 import { Camera } from '@ionic-native/camera';
 import { PhotoProvider } from '../../providers/photo/photo';
-//import { FirebaseApp } from 'angularfire2';
-import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { BarcodeProvider } from '../../providers/barcode/barcode';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { PromocaoPage } from '../promocao/promocao';
 //import { ToastController } from 'ionic-angular';
 
 
@@ -25,7 +24,8 @@ export class HomePage {
     constructor(
         private camera: Camera,
         private photoPrvd: PhotoProvider,
-        private bcs: BarcodeScanner,
+        private navCtrl: NavController,
+        private navPrm: NavParams,
         private db: AngularFireDatabase,
         private barcodeprvd: BarcodeProvider
     ) {
@@ -35,6 +35,8 @@ export class HomePage {
         } catch (error) {
             console.log(error);
         }
+
+        
         
     }
 
@@ -45,8 +47,6 @@ export class HomePage {
 		this.camera.getPicture({
 			destinationType: this.camera.DestinationType.DATA_URL,
 			sourceType: this.camera.PictureSourceType.SAVEDPHOTOALBUM,
-			targetWidth: 360,
-            targetHeight: 240,
             saveToPhotoAlbum: true,
             correctOrientation: true,
             allowEdit: true
@@ -66,8 +66,6 @@ export class HomePage {
             destinationType : this.camera.DestinationType.DATA_URL,
             sourceType : this.camera.PictureSourceType.CAMERA,
             encodingType: this.camera.EncodingType.PNG,
-            targetWidth: 360,
-            targetHeight: 240,
             saveToPhotoAlbum: true,
             correctOrientation: true,
             allowEdit: true
@@ -90,11 +88,13 @@ export class HomePage {
     }
 
     codigoBarras(){
-        this.bcs.scan().then((barcodeData) => {
-            this.barcodeprvd.alertaCodBarras(barcodeData.text);
-        }, (err) => {
-               // An error occurred
-        });
+        this.barcodeprvd.alertaCodBarras();
+    }
+
+    abrirPromocao(promo){
+        //Passar como parêmatro a promoção clicada!
+        console.log('ide: '+promo);
+        this.navCtrl.push(PromocaoPage, promo);
     }
 
 
