@@ -6,6 +6,8 @@ import { HomePage } from '../home/home';
 import { CriarContaPage } from '../criarconta/criarconta';
 import { LoginPage } from '../login/login';
 import { AngularFireAuth } from 'angularfire2/auth';
+import { NativeGeocoder, NativeGeocoderReverseResult } from '@ionic-native/native-geocoder';
+import { Geolocation, Geoposition } from '@ionic-native/geolocation';
 
 export class User{
     nomeCompleto: string;
@@ -15,6 +17,7 @@ export class User{
 }
 
 
+
 @Component({
   selector: 'page-autenticacao',
   templateUrl: 'autenticacao.html',
@@ -22,29 +25,29 @@ export class User{
 export class AutenticacaoPage {
     
 
-    user: User = new User();                 // providers
+    user: User = new User();
     @ViewChild('form') form: NgForm;
 
     logado: boolean;
     naologado: boolean;
-    //nome: string = this.angFireAuth.auth.currentUser.displayName;
-    //email: string = this.angFireAuth.auth.currentUser.email
     nome: string;
     email: string;
     versao: string = "FREE";
-    localizacao: string = "PALMAS - TO"
+    localizacao: string = "";
+    areaAdm: string = " - ";
 
     constructor(
         public navCtrl: NavController,
         public navParams: NavParams,
         private toastCtrl: ToastController,
+        private alertCtrl: AlertController,
+        private angFireAuth: AngularFireAuth,
         private authService: AuthProvider,
         private carregarCtrl: LoadingController,
-        private angFireAuth: AngularFireAuth,
-        private alertCtrl: AlertController
+        private geolocation: Geolocation,
+        private geocoder: NativeGeocoder
     ) {
         try {
-            console.log('aqui foi');
             if(this.angFireAuth.auth.currentUser == null){
                 this.logado = false;
                 this.naologado = true;
@@ -59,6 +62,32 @@ export class AutenticacaoPage {
         } catch (error) {
             console.log(error);
         }
+
+      
+        
+        this.geolocation.getCurrentPosition().then((resp) => {
+            
+            this.geocoder.reverseGeocode(resp.coords.latitude, resp.coords.longitude)
+            .then((result: NativeGeocoderReverseResult) =>{
+            console.log(JSON.stringify(result));
+            this.localizacao = result.locality.toLocaleUpperCase();
+            this.areaAdm += result.administrativeArea.toLocaleUpperCase();
+            })
+            .catch((error: any) => {
+                console.log(error);
+                let toast = this.toastCtrl.create({duration: 3000, message: this.localizacao});
+                toast.present();
+            });
+
+        }).catch((error) => {
+            let toast = this.toastCtrl.create({message: error, duration: 3000});
+            toast.present();
+            console.log('Error getting location', error);
+        });
+        
+
+       
+
     }
 
     signIn() {

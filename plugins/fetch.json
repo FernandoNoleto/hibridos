@@ -105,5 +105,13 @@
       "APP_ID": "391787794572871",
       "APP_NAME": "PromoMax"
     }
+  },
+  "cordova-plugin-nativegeocoder": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-nativegeocoder"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

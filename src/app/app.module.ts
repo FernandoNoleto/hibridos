@@ -1,3 +1,4 @@
+//Todas os plugins adicionados
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -9,9 +10,13 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { Facebook, FacebookLoginResponse } from '@ionic-native/facebook';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { NativeGeocoder,
+         NativeGeocoderReverseResult,
+         NativeGeocoderForwardResult } from '@ionic-native/native-geocoder';
 
-
-
+//Paginas
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { MapaPage } from '../pages/mapa/mapa';
@@ -21,8 +26,7 @@ import { AutenticacaoPage } from '../pages/autenticacao/autenticacao';
 import { CriarContaPage } from '../pages/criarconta/criarconta';
 import { LoginPage } from '../pages/login/login';
 
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
+//Providers
 import { PhotoProvider } from '../providers/photo/photo';
 import { AuthProvider } from '../providers/auth/auth';
 import { BarcodeProvider } from '../providers/barcode/barcode';
@@ -74,6 +78,7 @@ var config = {
     Camera,
     BarcodeScanner,
     Facebook,
+    NativeGeocoder,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AngularFireAuth,
     PhotoProvider,

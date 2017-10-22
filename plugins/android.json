@@ -44,6 +44,9 @@
       "APP_ID": "391787794572871",
       "APP_NAME": "PromoMax",
       "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-nativegeocoder": {
+      "PACKAGE_NAME": "io.ionic.starter"
     }
   },
   "dependent_plugins": {

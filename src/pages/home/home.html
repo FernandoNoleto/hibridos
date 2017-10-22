@@ -15,64 +15,23 @@
         </ion-navbar>
     </ion-header>
 
-
-    <ion-card>
-        <img src="assets/img/extra.jpg"/>
+    <ion-card *ngFor="let imgs of lista | async">
+        <img src="{{imgs.url}}"/>
         <ion-card-content>
             <ion-card-title>
-                Hipermercado Extra
+                {{imgs.nome}}
             </ion-card-title>
             <p>
-                The most popular industrial group ever, and largely
-                responsible for bringing the music to a mass audience.
+                <ion-icon name="pin" item-start color="laranja"></ion-icon>
+                {{imgs.local}}
             </p>
         </ion-card-content>
     </ion-card>
 
-    <ion-card>
-    <img src="assets/img/atacadao.png"/>
-    <ion-card-content>
-        <ion-card-title>
-        Supermercado Atacadão
-        </ion-card-title>
-        <p>
-        The most popular industrial group ever, and largely
-        responsible for bringing the music to a mass audience.
-        </p>
-    </ion-card-content>
-    </ion-card>
-
-    <ion-card>
-    <img src="assets/img/carrefour.png"/>
-    <ion-card-content>
-        <ion-card-title>
-        Lojas Carrefour
-        </ion-card-title>
-        <p>
-        The most popular industrial group ever, and largely
-        responsible for bringing the music to a mass audience.
-        </p>
-        </ion-card-content>
-    </ion-card>
-
-   
-    <ion-card>
-        <img src="https://firebasestorage.googleapis.com/v0/b/previa-1.appspot.com/o/Photos%2Fimages%2F2.png?alt=media&token=df62bdeb-a1b8-4dac-a46a-a73c1f25582c"/>
-        <ion-card-content>
-            <ion-card-title>
-                Universidade Federal do Tocantins
-            </ion-card-title>
-            <p>
-                The most popular industrial group ever, and largely
-                responsible for bringing the music to a mass audience.
-            </p>
-        </ion-card-content>
-    </ion-card>
-
-    <ion-card-content>
+    <!--ion-card-content>
         Latest Picture:
         <img [src]="base64Image" *ngIf="base64Image" />
-    </ion-card-content>
+    </ion-card-content-->
 
 
 

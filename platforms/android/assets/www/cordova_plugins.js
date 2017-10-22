@@ -110,6 +110,14 @@ module.exports = [
         "clobbers": [
             "facebookConnectPlugin"
         ]
+    },
+    {
+        "id": "cordova-plugin-nativegeocoder.NativeGeocoder",
+        "file": "plugins/cordova-plugin-nativegeocoder/www/NativeGeocoder.js",
+        "pluginId": "cordova-plugin-nativegeocoder",
+        "clobbers": [
+            "nativegeocoder"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -127,7 +135,8 @@ module.exports.metadata =
     "cordova-sqlite-storage": "2.0.4",
     "cordova-plugin-firebase": "0.1.24",
     "phonegap-plugin-barcodescanner": "6.0.8",
-    "cordova-plugin-facebook4": "1.7.4"
+    "cordova-plugin-facebook4": "1.7.4",
+    "cordova-plugin-nativegeocoder": "2.0.4"
 };
 // BOTTOM OF METADATA
 });

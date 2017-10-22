@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+//import { NavController } from 'ionic-angular';
 import { Camera } from '@ionic-native/camera';
-import firebase from 'firebase';
 import { PhotoProvider } from '../../providers/photo/photo';
-import { FirebaseApp } from 'angularfire2';
+//import { FirebaseApp } from 'angularfire2';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { BarcodeProvider } from '../../providers/barcode/barcode';
-
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+//import { ToastController } from 'ionic-angular';
 
 
 
@@ -19,24 +19,39 @@ import { BarcodeProvider } from '../../providers/barcode/barcode';
 export class HomePage {
 
     public base64Image: string;
-    public imgs_card: Array<string> = new Array();
+    lista: FirebaseListObservable<any>;
+    
 
-    constructor(public navCtrl: NavController, private camera: Camera,
-        public photoPrvd: PhotoProvider, private bcs: BarcodeScanner,
-        public barcodeprvd: BarcodeProvider) {
-
+    constructor(
+        private camera: Camera,
+        private photoPrvd: PhotoProvider,
+        private bcs: BarcodeScanner,
+        private db: AngularFireDatabase,
+        private barcodeprvd: BarcodeProvider
+    ) {
+        
+        try {
+            this.lista = db.list('/caminho_das_imagens/');         
+        } catch (error) {
+            console.log(error);
+        }
+        
     }
 
 
 	pickImageFromGallery(){
+        
+
 		this.camera.getPicture({
 			destinationType: this.camera.DestinationType.DATA_URL,
 			sourceType: this.camera.PictureSourceType.SAVEDPHOTOALBUM,
-			targetHeight: 1000,
-			targetWidth: 1000
+			targetWidth: 360,
+            targetHeight: 240,
+            saveToPhotoAlbum: true,
+            correctOrientation: true,
+            allowEdit: true
 		}).then((imageData) => {
             this.base64Image = "data:image/jpeg;base64," + imageData;
-            //this.uploadPhoto(this.base64Image);
             this.photoPrvd.uploadPhoto(this.base64Image);
 		}, (err) => {
 			console.log(err);
@@ -46,27 +61,28 @@ export class HomePage {
     
     
     takePicture(){
+        
         this.camera.getPicture({
-            quality : 95,
             destinationType : this.camera.DestinationType.DATA_URL,
             sourceType : this.camera.PictureSourceType.CAMERA,
             encodingType: this.camera.EncodingType.PNG,
-            targetWidth: 500,
-            targetHeight: 500,
-            saveToPhotoAlbum: true
+            targetWidth: 360,
+            targetHeight: 240,
+            saveToPhotoAlbum: true,
+            correctOrientation: true,
+            allowEdit: true
         }).then(imageData => {
-            // imageData is a base64 encoded string
             this.base64Image = "data:image/jpeg;base64," + imageData;
-            
-            //this.uploadPhoto(this.base64Image);
             this.photoPrvd.uploadPhoto(this.base64Image);
-        }, error => {
-            console.log("ERROR -> " + JSON.stringify(error));
+            
+        }).catch((erro) => {
+            
+            console.log("ERROR -> " + JSON.stringify(erro));
         });
     }
     
     baixarArquivo(nome: string){
-        let storageRef = firebase.storage().ref('/Photos/');
+        let storageRef = firebase.storage().ref('/Users/');
         let caminho = storageRef.child('images/'+nome);
         caminho.getDownloadURL().then(url => {
            console.log(url); // AQUI VOCÊ JÁ TEM O ARQUIVO
@@ -80,5 +96,6 @@ export class HomePage {
                // An error occurred
         });
     }
+
 
 }

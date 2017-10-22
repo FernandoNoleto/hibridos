@@ -17,7 +17,7 @@ export class Itens {
 export class ListassalvasPage {
 
     lista: FirebaseListObservable<any>;
-	itens: Itens;
+	//itens: Itens;
     
     
     constructor(
@@ -33,13 +33,14 @@ export class ListassalvasPage {
         } catch (error) {
             console.log(error);
         }
-        this.itens = new Itens();
+        //this.itens = new Itens();
     }
     
     editar(){
         console.log("clicou editar");
     }
-    public excluir(id: string){
+
+    excluir(id: string){
         this.lista.remove(id).then(() => {
             console.log("Exclui: "+ id);
         });

@@ -5,14 +5,15 @@ import { FirebaseApp } from 'angularfire2';
 import { Inject } from '@angular/core';
 import { AlertController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { ToastController } from 'ionic-angular';
 
-declare var google;
 
 
 export class Foto{
-    base64: string;
-    id: number;
-    posicao: any;
+    nome: string;
+    url: string;
+    local: any;
 }
 
 
@@ -20,32 +21,51 @@ export class Foto{
 @Injectable()
 export class PhotoProvider {
 
-    fotos: Foto;    
+    foto: Foto;
+    lista: FirebaseListObservable<any>;
 
-
-    constructor (@Inject(FirebaseApp) fb: any, public alertCtrl: AlertController,
-        public geolocation: Geolocation
+    constructor (
+        private alertCtrl: AlertController,
+        private geolocation: Geolocation,
+        public db: AngularFireDatabase,
+        private toastCtrl: ToastController
     ) {
-        this.fotos = new Foto();
+        try {
+            this.lista = db.list('/caminho_das_imagens/');         
+        } catch (error) {
+            console.log(error);
+        }
+        this.foto = new Foto;
     }
 
     uploadPhoto(captureDataUrl: string){
-        let storageRef = firebase.storage().ref('/Photos/');
-        const filename = Math.floor(Date.now() / 1000);
-        const imageRef = storageRef.child(`images/${filename}.jpg`);
-        imageRef.putString(captureDataUrl, firebase.storage.StringFormat.DATA_URL)
-        .then((snapshot)=> {
-            //informação da foto em base64
-            this.fotos.base64 = captureDataUrl;
-            //pegar nome do arquivo usando numeros aleatorios
-            this.fotos.id = filename;
-            //pegar posicao no mapa da foto
-            this.geolocation.getCurrentPosition().then((position) => {
-                this.fotos.posicao = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-            });
+        
 
-            this.alertaDeUpload();
+        let storageRef = firebase.storage().ref('/Users/');
+        const filename = Math.floor(Date.now() / 1000);
+        let uploadTask = storageRef.child(`${filename}.jpg`);
+        uploadTask.putString(captureDataUrl, firebase.storage.StringFormat.DATA_URL)
+        .then((snapshot) => {
+            this.foto.nome = filename.toString();
+            this.foto.local = "ainda a definir";
+            this.foto.url = snapshot.downloadURL;
+            this.lista.push(this.foto);
+            var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+            let toast = this.toastCtrl.create({
+                message: progress.toString() + '% done',
+                showCloseButton: true
+            });
+            toast.present();
+            this.foto = new Foto;    
+        })
+        .catch((erro) => {
+            let toast = this.toastCtrl.create({
+                message: erro.message,
+                showCloseButton: true
+            });
+            toast.present();
         });
+
 
     }
 
@@ -58,5 +78,14 @@ export class PhotoProvider {
         alert.present();
     }
 
+    /*
+    armazenarCaminhoDaFoto(nome: string){
+        let storageRef = firebase.storage().ref('/Users/');
+        let caminho = storageRef.child('images/'+nome);
+        caminho.getDownloadURL().then(url => {
+           console.log(url); // AQUI VOCÊ JÁ TEM O ARQUIVO
+        });
+    }
+    */
     
 }

@@ -15,20 +15,14 @@ export class MapaPage {
     map: any;
  
     constructor(public navCtrl: NavController, public geolocation: Geolocation) {
-        //this.ionViewDidLoad();
         this.loadMap();
     }
 
 
  
-    /*
-    ionViewDidLoad(){
-        this.loadMap();
-    }
-    */
  
     loadMap(){
- 
+        
         this.geolocation.getCurrentPosition().then((position) => {
  
         let latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
