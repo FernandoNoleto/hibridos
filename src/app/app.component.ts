@@ -7,7 +7,6 @@ import { HomePage } from '../pages/home/home';
 import { MapaPage } from '../pages/mapa/mapa';
 import { ListaPage } from '../pages/listadecompras/listadecompras';
 import { AutenticacaoPage } from '../pages/autenticacao/autenticacao';
-import { LoginPage} from '../pages/login/login';
 
 @Component({
   templateUrl: 'app.html'

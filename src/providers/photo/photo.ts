@@ -1,21 +1,18 @@
 import { Injectable } from '@angular/core';
 import firebase from 'firebase';
 import 'rxjs/add/operator/map';
-import { FirebaseApp } from 'angularfire2';
-import { Inject } from '@angular/core';
 import { AlertController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 import { ToastController } from 'ionic-angular';
 
 
-
+//adicionar outras informações posteriormente
 export class Foto{
     nome: string;
     url: string;
     local: any;
 }
-
 
 
 @Injectable()

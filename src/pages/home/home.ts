@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, AlertController } from 'ionic-angular';
 import { Camera } from '@ionic-native/camera';
 import { PhotoProvider } from '../../providers/photo/photo';
 import { BarcodeProvider } from '../../providers/barcode/barcode';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
-import { PromocaoPage } from '../promocao/promocao';
-//import { ToastController } from 'ionic-angular';
+import { AngularFireAuth } from 'angularfire2/auth';
+import { ToastController } from 'ionic-angular';
+import { AutenticacaoPage } from '../autenticacao/autenticacao';
 
 
 
@@ -19,16 +20,19 @@ export class HomePage {
 
     public base64Image: string;
     lista: FirebaseListObservable<any>;
+    promocoeslista: FirebaseListObservable<any>;
     
 
     constructor(
         private camera: Camera,
         private photoPrvd: PhotoProvider,
-        private navCtrl: NavController,
-        private navPrm: NavParams,
         private db: AngularFireDatabase,
-        private barcodeprvd: BarcodeProvider
-    ) {
+        private toastCtrl: ToastController,
+        private angFireAuth: AngularFireAuth,
+        private barcodeprvd: BarcodeProvider,
+        private alertCtrl: AlertController,
+        private navCtrl: NavController      
+    ) {        
         
         try {
             this.lista = db.list('/caminho_das_imagens/');         
@@ -36,7 +40,6 @@ export class HomePage {
             console.log(error);
         }
 
-        
         
     }
 
@@ -91,11 +94,51 @@ export class HomePage {
         this.barcodeprvd.alertaCodBarras();
     }
 
-    abrirPromocao(promo){
-        //Passar como parêmatro a promoção clicada!
-        console.log('ide: '+promo);
-        this.navCtrl.push(PromocaoPage, promo);
-    }
+    
+    salvarPromocao(promo){
+        try {
+            if(this.angFireAuth.auth.currentUser != null){
+                this.promocoeslista = this.db.list('/promocoes_salvas/'
+                + this.angFireAuth.auth.currentUser.uid);
 
+                this.promocoeslista.push(promo);
+
+                let toast = this.toastCtrl.create({
+                    message: 'Promocao salva',
+                    duration: 3000
+                });
+                toast.present();
+
+            } else {
+                this.alerta();
+            }
+
+        } catch (error) {
+            console.log(error);
+        }
+        
+
+    }
+    
+
+    alerta(){
+        let alerta = this.alertCtrl.create({
+            title: 'Voce não está logado.',
+            message: 'Você precisa estar logado para salvar suas promoções!',
+            buttons: [
+                {
+                    text: 'Fazer login',
+                    handler: () => {
+                        this.navCtrl.push(AutenticacaoPage);
+                    }
+                },
+                {
+                    text: 'Cancel'
+                }
+            ]
+        });
+        alerta.present();
+
+    }
 
 }

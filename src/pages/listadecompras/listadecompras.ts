@@ -52,7 +52,7 @@ export class ListaPage {
             if(this.angFireAuth.auth.currentUser != null)
                 this.lista = db.list('/itens_usuarios/' + this.angFireAuth.auth.currentUser.uid);
             else{
-                this.lista = db.list('/itens_anonimos');
+                //this.lista = db.list('/itens_anonimos');
                 this.alerta();
             }
         } catch (error) {
@@ -68,8 +68,7 @@ export class ListaPage {
     alerta(){
         let alerta = this.alertCtrl.create({
             title: 'Voce não está logado. Por favor, faça login.',
-            message: 'Se você não logar, suas listas serão criadas '+
-            'em uma pasta onde todos tem acesso',
+            message: 'Faça login para poder salvar suas lista de compras!',
             buttons: [
                 {
                     text: 'Fazer login',

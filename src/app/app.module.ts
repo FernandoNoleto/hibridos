@@ -9,12 +9,10 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
-import { Facebook, FacebookLoginResponse } from '@ionic-native/facebook';
+import { Facebook } from '@ionic-native/facebook';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { NativeGeocoder,
-         NativeGeocoderReverseResult,
-         NativeGeocoderForwardResult } from '@ionic-native/native-geocoder';
+import { NativeGeocoder } from '@ionic-native/native-geocoder';
 
 //Paginas
 import { MyApp } from './app.component';
@@ -25,7 +23,7 @@ import { ListassalvasPage } from '../pages/listassalvas/listassalvas';
 import { AutenticacaoPage } from '../pages/autenticacao/autenticacao';
 import { CriarContaPage } from '../pages/criarconta/criarconta';
 import { LoginPage } from '../pages/login/login';
-import { PromocaoPage } from '../pages/promocao/promocao';
+import { PromocoessalvasPage } from '../pages/promocoessalvas/promocoessalvas';
 
 //Providers
 import { PhotoProvider } from '../providers/photo/photo';
@@ -53,7 +51,7 @@ var config = {
     AutenticacaoPage,
     CriarContaPage,
     LoginPage,
-    PromocaoPage
+    PromocoessalvasPage
   ],
   imports: [
     BrowserModule,
@@ -72,7 +70,7 @@ var config = {
     AutenticacaoPage,
     CriarContaPage,
     LoginPage,
-    PromocaoPage
+    PromocoessalvasPage
   ],
   providers: [
     StatusBar,

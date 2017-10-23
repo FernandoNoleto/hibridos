@@ -7,7 +7,8 @@ import { CriarContaPage } from '../criarconta/criarconta';
 import { LoginPage } from '../login/login';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { NativeGeocoder, NativeGeocoderReverseResult } from '@ionic-native/native-geocoder';
-import { Geolocation, Geoposition } from '@ionic-native/geolocation';
+import { Geolocation } from '@ionic-native/geolocation';
+import { PromocoessalvasPage } from '../promocoessalvas/promocoessalvas'
 
 export class User{
     nomeCompleto: string;
@@ -179,5 +180,9 @@ export class AutenticacaoPage {
         
     }
 
+
+    abrirPromocoesSalvas(){
+        this.navCtrl.push(PromocoessalvasPage);
+    }
     
 }

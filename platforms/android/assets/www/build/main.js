@@ -1,1 +1,1426 @@
-webpackJsonp([0],{171:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=171},181:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=181},240:function(l,n,u){"use strict";function e(l){return O._27(0,[(l()(),O._5(0,null,null,7,"button",[["class","item item-block"],["ion-item",""],["menuClose",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,6).close()&&e),"click"===n&&(e=!1!==t.openPage(l.context.$implicit)&&e),e},Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,4,{contentLabel:0}),O._23(603979776,5,{_buttons:1}),O._23(603979776,6,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),O._4(16384,null,0,ln.a,[Ml.a],{menuClose:[0,"menuClose"]},null),(l()(),O._25(2,["\n                ","\n            "]))],function(l,n){l(n,6,0,"")},function(l,n){l(n,7,0,n.context.$implicit.title)})}function t(l){return O._27(0,[O._23(402653184,1,{nav:0}),(l()(),O._5(0,null,null,28,"ion-menu",[["role","navigation"]],null,null,null,nn.b,nn.a)),O._4(245760,null,2,un.a,[Ml.a,O.k,Xl.a,en.a,O.F,xl.a,Tl.h,Pl.a,Al.a],{content:[0,"content"]},null),O._23(335544320,2,{menuContent:0}),O._23(335544320,3,{menuNav:0}),O._22(6144,null,tn.a,null,[un.a]),(l()(),O._25(0,["\n    "])),(l()(),O._5(0,null,0,10,"ion-header",[],null,null,null,null,null)),O._4(16384,null,0,an.a,[Xl.a,O.k,O.F,[2,on.a]],null,null),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,6,"ion-toolbar",[["class","toolbar"],["color","laranja"]],[[2,"statusbar-padding",null]],null,null,_n.b,_n.a)),O._4(49152,null,0,rn.a,[Xl.a,O.k,O.F],{color:[0,"color"]},null),(l()(),O._25(3,["\n            "])),(l()(),O._5(0,null,3,2,"ion-title",[],null,null,null,sn.b,sn.a)),O._4(49152,null,0,cn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),(l()(),O._25(0,["Menu"])),(l()(),O._25(3,["\n        "])),(l()(),O._25(null,["\n    "])),(l()(),O._25(0,["\n\n    "])),(l()(),O._5(0,null,0,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,hn.b,hn.a)),O._4(4374528,[[2,4]],0,gn.a,[Xl.a,en.a,Pl.a,O.k,O.F,Al.a,xl.a,O.z,[2,on.a],[2,pn.a]],null,null),(l()(),O._25(1,["\n        "])),(l()(),O._5(0,null,1,5,"ion-list",[],null,null,null,null,null)),O._4(16384,null,0,bn.a,[Xl.a,O.k,O.F,en.a,Tl.h,Pl.a],null,null),(l()(),O._25(null,["\n            "])),(l()(),O._1(16777216,null,null,1,null,e)),O._4(802816,null,0,vl.h,[O.P,O.M,O.s],{ngForOf:[0,"ngForOf"]},null),(l()(),O._25(null,["\n        "])),(l()(),O._25(1,["\n    "])),(l()(),O._25(0,["\n\n"])),(l()(),O._25(null,["\n\n"])),(l()(),O._25(null,["\n"])),(l()(),O._5(0,null,null,2,"ion-nav",[["swipeBackEnabled","false"]],null,null,null,mn.b,mn.a)),O._4(4374528,[[1,4],["content",4]],0,fn.a,[[2,on.a],[2,pn.a],Al.a,Xl.a,en.a,O.k,O.z,O.F,O.j,Tl.h,Bl.a,[2,kn.a],Pl.a,O.l],{swipeBackEnabled:[0,"swipeBackEnabled"],root:[1,"root"]},null),O._22(6144,null,tn.a,null,[fn.a])],function(l,n){var u=n.component;l(n,2,0,O._18(n,33));l(n,11,0,"laranja"),l(n,26,0,u.pages);l(n,33,0,"false",u.rootPage)},function(l,n){l(n,10,0,O._18(n,11)._sbPadding),l(n,19,0,O._18(n,20).statusbarPadding,O._18(n,20)._hasRefresher)})}function a(l){return O._27(0,[(l()(),O._5(0,null,null,18,"ion-card",[],null,null,null,null,null)),O._4(16384,null,0,Fn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,12,"ion-card-content",[],null,null,null,null,null)),O._4(16384,null,0,Pn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._25(null,["\n            "])),(l()(),O._5(0,null,null,2,"ion-card-title",[],null,null,null,null,null)),O._4(16384,null,0,Mn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._25(null,["\n                ","\n            "])),(l()(),O._25(null,["\n            "])),(l()(),O._5(0,null,null,4,"p",[],null,null,null,null,null)),(l()(),O._25(null,["\n                "])),(l()(),O._5(0,null,null,1,"ion-icon",[["color","laranja"],["item-start",""],["name","pin"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{color:[0,"color"],name:[1,"name"]},null),(l()(),O._25(null,["\n                ","\n            "])),(l()(),O._25(null,["\n        "])),(l()(),O._25(null,["\n    "]))],function(l,n){l(n,15,0,"laranja","pin")},function(l,n){l(n,3,0,O._9(1,"",n.context.$implicit.url,"")),l(n,10,0,n.context.$implicit.nome),l(n,14,0,O._18(n,15)._hidden),l(n,16,0,n.context.$implicit.local)})}function o(l){return O._27(0,[(l()(),O._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),O._4(16384,null,0,an.a,[Xl.a,O.k,O.F,[2,on.a]],null,null),(l()(),O._25(null,["\n    "])),(l()(),O._5(0,null,null,16,"ion-navbar",[["class","toolbar"],["color","laranja"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Tn.b,Tn.a)),O._4(49152,null,0,dn.a,[Al.a,[2,on.a],[2,pn.a],Xl.a,O.k,O.F],{color:[0,"color"]},null),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;return"click"===n&&(e=!1!==O._18(l,8).toggle()&&e),e},Sn.b,Sn.a)),O._4(1097728,[[1,4]],0,On.a,[[8,""],Xl.a,O.k,O.F],null,null),O._4(1064960,null,0,In.a,[Ml.a,[2,on.a],[2,On.a],[2,dn.a]],{menuToggle:[0,"menuToggle"]},null),O._4(16384,null,1,wn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),O._23(603979776,1,{_buttons:1}),(l()(),O._25(0,["\n            "])),(l()(),O._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(0,["\n        "])),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,3,2,"ion-title",[],null,null,null,sn.b,sn.a)),O._4(49152,null,0,cn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),(l()(),O._25(0,["Home"])),(l()(),O._25(3,["\n    "])),(l()(),O._25(null,["\n"])),(l()(),O._25(null,["\n\n"])),(l()(),O._5(0,null,null,52,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,hn.b,hn.a)),O._4(4374528,null,0,gn.a,[Xl.a,en.a,Pl.a,O.k,O.F,Al.a,xl.a,O.z,[2,on.a],[2,pn.a]],null,null),(l()(),O._25(1,["\n  \n    "])),(l()(),O._5(0,null,1,10,"ion-header",[],null,null,null,null,null)),O._4(16384,null,0,an.a,[Xl.a,O.k,O.F,[2,on.a]],null,null),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Tn.b,Tn.a)),O._4(49152,null,0,dn.a,[Al.a,[2,on.a],[2,pn.a],Xl.a,O.k,O.F],null,null),(l()(),O._25(3,["\n            "])),(l()(),O._5(0,null,3,2,"ion-title",[],null,null,null,sn.b,sn.a)),O._4(49152,null,0,cn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),(l()(),O._25(0,["Recomendado para você"])),(l()(),O._25(3,["\n        "])),(l()(),O._25(null,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._1(16777216,null,1,2,null,a)),O._4(802816,null,0,vl.h,[O.P,O.M,O.s],{ngForOf:[0,"ngForOf"]},null),O._20(131072,vl.b,[O.h]),(l()(),O._25(1,["\n\n    "])),(l()(),O._25(1,["\n\n\n\n    "])),(l()(),O._5(0,null,0,31,"ion-fab",[["bottom",""],["right",""]],null,null,null,Ln.b,Ln.a)),O._4(1228800,null,2,jn.a,[en.a],null,null),O._23(335544320,2,{_mainButton:0}),O._23(603979776,3,{_fabLists:1}),(l()(),O._25(0,["\n        "])),(l()(),O._5(0,null,0,5,"button",[["color","verde"],["ion-fab",""]],null,null,null,Dn.b,Dn.a)),O._4(49152,[[2,4]],0,Rn.a,[Xl.a,O.k,O.F],{color:[0,"color"]},null),(l()(),O._25(0,["\n            "])),(l()(),O._5(0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(0,["\n        "])),(l()(),O._25(0,["\n        "])),(l()(),O._5(0,null,0,18,"ion-fab-list",[["side","top"]],null,null,null,null,null)),O._4(16384,[[3,4]],1,En.a,[O.k,O.F,Xl.a,en.a],null,null),O._23(603979776,4,{_setbuttons:1}),(l()(),O._25(null,["\n            \n            "])),(l()(),O._5(0,null,null,3,"button",[["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.takePicture()&&e),e},Dn.b,Dn.a)),O._4(49152,[[4,4],[2,4]],0,Rn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._5(0,null,0,1,"ion-icon",[["name","camera"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(null,["\n            "])),(l()(),O._5(0,null,null,3,"button",[["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.pickImageFromGallery()&&e),e},Dn.b,Dn.a)),O._4(49152,[[4,4],[2,4]],0,Rn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._5(0,null,0,1,"ion-icon",[["name","photos"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(null,["\n            "])),(l()(),O._5(0,null,null,3,"button",[["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.codigoBarras()&&e),e},Dn.b,Dn.a)),O._4(49152,[[4,4],[2,4]],0,Rn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._5(0,null,0,1,"ion-icon",[["name","barcode"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(null,["\n        \n        "])),(l()(),O._25(0,["\n    "])),(l()(),O._25(1,["\n\n\n"])),(l()(),O._25(null,["\n"]))],function(l,n){var u=n.component;l(n,4,0,"laranja");l(n,8,0,"");l(n,13,0,"menu"),l(n,38,0,O._26(n,38,0,O._18(n,39).transform(u.lista)));l(n,48,0,"verde");l(n,51,0,"add");l(n,61,0,"camera");l(n,66,0,"photos");l(n,71,0,"barcode")},function(l,n){l(n,3,0,O._18(n,4)._hidden,O._18(n,4)._sbPadding),l(n,6,0,O._18(n,8).isHidden),l(n,12,0,O._18(n,13)._hidden),l(n,22,0,O._18(n,23).statusbarPadding,O._18(n,23)._hasRefresher),l(n,28,0,O._18(n,29)._hidden,O._18(n,29)._sbPadding),l(n,50,0,O._18(n,51)._hidden),l(n,60,0,O._18(n,61)._hidden),l(n,65,0,O._18(n,66)._hidden),l(n,70,0,O._18(n,71)._hidden)})}function i(l){return O._27(0,[O._23(402653184,1,{mapElement:0}),(l()(),O._5(0,null,null,31,"ion-header",[],null,null,null,null,null)),O._4(16384,null,0,an.a,[Xl.a,O.k,O.F,[2,on.a]],null,null),(l()(),O._25(null,["\n    "])),(l()(),O._5(0,null,null,27,"ion-navbar",[["class","toolbar"],["color","laranja"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Tn.b,Tn.a)),O._4(49152,null,0,dn.a,[Al.a,[2,on.a],[2,pn.a],Xl.a,O.k,O.F],{color:[0,"color"]},null),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;return"click"===n&&(e=!1!==O._18(l,9).toggle()&&e),e},Sn.b,Sn.a)),O._4(1097728,[[2,4]],0,On.a,[[8,""],Xl.a,O.k,O.F],null,null),O._4(1064960,null,0,In.a,[Ml.a,[2,on.a],[2,On.a],[2,dn.a]],{menuToggle:[0,"menuToggle"]},null),O._4(16384,null,1,wn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),O._23(603979776,2,{_buttons:1}),(l()(),O._25(0,["\n            "])),(l()(),O._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(0,["\n        "])),(l()(),O._25(3,["\n    "])),(l()(),O._5(0,null,3,2,"ion-title",[],null,null,null,sn.b,sn.a)),O._4(49152,null,0,cn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),(l()(),O._25(0,["\n        Mapa\n    "])),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,2,9,"ion-buttons",[["end",""]],null,null,null,null,null)),O._4(16384,null,1,wn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),O._23(603979776,3,{_buttons:1}),(l()(),O._25(null,["\n            "])),(l()(),O._5(0,null,null,4,"button",[["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.addMarker()&&e),e},Sn.b,Sn.a)),O._4(1097728,[[3,4]],0,On.a,[[8,""],Xl.a,O.k,O.F],null,null),(l()(),O._5(0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(0,["Adicionar marcador"])),(l()(),O._25(null,["\n        "])),(l()(),O._25(3,["  \n    "])),(l()(),O._25(null,["\n"])),(l()(),O._25(null,["\n \n"])),(l()(),O._5(0,null,null,4,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,hn.b,hn.a)),O._4(4374528,null,0,gn.a,[Xl.a,en.a,Pl.a,O.k,O.F,Al.a,xl.a,O.z,[2,on.a],[2,pn.a]],null,null),(l()(),O._25(1,["\n    "])),(l()(),O._5(0,[[1,0],["map",1]],1,0,"div",[["id","map"],["style","width:100%; height:100%"]],null,null,null,null,null)),(l()(),O._25(1,["  \n"]))],function(l,n){l(n,5,0,"laranja");l(n,9,0,"");l(n,14,0,"menu");l(n,28,0,"add")},function(l,n){l(n,4,0,O._18(n,5)._hidden,O._18(n,5)._sbPadding),l(n,7,0,O._18(n,9).isHidden),l(n,13,0,O._18(n,14)._hidden),l(n,27,0,O._18(n,28)._hidden),l(n,34,0,O._18(n,35).statusbarPadding,O._18(n,35)._hasRefresher)})}function _(l){return O._27(0,[(l()(),O._25(null,["\n"])),(l()(),O._5(0,null,null,29,"ion-header",[],null,null,null,null,null)),O._4(16384,null,0,an.a,[Xl.a,O.k,O.F,[2,on.a]],null,null),(l()(),O._25(null,["\n    "])),(l()(),O._5(0,null,null,25,"ion-navbar",[["class","toolbar"],["color","laranja"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Tn.b,Tn.a)),O._4(49152,null,0,dn.a,[Al.a,[2,on.a],[2,pn.a],Xl.a,O.k,O.F],{color:[0,"color"]},null),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;return"click"===n&&(e=!1!==O._18(l,9).toggle()&&e),e},Sn.b,Sn.a)),O._4(1097728,[[1,4]],0,On.a,[[8,""],Xl.a,O.k,O.F],null,null),O._4(1064960,null,0,In.a,[Ml.a,[2,on.a],[2,On.a],[2,dn.a]],{menuToggle:[0,"menuToggle"]},null),O._4(16384,null,1,wn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),O._23(603979776,1,{_buttons:1}),(l()(),O._25(0,["\n            "])),(l()(),O._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(0,["\n        "])),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,3,2,"ion-title",[],null,null,null,sn.b,sn.a)),O._4(49152,null,0,cn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),(l()(),O._25(0,["Lista de compras"])),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,2,7,"ion-buttons",[["end",""]],null,null,null,null,null)),O._4(16384,null,1,wn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),O._23(603979776,2,{_buttons:1}),(l()(),O._25(null,["\n            "])),(l()(),O._5(0,null,null,2,"button",[["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.obterValor({value:0})&&e),e},Sn.b,Sn.a)),O._4(1097728,[[2,4]],0,On.a,[[8,""],Xl.a,O.k,O.F],null,null),(l()(),O._25(0,["listas salvas"])),(l()(),O._25(null,["\n        "])),(l()(),O._25(3,[" \n    "])),(l()(),O._25(null,["\n"])),(l()(),O._25(null,["\n\n\n"])),(l()(),O._5(0,null,null,319,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,hn.b,hn.a)),O._4(4374528,null,0,gn.a,[Xl.a,en.a,Pl.a,O.k,O.F,Al.a,xl.a,O.z,[2,on.a],[2,pn.a]],null,null),(l()(),O._25(1,[" \n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,3,{contentLabel:0}),O._23(603979776,4,{_buttons:1}),O._23(603979776,5,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[3,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Arroz"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,47)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.arroz=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,6,{contentLabel:0}),O._23(603979776,7,{_buttons:1}),O._23(603979776,8,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[6,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Feijão"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,66)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.feijao=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,9,{contentLabel:0}),O._23(603979776,10,{_buttons:1}),O._23(603979776,11,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[9,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Óleo"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,85)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.oleo=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,12,{contentLabel:0}),O._23(603979776,13,{_buttons:1}),O._23(603979776,14,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[12,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Açúcar"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,104)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.acucar=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,15,{contentLabel:0}),O._23(603979776,16,{_buttons:1}),O._23(603979776,17,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[15,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Café"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,123)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.cafe=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,18,{contentLabel:0}),O._23(603979776,19,{_buttons:1}),O._23(603979776,20,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[18,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Leite em pó"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,142)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.leiteempo=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,21,{contentLabel:0}),O._23(603979776,22,{_buttons:1}),O._23(603979776,23,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[21,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Sal"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,161)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.sal=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,24,{contentLabel:0}),O._23(603979776,25,{_buttons:1}),O._23(603979776,26,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[24,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Macarrão"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,180)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.macarrao=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,27,{contentLabel:0}),O._23(603979776,28,{_buttons:1}),O._23(603979776,29,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[27,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Extrato de tomate"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,199)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.extratoTomate=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,30,{contentLabel:0}),O._23(603979776,31,{_buttons:1}),O._23(603979776,32,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[30,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Tempero completo"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,218)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.tempero=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,33,{contentLabel:0}),O._23(603979776,34,{_buttons:1}),O._23(603979776,35,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[33,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Achocolatado em pó"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,237)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.achocolatado=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,36,{contentLabel:0}),O._23(603979776,37,{_buttons:1}),O._23(603979776,38,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[36,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Molho de tomate"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,256)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.molhoTomate=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,39,{contentLabel:0}),O._23(603979776,40,{_buttons:1}),O._23(603979776,41,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[39,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Farinha de trigo"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,275)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.farinhaTrigo=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,42,{contentLabel:0}),O._23(603979776,43,{_buttons:1}),O._23(603979776,44,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[42,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Gelatina"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,294)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.gelatina=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,45,{contentLabel:0}),O._23(603979776,46,{_buttons:1}),O._23(603979776,47,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[45,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Biscoito"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,313)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.biscoito=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,["\n\n    "])),(l()(),O._5(0,null,1,17,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,48,{contentLabel:0}),O._23(603979776,49,{_buttons:1}),O._23(603979776,50,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,1,2,"ion-label",[],null,null,null,null,null)),O._4(16384,[[48,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),O._25(null,["Milho verde"])),(l()(),O._25(2,["\n        "])),(l()(),O._5(0,null,0,5,"ion-checkbox",[["color","dark"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==O._18(l,332)._click(u)&&e),"ngModelChange"===n&&(e=!1!==(t.milho=u)&&e),e},qn.b,qn.a)),O._4(1228800,null,0,Kn.a,[Xl.a,Rl.a,[2,Zl.a],O.k,O.F],{color:[0,"color"]},null),O._22(1024,null,tl.g,function(l){return[l]},[Kn.a]),O._4(671744,null,0,tl.l,[[8,null],[8,null],[8,null],[2,tl.g]],{model:[0,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),(l()(),O._25(2,["\n    "])),(l()(),O._25(1,[" \n    \n    "])),(l()(),O._5(0,null,0,11,"ion-fab",[["bottom",""],["right",""]],null,null,null,Ln.b,Ln.a)),O._4(1228800,null,2,jn.a,[en.a],null,null),O._23(335544320,51,{_mainButton:0}),O._23(603979776,52,{_fabLists:1}),(l()(),O._25(0,["\n        "])),(l()(),O._5(0,null,0,5,"button",[["color","dark"],["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.cadastrar()&&e),e},Dn.b,Dn.a)),O._4(49152,[[51,4]],0,Rn.a,[Xl.a,O.k,O.F],{color:[0,"color"]},null),(l()(),O._25(0,["\n            "])),(l()(),O._5(0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(0,["\n        "])),(l()(),O._25(0,["\n    "])),(l()(),O._25(1,["\n\n"]))],function(l,n){var u=n.component;l(n,5,0,"laranja");l(n,9,0,"");l(n,14,0,"menu");l(n,47,0,"dark"),l(n,49,0,u.arroz);l(n,66,0,"dark"),l(n,68,0,u.feijao);l(n,85,0,"dark"),l(n,87,0,u.oleo);l(n,104,0,"dark"),l(n,106,0,u.acucar);l(n,123,0,"dark"),l(n,125,0,u.cafe);l(n,142,0,"dark"),l(n,144,0,u.leiteempo);l(n,161,0,"dark"),l(n,163,0,u.sal);l(n,180,0,"dark"),l(n,182,0,u.macarrao);l(n,199,0,"dark"),l(n,201,0,u.extratoTomate);l(n,218,0,"dark"),l(n,220,0,u.tempero);l(n,237,0,"dark"),l(n,239,0,u.achocolatado);l(n,256,0,"dark"),l(n,258,0,u.molhoTomate);l(n,275,0,"dark"),l(n,277,0,u.farinhaTrigo);l(n,294,0,"dark"),l(n,296,0,u.gelatina);l(n,313,0,"dark"),l(n,315,0,u.biscoito);l(n,332,0,"dark"),l(n,334,0,u.milho);l(n,345,0,"dark");l(n,348,0,"add")},function(l,n){l(n,4,0,O._18(n,5)._hidden,O._18(n,5)._sbPadding),l(n,7,0,O._18(n,9).isHidden),l(n,13,0,O._18(n,14)._hidden),l(n,32,0,O._18(n,33).statusbarPadding,O._18(n,33)._hasRefresher),l(n,46,0,O._18(n,47)._disabled,O._18(n,51).ngClassUntouched,O._18(n,51).ngClassTouched,O._18(n,51).ngClassPristine,O._18(n,51).ngClassDirty,O._18(n,51).ngClassValid,O._18(n,51).ngClassInvalid,O._18(n,51).ngClassPending),l(n,65,0,O._18(n,66)._disabled,O._18(n,70).ngClassUntouched,O._18(n,70).ngClassTouched,O._18(n,70).ngClassPristine,O._18(n,70).ngClassDirty,O._18(n,70).ngClassValid,O._18(n,70).ngClassInvalid,O._18(n,70).ngClassPending),l(n,84,0,O._18(n,85)._disabled,O._18(n,89).ngClassUntouched,O._18(n,89).ngClassTouched,O._18(n,89).ngClassPristine,O._18(n,89).ngClassDirty,O._18(n,89).ngClassValid,O._18(n,89).ngClassInvalid,O._18(n,89).ngClassPending),l(n,103,0,O._18(n,104)._disabled,O._18(n,108).ngClassUntouched,O._18(n,108).ngClassTouched,O._18(n,108).ngClassPristine,O._18(n,108).ngClassDirty,O._18(n,108).ngClassValid,O._18(n,108).ngClassInvalid,O._18(n,108).ngClassPending),l(n,122,0,O._18(n,123)._disabled,O._18(n,127).ngClassUntouched,O._18(n,127).ngClassTouched,O._18(n,127).ngClassPristine,O._18(n,127).ngClassDirty,O._18(n,127).ngClassValid,O._18(n,127).ngClassInvalid,O._18(n,127).ngClassPending),l(n,141,0,O._18(n,142)._disabled,O._18(n,146).ngClassUntouched,O._18(n,146).ngClassTouched,O._18(n,146).ngClassPristine,O._18(n,146).ngClassDirty,O._18(n,146).ngClassValid,O._18(n,146).ngClassInvalid,O._18(n,146).ngClassPending),l(n,160,0,O._18(n,161)._disabled,O._18(n,165).ngClassUntouched,O._18(n,165).ngClassTouched,O._18(n,165).ngClassPristine,O._18(n,165).ngClassDirty,O._18(n,165).ngClassValid,O._18(n,165).ngClassInvalid,O._18(n,165).ngClassPending),l(n,179,0,O._18(n,180)._disabled,O._18(n,184).ngClassUntouched,O._18(n,184).ngClassTouched,O._18(n,184).ngClassPristine,O._18(n,184).ngClassDirty,O._18(n,184).ngClassValid,O._18(n,184).ngClassInvalid,O._18(n,184).ngClassPending),l(n,198,0,O._18(n,199)._disabled,O._18(n,203).ngClassUntouched,O._18(n,203).ngClassTouched,O._18(n,203).ngClassPristine,O._18(n,203).ngClassDirty,O._18(n,203).ngClassValid,O._18(n,203).ngClassInvalid,O._18(n,203).ngClassPending),l(n,217,0,O._18(n,218)._disabled,O._18(n,222).ngClassUntouched,O._18(n,222).ngClassTouched,O._18(n,222).ngClassPristine,O._18(n,222).ngClassDirty,O._18(n,222).ngClassValid,O._18(n,222).ngClassInvalid,O._18(n,222).ngClassPending),l(n,236,0,O._18(n,237)._disabled,O._18(n,241).ngClassUntouched,O._18(n,241).ngClassTouched,O._18(n,241).ngClassPristine,O._18(n,241).ngClassDirty,O._18(n,241).ngClassValid,O._18(n,241).ngClassInvalid,O._18(n,241).ngClassPending),l(n,255,0,O._18(n,256)._disabled,O._18(n,260).ngClassUntouched,O._18(n,260).ngClassTouched,O._18(n,260).ngClassPristine,O._18(n,260).ngClassDirty,O._18(n,260).ngClassValid,O._18(n,260).ngClassInvalid,O._18(n,260).ngClassPending),l(n,274,0,O._18(n,275)._disabled,O._18(n,279).ngClassUntouched,O._18(n,279).ngClassTouched,O._18(n,279).ngClassPristine,O._18(n,279).ngClassDirty,O._18(n,279).ngClassValid,O._18(n,279).ngClassInvalid,O._18(n,279).ngClassPending),l(n,293,0,O._18(n,294)._disabled,O._18(n,298).ngClassUntouched,O._18(n,298).ngClassTouched,O._18(n,298).ngClassPristine,O._18(n,298).ngClassDirty,O._18(n,298).ngClassValid,O._18(n,298).ngClassInvalid,O._18(n,298).ngClassPending),l(n,312,0,O._18(n,313)._disabled,O._18(n,317).ngClassUntouched,O._18(n,317).ngClassTouched,O._18(n,317).ngClassPristine,O._18(n,317).ngClassDirty,O._18(n,317).ngClassValid,O._18(n,317).ngClassInvalid,O._18(n,317).ngClassPending),l(n,331,0,O._18(n,332)._disabled,O._18(n,336).ngClassUntouched,O._18(n,336).ngClassTouched,O._18(n,336).ngClassPristine,O._18(n,336).ngClassDirty,O._18(n,336).ngClassValid,O._18(n,336).ngClassInvalid,O._18(n,336).ngClassPending),l(n,347,0,O._18(n,348)._hidden)})}function r(l){return O._27(0,[(l()(),O._5(0,null,null,25,"ion-card",[["color","laranja_c"]],null,null,null,null,null)),O._4(16384,null,0,Fn.a,[Xl.a,O.k,O.F],{color:[0,"color"]},null),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,2,"ion-card-header",[],null,null,null,null,null)),O._4(16384,null,0,Xn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._25(null,["\n            ","\n        "])),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,17,"ion-card-content",[],null,null,null,null,null)),O._4(16384,null,0,Pn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._25(null,["    \n                ","\n            "])),(l()(),O._5(0,null,null,13,"ion-item",[["class","item item-block"],["color","laranja_c"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],{color:[0,"color"]},null),O._23(335544320,1,{contentLabel:0}),O._23(603979776,2,{_buttons:1}),O._23(603979776,3,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n                "])),(l()(),O._5(0,null,4,5,"ion-avatar",[["item-end",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.excluir(l.context.$implicit.$key)&&e),e},null,null)),O._4(16384,null,0,Yn.a,[],null,null),(l()(),O._25(null,["\n                    "])),(l()(),O._5(0,null,null,1,"ion-icon",[["name","trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(null,["\n                "])),(l()(),O._25(2,["\n                \n            "])),(l()(),O._25(null,["\n        "])),(l()(),O._25(null,["\n    "]))],function(l,n){l(n,1,0,"laranja_c");l(n,11,0,"laranja_c");l(n,21,0,"trash")},function(l,n){l(n,5,0,n.context.$implicit.nome),l(n,9,0,n.context.$implicit.produtos),l(n,20,0,O._18(n,21)._hidden)})}function s(l){return O._27(0,[(l()(),O._5(0,null,null,10,"ion-header",[],null,null,null,null,null)),O._4(16384,null,0,an.a,[Xl.a,O.k,O.F,[2,on.a]],null,null),(l()(),O._25(null,["\n    "])),(l()(),O._5(0,null,null,6,"ion-navbar",[["class","toolbar"],["color","laranja"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Tn.b,Tn.a)),O._4(49152,null,0,dn.a,[Al.a,[2,on.a],[2,pn.a],Xl.a,O.k,O.F],{color:[0,"color"]},null),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,3,2,"ion-title",[],null,null,null,sn.b,sn.a)),O._4(49152,null,0,cn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),(l()(),O._25(0,["Listas Salvas"])),(l()(),O._25(3,["\n    "])),(l()(),O._25(null,["\n"])),(l()(),O._25(null,["\n\n\n"])),(l()(),O._5(0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,hn.b,hn.a)),O._4(4374528,null,0,gn.a,[Xl.a,en.a,Pl.a,O.k,O.F,Al.a,xl.a,O.z,[2,on.a],[2,pn.a]],null,null),(l()(),O._25(1,["\n    "])),(l()(),O._1(16777216,null,1,2,null,r)),O._4(802816,null,0,vl.h,[O.P,O.M,O.s],{ngForOf:[0,"ngForOf"]},null),O._20(131072,vl.b,[O.h]),(l()(),O._25(1,["\n\n    "])),(l()(),O._25(1,["\n          \n    \n    "])),(l()(),O._25(1,["\n"])),(l()(),O._25(null,["\n"]))],function(l,n){var u=n.component;l(n,4,0,"laranja"),l(n,16,0,O._26(n,16,0,O._18(n,17).transform(u.lista)))},function(l,n){l(n,3,0,O._18(n,4)._hidden,O._18(n,4)._sbPadding),l(n,12,0,O._18(n,13).statusbarPadding,O._18(n,13)._hasRefresher)})}function c(l){return O._27(0,[(l()(),O._5(0,null,null,2,"button",[["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.signOut()&&e),e},Sn.b,Sn.a)),O._4(1097728,[[3,4]],0,On.a,[[8,""],Xl.a,O.k,O.F],null,null),(l()(),O._25(0,["sair"]))],null,null)}function d(l){return O._27(0,[(l()(),O._5(0,null,null,2,"button",[["block",""],["color","facebook"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.signInWithFacebook()&&e),e},Sn.b,Sn.a)),O._4(1097728,null,0,On.a,[[8,""],Xl.a,O.k,O.F],{color:[0,"color"],block:[1,"block"]},null),(l()(),O._25(0,["\n        FACEBOOK\n    "]))],function(l,n){l(n,1,0,"facebook","")},null)}function h(l){return O._27(0,[(l()(),O._5(0,null,null,0,"br",[],null,null,null,null,null))],null,null)}function g(l){return O._27(0,[(l()(),O._5(0,null,null,2,"button",[["block",""],["color","primary"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.abrirPaginaLogin()&&e),e},Sn.b,Sn.a)),O._4(1097728,null,0,On.a,[[8,""],Xl.a,O.k,O.F],{color:[0,"color"],block:[1,"block"]},null),(l()(),O._25(0,["\n        ENTRAR\n    "]))],function(l,n){l(n,1,0,"primary","")},null)}function p(l){return O._27(0,[(l()(),O._5(0,null,null,0,"br",[],null,null,null,null,null))],null,null)}function b(l){return O._27(0,[(l()(),O._5(0,null,null,2,"button",[["block",""],["clear",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.openPage()&&e),e},Sn.b,Sn.a)),O._4(1097728,null,0,On.a,[[8,""],Xl.a,O.k,O.F],{clear:[0,"clear"],block:[1,"block"]},null),(l()(),O._25(0,["\n        OU CRIAR UMA CONTA\n    "]))],function(l,n){l(n,1,0,"","")},null)}function m(l){return O._27(0,[(l()(),O._5(0,null,null,32,"ion-card",[],null,null,null,null,null)),O._4(16384,null,0,Fn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,2,"ion-card-header",[],null,null,null,null,null)),O._4(16384,null,0,Xn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._25(null,["            \n            ","\n        "])),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,24,"ion-list",[],null,null,null,null,null)),O._4(16384,null,0,bn.a,[Xl.a,O.k,O.F,en.a,Tl.h,Pl.a],null,null),(l()(),O._25(null,["\n            "])),(l()(),O._5(0,null,null,9,"button",[["class","item item-block"],["ion-item",""]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,4,{contentLabel:0}),O._23(603979776,5,{_buttons:1}),O._23(603979776,6,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n                "])),(l()(),O._5(0,null,0,1,"ion-icon",[["color","laranja"],["item-start",""],["name","pin"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,[[6,4]],0,An.a,[Xl.a,O.k,O.F],{color:[0,"color"],name:[1,"name"]},null),(l()(),O._25(2,["\n                "," ","\n            "])),(l()(),O._25(null,["\n            "])),(l()(),O._5(0,null,null,9,"button",[["class","item item-block"],["ion-item",""]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,7,{contentLabel:0}),O._23(603979776,8,{_buttons:1}),O._23(603979776,9,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n                "])),(l()(),O._5(0,null,0,1,"ion-icon",[["color","laranja"],["item-start",""],["name","ribbon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,[[9,4]],0,An.a,[Xl.a,O.k,O.F],{color:[0,"color"],name:[1,"name"]},null),(l()(),O._25(2,["\n                VERSÃO ","\n            "])),(l()(),O._25(null,["\n        "])),(l()(),O._25(null,["\n    "]))],function(l,n){l(n,18,0,"laranja","pin");l(n,29,0,"laranja","ribbon")},function(l,n){var u=n.component;l(n,5,0,u.email),l(n,17,0,O._18(n,18)._hidden),l(n,19,0,u.localizacao,u.areaAdm),l(n,28,0,O._18(n,29)._hidden),l(n,30,0,u.versao)})}function f(l){return O._27(0,[(l()(),O._5(0,null,null,10,"ion-footer",[["no-shadow",""]],null,null,null,null,null)),O._4(16384,null,0,uu.a,[Xl.a,O.k,O.F,[2,on.a]],null,null),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,6,"ion-toolbar",[["class","toolbar"],["position","bottom"]],[[2,"statusbar-padding",null]],null,null,_n.b,_n.a)),O._4(49152,null,0,rn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._25(3,["\n            "])),(l()(),O._5(0,null,3,2,"button",[["block",""],["color","danger"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.deletarConta()&&e),e},Sn.b,Sn.a)),O._4(1097728,null,0,On.a,[[8,""],Xl.a,O.k,O.F],{color:[0,"color"],block:[1,"block"]},null),(l()(),O._25(0,["\n                EXCLUIR MINHA CONTA\n            "])),(l()(),O._25(3,["\n        "])),(l()(),O._25(null,["\n    "]))],function(l,n){l(n,7,0,"danger","")},function(l,n){l(n,3,0,O._18(n,4)._sbPadding)})}function k(l){return O._27(0,[O._23(402653184,1,{form:0}),(l()(),O._5(0,null,null,28,"ion-header",[],null,null,null,null,null)),O._4(16384,null,0,an.a,[Xl.a,O.k,O.F,[2,on.a]],null,null),(l()(),O._25(null,["\n    "])),(l()(),O._5(0,null,null,24,"ion-navbar",[["class","toolbar"],["color","laranja"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Tn.b,Tn.a)),O._4(49152,null,0,dn.a,[Al.a,[2,on.a],[2,pn.a],Xl.a,O.k,O.F],{color:[0,"color"]},null),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;return"click"===n&&(e=!1!==O._18(l,9).toggle()&&e),e},Sn.b,Sn.a)),O._4(1097728,[[2,4]],0,On.a,[[8,""],Xl.a,O.k,O.F],null,null),O._4(1064960,null,0,In.a,[Ml.a,[2,on.a],[2,On.a],[2,dn.a]],{menuToggle:[0,"menuToggle"]},null),O._4(16384,null,1,wn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),O._23(603979776,2,{_buttons:1}),(l()(),O._25(0,["\n            "])),(l()(),O._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(0,["\n        "])),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,3,2,"ion-title",[],null,null,null,sn.b,sn.a)),O._4(49152,null,0,cn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),(l()(),O._25(0,["\n            Login\n        "])),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,2,6,"ion-buttons",[["end",""]],null,null,null,null,null)),O._4(16384,null,1,wn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),O._23(603979776,3,{_buttons:1}),(l()(),O._25(null,["\n            "])),(l()(),O._1(16777216,null,null,1,null,c)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(null,["\n        "])),(l()(),O._25(3,["\n    "])),(l()(),O._25(null,["\n\n"])),(l()(),O._25(null,["\n\n\n\n  \n  \n"])),(l()(),O._5(0,null,null,23,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,hn.b,hn.a)),O._4(4374528,null,0,gn.a,[Xl.a,en.a,Pl.a,O.k,O.F,Al.a,xl.a,O.z,[2,on.a],[2,pn.a]],null,null),(l()(),O._25(1,["\n\n    "])),(l()(),O._1(16777216,null,1,1,null,d)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(1,["\n\n    "])),(l()(),O._1(16777216,null,1,1,null,h)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(1,["\n\n  \n    "])),(l()(),O._1(16777216,null,1,1,null,g)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(1,["\n    \n    "])),(l()(),O._1(16777216,null,1,1,null,p)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(1,["\n  \n    "])),(l()(),O._1(16777216,null,1,1,null,b)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(1,["\n\n\n    "])),(l()(),O._1(16777216,null,1,1,null,m)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(1,["\n    \n\n    "])),(l()(),O._1(16777216,null,1,1,null,f)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(1,["    \n  \n"])),(l()(),O._25(null,["\n\n"]))],function(l,n){var u=n.component;l(n,5,0,"laranja");l(n,9,0,"");l(n,14,0,"menu"),l(n,26,0,u.logado),l(n,35,0,u.naologado),l(n,38,0,u.naologado),l(n,41,0,u.naologado),l(n,44,0,u.naologado),l(n,47,0,u.naologado),l(n,50,0,u.logado),l(n,53,0,u.logado)},function(l,n){l(n,4,0,O._18(n,5)._hidden,O._18(n,5)._sbPadding),l(n,7,0,O._18(n,9).isHidden),l(n,13,0,O._18(n,14)._hidden),l(n,31,0,O._18(n,32).statusbarPadding,O._18(n,32)._hasRefresher)})}function C(l){return O._27(0,[(l()(),O._5(0,null,null,6,"ion-item",[["class","text-danger item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,6,{contentLabel:0}),O._23(603979776,7,{_buttons:1}),O._23(603979776,8,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n            Campo obrigatório\n        "]))],null,null)}function y(l){return O._27(0,[(l()(),O._5(0,null,null,6,"ion-item",[["class","text-danger item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,12,{contentLabel:0}),O._23(603979776,13,{_buttons:1}),O._23(603979776,14,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n            Campo obrigatório\n        "]))],null,null)}function v(l){return O._27(0,[(l()(),O._5(0,null,null,6,"ion-item",[["class","text-danger item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,18,{contentLabel:0}),O._23(603979776,19,{_buttons:1}),O._23(603979776,20,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n            Campo obrigatório\n        "]))],null,null)}function F(l){return O._27(0,[(l()(),O._5(0,null,null,6,"ion-item",[["class","text-danger item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,24,{contentLabel:0}),O._23(603979776,25,{_buttons:1}),O._23(603979776,26,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n            O campo é obrigatório\n        "]))],null,null)}function P(l){return O._27(0,[O._23(402653184,1,{form:0}),(l()(),O._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),O._4(16384,null,0,an.a,[Xl.a,O.k,O.F,[2,on.a]],null,null),(l()(),O._25(null,["\n    "])),(l()(),O._5(0,null,null,16,"ion-navbar",[["class","toolbar"],["color","laranja"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Tn.b,Tn.a)),O._4(49152,null,0,dn.a,[Al.a,[2,on.a],[2,pn.a],Xl.a,O.k,O.F],{color:[0,"color"]},null),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;return"click"===n&&(e=!1!==O._18(l,9).toggle()&&e),e},Sn.b,Sn.a)),O._4(1097728,[[2,4]],0,On.a,[[8,""],Xl.a,O.k,O.F],null,null),O._4(1064960,null,0,In.a,[Ml.a,[2,on.a],[2,On.a],[2,dn.a]],{menuToggle:[0,"menuToggle"]},null),O._4(16384,null,1,wn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),O._23(603979776,2,{_buttons:1}),(l()(),O._25(0,["\n            "])),(l()(),O._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(0,["\n        "])),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,3,2,"ion-title",[],null,null,null,sn.b,sn.a)),O._4(49152,null,0,cn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),(l()(),O._25(0,["\n            Cadastro\n        "])),(l()(),O._25(3,["\n    "])),(l()(),O._25(null,["\n"])),(l()(),O._25(null,["\n  \n"])),(l()(),O._5(0,null,null,111,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,hn.b,hn.a)),O._4(4374528,null,0,gn.a,[Xl.a,en.a,Pl.a,O.k,O.F,Al.a,xl.a,O.z,[2,on.a],[2,pn.a]],null,null),(l()(),O._25(1,["\n    "])),(l()(),O._5(0,null,1,107,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(l,n,u){var e=!0;return"submit"===n&&(e=!1!==O._18(l,28).onSubmit(u)&&e),"reset"===n&&(e=!1!==O._18(l,28).onReset()&&e),e},null,null)),O._4(16384,null,0,tl.p,[],null,null),O._4(16384,[[1,4],["form",4]],0,tl.k,[[8,null],[8,null]],null,null),O._22(2048,null,tl.b,null,[tl.k]),O._4(16384,null,0,tl.j,[tl.b],null,null),(l()(),O._25(null,["\n  \n        "])),(l()(),O._5(0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,3,{contentLabel:0}),O._23(603979776,4,{_buttons:1}),O._23(603979776,5,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n            "])),(l()(),O._5(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),O._4(16384,[[3,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),O._25(null,["Nome completo"])),(l()(),O._25(2,["\n            "])),(l()(),O._5(0,null,3,6,"ion-input",[["name","nomeCompleto"],["required",""],["type","text"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0,t=l.component;return"ngModelChange"===n&&(e=!1!==(t.user.nomeCompleto=u)&&e),e},ou.b,ou.a)),O._4(16384,null,0,tl.n,[],{required:[0,"required"]},null),O._22(1024,null,tl.f,function(l){return[l]},[tl.n]),O._4(671744,[["nomeCompleto",4]],0,tl.l,[[2,tl.b],[2,tl.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),O._4(5423104,null,0,iu.a,[Xl.a,en.a,Rl.a,Al.a,O.k,O.F,[2,gn.a],[2,Zl.a],[2,tl.h],Pl.a],{type:[0,"type"]},null),(l()(),O._25(2,["\n        "])),(l()(),O._25(null,["\n        "])),(l()(),O._1(16777216,null,null,1,null,C)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(null,["\n        \n        "])),(l()(),O._5(0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,9,{contentLabel:0}),O._23(603979776,10,{_buttons:1}),O._23(603979776,11,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n            "])),(l()(),O._5(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),O._4(16384,[[9,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),O._25(null,["Email"])),(l()(),O._25(2,["\n            "])),(l()(),O._5(0,null,3,6,"ion-input",[["name","email"],["required",""],["type","text"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0,t=l.component;return"ngModelChange"===n&&(e=!1!==(t.user.email=u)&&e),e},ou.b,ou.a)),O._4(16384,null,0,tl.n,[],{required:[0,"required"]},null),O._22(1024,null,tl.f,function(l){return[l]},[tl.n]),O._4(671744,[["email",4]],0,tl.l,[[2,tl.b],[2,tl.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),O._4(5423104,null,0,iu.a,[Xl.a,en.a,Rl.a,Al.a,O.k,O.F,[2,gn.a],[2,Zl.a],[2,tl.h],Pl.a],{type:[0,"type"]},null),(l()(),O._25(2,["\n        "])),(l()(),O._25(null,["\n        "])),(l()(),O._1(16777216,null,null,1,null,y)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(null,["\n      \n        "])),(l()(),O._5(0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,15,{contentLabel:0}),O._23(603979776,16,{_buttons:1}),O._23(603979776,17,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n            "])),(l()(),O._5(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),O._4(16384,[[15,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),O._25(null,["Matricula"])),(l()(),O._25(2,["\n            "])),(l()(),O._5(0,null,3,6,"ion-input",[["name","matricula"],["required",""],["type","text"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0,t=l.component;return"ngModelChange"===n&&(e=!1!==(t.user.matricula=u)&&e),e},ou.b,ou.a)),O._4(16384,null,0,tl.n,[],{required:[0,"required"]},null),O._22(1024,null,tl.f,function(l){return[l]},[tl.n]),O._4(671744,[["matricula",4]],0,tl.l,[[2,tl.b],[2,tl.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),O._4(5423104,null,0,iu.a,[Xl.a,en.a,Rl.a,Al.a,O.k,O.F,[2,gn.a],[2,Zl.a],[2,tl.h],Pl.a],{type:[0,"type"]},null),(l()(),O._25(2,["\n        "])),(l()(),O._25(null,["\n        "])),(l()(),O._1(16777216,null,null,1,null,v)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(null,["\n        \n        "])),(l()(),O._5(0,null,null,0,"div",[["class","spacer"],["style","width: 300px; height: 38px;"]],null,null,null,null,null)),(l()(),O._25(null,["\n        \n        "])),(l()(),O._5(0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,21,{contentLabel:0}),O._23(603979776,22,{_buttons:1}),O._23(603979776,23,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n            "])),(l()(),O._5(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),O._4(16384,[[21,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),O._25(null,["Senha"])),(l()(),O._25(2,["\n            "])),(l()(),O._5(0,null,3,6,"ion-input",[["name","password"],["placeholder","Digite uma senha"],["required",""],["type","password"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0,t=l.component;return"ngModelChange"===n&&(e=!1!==(t.user.password=u)&&e),e},ou.b,ou.a)),O._4(16384,null,0,tl.n,[],{required:[0,"required"]},null),O._22(1024,null,tl.f,function(l){return[l]},[tl.n]),O._4(671744,[["password",4]],0,tl.l,[[2,tl.b],[2,tl.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),O._4(5423104,null,0,iu.a,[Xl.a,en.a,Rl.a,Al.a,O.k,O.F,[2,gn.a],[2,Zl.a],[2,tl.h],Pl.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),(l()(),O._25(2,["\n        "])),(l()(),O._25(null,["\n        "])),(l()(),O._1(16777216,null,null,1,null,F)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(null,["\n        "])),(l()(),O._25(null,["\n        "])),(l()(),O._25(null,["\n        "])),(l()(),O._25(null,["\n        "])),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,2,"button",[["block",""],["color","primary"],["ion-button",""]],[[8,"disabled",0]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.criarConta()&&e),e},Sn.b,Sn.a)),O._4(1097728,null,0,On.a,[[8,""],Xl.a,O.k,O.F],{color:[0,"color"],block:[1,"block"]},null),(l()(),O._25(0,["\n            Criar\n        "])),(l()(),O._25(null,["\n  \n    "])),(l()(),O._25(1,["\n"]))],function(l,n){var u=n.component;l(n,5,0,"laranja");l(n,9,0,"");l(n,14,0,"menu");l(n,44,0,"");l(n,46,0,"nomeCompleto",u.user.nomeCompleto);l(n,49,0,"text"),l(n,53,0,O._18(n,46).errors&&(O._18(n,46).dirty||O._18(n,46).touched));l(n,67,0,"");l(n,69,0,"email",u.user.email);l(n,72,0,"text"),l(n,76,0,O._18(n,69).errors&&(O._18(n,69).dirty||O._18(n,69).touched));l(n,90,0,"");l(n,92,0,"matricula",u.user.matricula);l(n,95,0,"text"),l(n,99,0,O._18(n,92).errors&&(O._18(n,92).dirty||O._18(n,92).touched));l(n,115,0,"");l(n,117,0,"password",u.user.password);l(n,120,0,"password","Digite uma senha"),l(n,124,0,O._18(n,117).errors&&(O._18(n,117).dirty||O._18(n,117).touched));l(n,131,0,"primary","")},function(l,n){l(n,4,0,O._18(n,5)._hidden,O._18(n,5)._sbPadding),l(n,7,0,O._18(n,9).isHidden),l(n,13,0,O._18(n,14)._hidden),l(n,23,0,O._18(n,24).statusbarPadding,O._18(n,24)._hasRefresher),l(n,26,0,O._18(n,30).ngClassUntouched,O._18(n,30).ngClassTouched,O._18(n,30).ngClassPristine,O._18(n,30).ngClassDirty,O._18(n,30).ngClassValid,O._18(n,30).ngClassInvalid,O._18(n,30).ngClassPending),l(n,43,0,O._18(n,44).required?"":null,O._18(n,48).ngClassUntouched,O._18(n,48).ngClassTouched,O._18(n,48).ngClassPristine,O._18(n,48).ngClassDirty,O._18(n,48).ngClassValid,O._18(n,48).ngClassInvalid,O._18(n,48).ngClassPending),l(n,66,0,O._18(n,67).required?"":null,O._18(n,71).ngClassUntouched,O._18(n,71).ngClassTouched,O._18(n,71).ngClassPristine,O._18(n,71).ngClassDirty,O._18(n,71).ngClassValid,O._18(n,71).ngClassInvalid,O._18(n,71).ngClassPending),l(n,89,0,O._18(n,90).required?"":null,O._18(n,94).ngClassUntouched,O._18(n,94).ngClassTouched,O._18(n,94).ngClassPristine,O._18(n,94).ngClassDirty,O._18(n,94).ngClassValid,O._18(n,94).ngClassInvalid,O._18(n,94).ngClassPending),l(n,114,0,O._18(n,115).required?"":null,O._18(n,119).ngClassUntouched,O._18(n,119).ngClassTouched,O._18(n,119).ngClassPristine,O._18(n,119).ngClassDirty,O._18(n,119).ngClassValid,O._18(n,119).ngClassInvalid,O._18(n,119).ngClassPending),l(n,130,0,!O._18(n,28).form.valid)})}function M(l){return O._27(0,[(l()(),O._5(0,null,null,6,"ion-item",[["class","text-danger item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,6,{contentLabel:0}),O._23(603979776,7,{_buttons:1}),O._23(603979776,8,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n                O campo é obrigatório\n            "]))],null,null)}function A(l){return O._27(0,[(l()(),O._5(0,null,null,6,"ion-item",[["class","text-danger item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,12,{contentLabel:0}),O._23(603979776,13,{_buttons:1}),O._23(603979776,14,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n                O campo é obrigatório\n            "]))],null,null)}function T(l){return O._27(0,[O._23(402653184,1,{form:0}),(l()(),O._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),O._4(16384,null,0,an.a,[Xl.a,O.k,O.F,[2,on.a]],null,null),(l()(),O._25(null,["\n    "])),(l()(),O._5(0,null,null,16,"ion-navbar",[["class","toolbar"],["color","laranja"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Tn.b,Tn.a)),O._4(49152,null,0,dn.a,[Al.a,[2,on.a],[2,pn.a],Xl.a,O.k,O.F],{color:[0,"color"]},null),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;return"click"===n&&(e=!1!==O._18(l,9).toggle()&&e),e},Sn.b,Sn.a)),O._4(1097728,[[2,4]],0,On.a,[[8,""],Xl.a,O.k,O.F],null,null),O._4(1064960,null,0,In.a,[Ml.a,[2,on.a],[2,On.a],[2,dn.a]],{menuToggle:[0,"menuToggle"]},null),O._4(16384,null,1,wn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),O._23(603979776,2,{_buttons:1}),(l()(),O._25(0,["\n            "])),(l()(),O._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),O._4(147456,null,0,An.a,[Xl.a,O.k,O.F],{name:[0,"name"]},null),(l()(),O._25(0,["\n        "])),(l()(),O._25(3,["\n        "])),(l()(),O._5(0,null,3,2,"ion-title",[],null,null,null,sn.b,sn.a)),O._4(49152,null,0,cn.a,[Xl.a,O.k,O.F,[2,rn.a],[2,dn.a]],null,null),(l()(),O._25(0,["\n            Login\n        "])),(l()(),O._25(3,["\n    "])),(l()(),O._25(null,["\n"])),(l()(),O._25(null,["\n  \n  \n"])),(l()(),O._5(0,null,null,75,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,hn.b,hn.a)),O._4(4374528,null,0,gn.a,[Xl.a,en.a,Pl.a,O.k,O.F,Al.a,xl.a,O.z,[2,on.a],[2,pn.a]],null,null),(l()(),O._25(1,["\n  \n    "])),(l()(),O._5(0,null,1,59,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(l,n,u){var e=!0;return"submit"===n&&(e=!1!==O._18(l,28).onSubmit(u)&&e),"reset"===n&&(e=!1!==O._18(l,28).onReset()&&e),e},null,null)),O._4(16384,null,0,tl.p,[],null,null),O._4(16384,[[1,4],["form",4]],0,tl.k,[[8,null],[8,null]],null,null),O._22(2048,null,tl.b,null,[tl.k]),O._4(16384,null,0,tl.j,[tl.b],null,null),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,48,"ion-list",[],null,null,null,null,null)),O._4(16384,null,0,bn.a,[Xl.a,O.k,O.F,en.a,Tl.h,Pl.a],null,null),(l()(),O._25(null,["\n    \n            "])),(l()(),O._5(0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,3,{contentLabel:0}),O._23(603979776,4,{_buttons:1}),O._23(603979776,5,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n                "])),(l()(),O._5(0,null,1,2,"ion-label",[["block",""],["stacked",""]],null,null,null,null,null)),O._4(16384,[[3,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),O._25(null,["E-mail"])),(l()(),O._25(2,["\n                "])),(l()(),O._5(0,null,3,6,"ion-input",[["name","email"],["required",""],["type","text"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0,t=l.component;return"ngModelChange"===n&&(e=!1!==(t.user.email=u)&&e),e},ou.b,ou.a)),O._4(16384,null,0,tl.n,[],{required:[0,"required"]},null),O._22(1024,null,tl.f,function(l){return[l]},[tl.n]),O._4(671744,[["email",4]],0,tl.l,[[2,tl.b],[2,tl.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),O._4(5423104,null,0,iu.a,[Xl.a,en.a,Rl.a,Al.a,O.k,O.F,[2,gn.a],[2,Zl.a],[2,tl.h],Pl.a],{type:[0,"type"]},null),(l()(),O._25(2,["\n            "])),(l()(),O._25(null,["\n            \n            "])),(l()(),O._1(16777216,null,null,1,null,M)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(null,["\n    \n            "])),(l()(),O._5(0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,Jl.b,Jl.a)),O._4(1097728,null,3,Zl.a,[Rl.a,Xl.a,O.k,O.F,[2,Yl.a]],null,null),O._23(335544320,9,{contentLabel:0}),O._23(603979776,10,{_buttons:1}),O._23(603979776,11,{_icons:1}),O._4(16384,null,0,Ql.a,[],null,null),(l()(),O._25(2,["\n                "])),(l()(),O._5(0,null,1,2,"ion-label",[["block",""],["stacked",""]],null,null,null,null,null)),O._4(16384,[[9,4]],0,Vn.a,[Xl.a,O.k,O.F,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),O._25(null,["Senha"])),(l()(),O._25(2,["\n                "])),(l()(),O._5(0,null,3,6,"ion-input",[["name","password"],["required",""],["type","password"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0,t=l.component;return"ngModelChange"===n&&(e=!1!==(t.user.password=u)&&e),e},ou.b,ou.a)),O._4(16384,null,0,tl.n,[],{required:[0,"required"]},null),O._22(1024,null,tl.f,function(l){return[l]},[tl.n]),O._4(671744,[["password",4]],0,tl.l,[[2,tl.b],[2,tl.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),O._22(2048,null,tl.h,null,[tl.l]),O._4(16384,null,0,tl.i,[tl.h],null,null),O._4(5423104,null,0,iu.a,[Xl.a,en.a,Rl.a,Al.a,O.k,O.F,[2,gn.a],[2,Zl.a],[2,tl.h],Pl.a],{type:[0,"type"]},null),(l()(),O._25(2,["\n            "])),(l()(),O._25(null,["\n            \n            "])),(l()(),O._1(16777216,null,null,1,null,A)),O._4(16384,null,0,vl.i,[O.P,O.M],{ngIf:[0,"ngIf"]},null),(l()(),O._25(null,["\n    \n        "])),(l()(),O._25(null,["\n  \n        "])),(l()(),O._5(0,null,null,2,"button",[["block",""],["color","primary"],["ion-button",""]],[[8,"disabled",0]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.signIn()&&e),e},Sn.b,Sn.a)),O._4(1097728,null,0,On.a,[[8,""],Xl.a,O.k,O.F],{color:[0,"color"],block:[1,"block"]},null),(l()(),O._25(0,["\n            Entrar\n        "])),(l()(),O._25(null,["\n    "])),(l()(),O._25(1,["\n    \n    "])),(l()(),O._5(0,null,1,10,"ion-footer",[["no-shadow",""]],null,null,null,null,null)),O._4(16384,null,0,uu.a,[Xl.a,O.k,O.F,[2,on.a]],null,null),(l()(),O._25(null,["\n        "])),(l()(),O._5(0,null,null,6,"ion-toolbar",[["class","toolbar"],["position","bottom"]],[[2,"statusbar-padding",null]],null,null,_n.b,_n.a)),O._4(49152,null,0,rn.a,[Xl.a,O.k,O.F],null,null),(l()(),O._25(3,["\n            "])),(l()(),O._5(0,null,3,2,"button",[["block",""],["ion-button",""]],[[8,"disabled",0]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.resetarSenha()&&e),e},Sn.b,Sn.a)),O._4(1097728,null,0,On.a,[[8,""],Xl.a,O.k,O.F],{block:[0,"block"]},null),(l()(),O._25(0,["\n                Esqueci minha senha\n            "])),(l()(),O._25(3,["\n        "])),(l()(),O._25(null,["\n    "])),(l()(),O._25(1,["\n  \n"]))],function(l,n){var u=n.component;l(n,5,0,"laranja");l(n,9,0,"");l(n,14,0,"menu");l(n,47,0,"");l(n,49,0,"email",u.user.email);l(n,52,0,"text"),l(n,56,0,O._18(n,49).errors&&(O._18(n,49).dirty||O._18(n,49).touched));l(n,70,0,"");l(n,72,0,"password",u.user.password);l(n,75,0,"password"),l(n,79,0,O._18(n,72).errors&&(O._18(n,72).dirty||O._18(n,72).touched));l(n,83,0,"primary","");l(n,94,0,"")},function(l,n){l(n,4,0,O._18(n,5)._hidden,O._18(n,5)._sbPadding),l(n,7,0,O._18(n,9).isHidden),l(n,13,0,O._18(n,14)._hidden),l(n,23,0,O._18(n,24).statusbarPadding,O._18(n,24)._hasRefresher),l(n,26,0,O._18(n,30).ngClassUntouched,O._18(n,30).ngClassTouched,O._18(n,30).ngClassPristine,O._18(n,30).ngClassDirty,O._18(n,30).ngClassValid,O._18(n,30).ngClassInvalid,O._18(n,30).ngClassPending),l(n,46,0,O._18(n,47).required?"":null,O._18(n,51).ngClassUntouched,O._18(n,51).ngClassTouched,O._18(n,51).ngClassPristine,O._18(n,51).ngClassDirty,O._18(n,51).ngClassValid,O._18(n,51).ngClassInvalid,O._18(n,51).ngClassPending),l(n,69,0,O._18(n,70).required?"":null,O._18(n,74).ngClassUntouched,O._18(n,74).ngClassTouched,O._18(n,74).ngClassPristine,O._18(n,74).ngClassDirty,O._18(n,74).ngClassValid,O._18(n,74).ngClassInvalid,O._18(n,74).ngClassPending),l(n,82,0,!O._18(n,28).form.valid),l(n,90,0,O._18(n,91)._sbPadding),l(n,93,0,!O._18(n,28).form.valid)})}Object.defineProperty(n,"__esModule",{value:!0});var S=u(48),O=u(0),I=u(19),w=u(56),L=u(112),j=u(187),D=(u(268),u(91)),R=u(75),E=u(120),x=u(156),U=u(121),N=u(122),z=u(123),G=u(324),B=u.n(G),H=(u(162),this&&this.__decorate||function(l,n,u,e){var t,a=arguments.length,o=a<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,u):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,u,e);else for(var i=l.length-1;i>=0;i--)(t=l[i])&&(o=(a<3?t(o):a>3?t(n,u,o):t(n,u))||o);return a>3&&o&&Object.defineProperty(n,u,o),o}),V=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},q=function(){return function(){}}(),K=function(){function l(l,n,u,e){this.alertCtrl=l,this.geolocation=n,this.db=u,this.toastCtrl=e;try{this.lista=u.list("/caminho_das_imagens/")}catch(l){console.log(l)}this.foto=new q}return l.prototype.uploadPhoto=function(l){var n=this,u=B.a.storage().ref("/Users/"),e=Math.floor(Date.now()/1e3);u.child(e+".jpg").putString(l,B.a.storage.StringFormat.DATA_URL).then(function(l){n.foto.nome=e.toString(),n.foto.local="ainda a definir",n.foto.url=l.downloadURL,n.lista.push(n.foto);var u=l.bytesTransferred/l.totalBytes*100;n.toastCtrl.create({message:u.toString()+"% done",showCloseButton:!0}).present(),n.foto=new q}).catch(function(l){n.toastCtrl.create({message:l.message,showCloseButton:!0}).present()})},l.prototype.alertaDeUpload=function(){this.alertCtrl.create({title:"Foto enviada com sucesso!!",subTitle:"Imagem foi enviada para o firebase ",buttons:["OK"]}).present()},l}();K=H([Object(O.p)(),V("design:paramtypes",["function"==typeof(W=void 0!==I.a&&I.a)&&W||Object,"function"==typeof($=void 0!==w.a&&w.a)&&$||Object,"function"==typeof(J=void 0!==D.a&&D.a)&&J||Object,"function"==typeof(Z=void 0!==I.b&&I.b)&&Z||Object])],K);var W,$,J,Z,X=this&&this.__decorate||function(l,n,u,e){var t,a=arguments.length,o=a<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,u):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,u,e);else for(var i=l.length-1;i>=0;i--)(t=l[i])&&(o=(a<3?t(o):a>3?t(n,u,o):t(n,u))||o);return a>3&&o&&Object.defineProperty(n,u,o),o},Y=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},Q=function(){function l(l){this.alertCtrl=l}return l.prototype.alertaCodBarras=function(l){this.alertCtrl.create({title:"Código de barras lido!!",subTitle:l,buttons:["OK"]}).present()},l}();Q=X([Object(O.p)(),Y("design:paramtypes",["function"==typeof(ll=void 0!==I.a&&I.a)&&ll||Object])],Q);var ll,nl=function(){function l(l,n,u,e,t){this.camera=l,this.photoPrvd=n,this.bcs=u,this.db=e,this.barcodeprvd=t;try{this.lista=e.list("/caminho_das_imagens/")}catch(l){console.log(l)}}return l.prototype.pickImageFromGallery=function(){var l=this;this.camera.getPicture({destinationType:this.camera.DestinationType.DATA_URL,sourceType:this.camera.PictureSourceType.SAVEDPHOTOALBUM,targetWidth:360,targetHeight:240,saveToPhotoAlbum:!0,correctOrientation:!0,allowEdit:!0}).then(function(n){l.base64Image="data:image/jpeg;base64,"+n,l.photoPrvd.uploadPhoto(l.base64Image)},function(l){console.log(l)})},l.prototype.takePicture=function(){var l=this;this.camera.getPicture({destinationType:this.camera.DestinationType.DATA_URL,sourceType:this.camera.PictureSourceType.CAMERA,encodingType:this.camera.EncodingType.PNG,targetWidth:360,targetHeight:240,saveToPhotoAlbum:!0,correctOrientation:!0,allowEdit:!0}).then(function(n){l.base64Image="data:image/jpeg;base64,"+n,l.photoPrvd.uploadPhoto(l.base64Image)}).catch(function(l){console.log("ERROR -> "+JSON.stringify(l))})},l.prototype.baixarArquivo=function(l){firebase.storage().ref("/Users/").child("images/"+l).getDownloadURL().then(function(l){console.log(l)})},l.prototype.codigoBarras=function(){var l=this;this.bcs.scan().then(function(n){l.barcodeprvd.alertaCodBarras(n.text)},function(l){})},l}(),ul=function(){function l(l,n){this.navCtrl=l,this.geolocation=n,this.loadMap()}return l.prototype.loadMap=function(){var l=this;this.geolocation.getCurrentPosition().then(function(n){var u={center:new google.maps.LatLng(n.coords.latitude,n.coords.longitude),zoom:15,mapTypeId:google.maps.MapTypeId.ROADMAP};l.map=new google.maps.Map(l.mapElement.nativeElement,u)},function(l){console.log(l)})},l.prototype.addMarker=function(){var l=new google.maps.Marker({map:this.map,animation:google.maps.Animation.DROP,position:this.map.getCenter()});this.addInfoWindow(l,"<h4>Information!</h4>")},l.prototype.addInfoWindow=function(l,n){var u=this,e=new google.maps.InfoWindow({content:n});google.maps.event.addListener(l,"click",function(){e.open(u.map,l)})},l}(),el=function(){function l(l,n,u,e){this.navCtrl=l,this.navParams=n,this.angFireAuth=e;try{this.lista=u.list(null!=this.angFireAuth.auth.currentUser?"/itens_usuarios/"+this.angFireAuth.auth.currentUser.uid:"/itens_anonimos")}catch(l){console.log(l)}}return l.prototype.editar=function(){console.log("clicou editar")},l.prototype.excluir=function(l){this.lista.remove(l).then(function(){console.log("Exclui: "+l)})},l}(),tl=u(27),al=u(38),ol=this&&this.__decorate||function(l,n,u,e){var t,a=arguments.length,o=a<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,u):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,u,e);else for(var i=l.length-1;i>=0;i--)(t=l[i])&&(o=(a<3?t(o):a>3?t(n,u,o):t(n,u))||o);return a>3&&o&&Object.defineProperty(n,u,o),o},il=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},_l=function(){function l(l,n,u){this.autenticacaoAF=l,this.facebook=n,this.toastCtrl=u,this.blockLogin=!1}return l.prototype.createUser=function(l){return this.autenticacaoAF.auth.createUserWithEmailAndPassword(l.email,l.password)},l.prototype.signIn=function(l){return this.autenticacaoAF.auth.signInWithEmailAndPassword(l.email,l.password)},l.prototype.signOutFirebase=function(){return this.autenticacaoAF.auth.signOut()},l.prototype.resetPassword=function(l){return this.autenticacaoAF.auth.sendPasswordResetEmail(l)},l.prototype.signInWithFacebook=function(){var l=this;return this.facebook.login(["public_profile","email"]).then(function(n){return l.autenticacaoAF.auth.signInWithCredential(al.auth.FacebookAuthProvider.credential(n.authResponse.accessToken))}).catch(function(n){var u=l.toastCtrl.create({duration:3e3,position:"top"});u.setMessage(n),u.present()})},l.prototype.signOut=function(){var l=this;if(this.autenticacaoAF.auth.currentUser.providerData.length)for(var n=0;n<this.autenticacaoAF.auth.currentUser.providerData.length;n++)if(this.autenticacaoAF.auth.currentUser.providerData[n].providerId==al.auth.FacebookAuthProvider.PROVIDER_ID)return this.facebook.logout().then(function(){return l.signOutFirebase()});return this.signOutFirebase()},l.prototype.deleteAccount=function(){try{return this.autenticacaoAF.auth.currentUser.delete()}catch(l){console.log(JSON.stringify(l))}},l}();_l=ol([Object(O.p)(),il("design:paramtypes",["function"==typeof(rl=void 0!==R.a&&R.a)&&rl||Object,"function"==typeof(sl=void 0!==x.a&&x.a)&&sl||Object,"function"==typeof(cl=void 0!==I.b&&I.b)&&cl||Object])],_l);var rl,sl,cl,dl=function(){return function(){}}(),hl=function(){function l(l,n,u,e,t){this.navCtrl=l,this.navParams=n,this.authService=u,this.toastCtrl=e,this.carregarCtrl=t,this.user=new dl}return l.prototype.criarConta=function(){var l=this,n=this.carregarCtrl.create({content:"Criando conta...",duration:1500});-1==this.user.email.indexOf("@")&&(this.user.email=this.user.email+"@uft.edu.br"),this.authService.createUser(this.user).then(function(){n.present(),l.navCtrl.setRoot(nl)}).catch(function(n){var u=l.toastCtrl.create({duration:3e3,position:"bottom"});"auth/invalid-email"==n.code?u.setMessage("O e-mail digitado não é valido."):"auth/user-disabled"==n.code?u.setMessage("O usuário está desativado."):"auth/user-not-found"==n.code?u.setMessage("O usuário não foi encontrado."):"auth/wrong-password"==n.code?u.setMessage("A senha digitada não é valida."):"auth/email-already-in-use"==n.code&&u.setMessage("Usuário já existe."),u.present()})},l}(),gl=function(){return function(){}}(),pl=function(){function l(l,n,u,e,t,a){this.navCtrl=l,this.navParams=n,this.toastCtrl=u,this.authService=e,this.carregarCtrl=t,this.angFireAuth=a,this.user=new gl}return l.prototype.signIn=function(){var l=this,n=this.carregarCtrl.create({content:"Entrando...",duration:500});-1==this.user.email.indexOf("@")&&(this.user.email=this.user.email+"@uft.edu.br"),this.form.form.valid&&this.authService.signIn(this.user).then(function(){n.present(),l.authService.blockLogin=!0,l.navCtrl.setRoot(nl)}).catch(function(n){var u=l.toastCtrl.create({duration:3e3,position:"bottom"});"auth/invalid-email"==n.code?u.setMessage("O e-mail digitado não é valido."):"auth/user-disabled"==n.code?u.setMessage("O usuário está desativado."):"auth/user-not-found"==n.code?u.setMessage("O usuário não foi encontrado."):"auth/wrong-password"==n.code&&u.setMessage("A senha digitada não é valida."),u.present()})},l.prototype.resetarSenha=function(){var l=this;if(this.form.form.valid){var n=this.toastCtrl.create({duration:3e3,position:"bottom"});this.authService.resetPassword(this.user.email).then(function(){n.setMessage("Solicitação foi enviada para o seu e-mail."),n.present(),l.navCtrl.pop()}).catch(function(l){"auth/invalid-email"==l.code?n.setMessage("O e-mail digitado não é valido."):"auth/user-not-found"==l.code&&n.setMessage("O usuário não foi encontrado."),n.present()})}},l}(),bl=function(){return function(){}}(),ml=function(){function l(l,n,u,e,t,a,o,i,_){var r=this;this.navCtrl=l,this.navParams=n,this.toastCtrl=u,this.alertCtrl=e,this.angFireAuth=t,this.authService=a,this.carregarCtrl=o,this.geolocation=i,this.geocoder=_,this.user=new bl,this.versao="FREE",this.localizacao="",this.areaAdm=" - ";try{null==this.angFireAuth.auth.currentUser?(this.logado=!1,this.naologado=!0):(this.nome=this.angFireAuth.auth.currentUser.displayName,this.email=this.angFireAuth.auth.currentUser.email,this.logado=!0,this.naologado=!1)}catch(l){console.log(l)}this.geolocation.getCurrentPosition().then(function(l){r.geocoder.reverseGeocode(l.coords.latitude,l.coords.longitude).then(function(l){console.log(JSON.stringify(l)),r.localizacao=l.locality.toLocaleUpperCase(),r.areaAdm+=l.administrativeArea.toLocaleUpperCase()}).catch(function(l){console.log(l),r.toastCtrl.create({duration:3e3,message:r.localizacao}).present()})}).catch(function(l){r.toastCtrl.create({message:l,duration:3e3}).present(),console.log("Error getting location",l)})}return l.prototype.signIn=function(){var l=this,n=this.carregarCtrl.create({content:"Entrando...",duration:500});-1==this.user.email.indexOf("@")&&(this.user.email=this.user.email+"@uft.edu.br"),this.form.form.valid&&this.authService.signIn(this.user).then(function(){n.present(),l.authService.blockLogin=!0,l.navCtrl.setRoot(nl)}).catch(function(n){var u=l.toastCtrl.create({duration:3e3,position:"bottom"});"auth/invalid-email"==n.code?u.setMessage("O e-mail digitado não é valido."):"auth/user-disabled"==n.code?u.setMessage("O usuário está desativado."):"auth/user-not-found"==n.code?u.setMessage("O usuário não foi encontrado."):"auth/wrong-password"==n.code&&u.setMessage("A senha digitada não é valida."),u.present()})},l.prototype.signOut=function(){var l=this.carregarCtrl.create({content:"Saindo...",duration:500});this.authService.signOutFirebase(),l.present(),this.navCtrl.setRoot(nl)},l.prototype.openPage=function(){this.navCtrl.push(hl)},l.prototype.signInWithFacebook=function(){this.authService.signInWithFacebook(),this.navCtrl.setRoot(nl)},l.prototype.abrirPaginaLogin=function(){this.navCtrl.push(pl)},l.prototype.deletarConta=function(){var l=this,n=this.toastCtrl.create({duration:3e3,message:"Conta excluída com sucesso!"});this.alertCtrl.create({title:"Você está certo disso?",subTitle:"Você está prestes a excluir sua conta",buttons:[{text:"Cancelar"},{text:"Excluir",handler:function(){l.authService.deleteAccount().catch(function(l){console.log(l)}),n.present(),l.navCtrl.setRoot(nl)}}]}).present()},l}(),fl=function(){return function(){this.produtos=new Array}}(),kl=function(){function l(l,n,u,e,t,a){this.alertCtrl=l,this.db=n,this.navCtrl=e,this.modalCtrl=t,this.angFireAuth=a;try{null!=this.angFireAuth.auth.currentUser?this.lista=n.list("/itens_usuarios/"+this.angFireAuth.auth.currentUser.uid):(this.lista=n.list("/itens_anonimos"),this.alerta())}catch(l){console.log(l)}this.itens=new fl}return l.prototype.alerta=function(){var l=this;this.alertCtrl.create({title:"Voce não está logado. Por favor, faça login.",message:"Se você não logar, suas listas serão criadas em uma pasta onde todos tem acesso",buttons:[{text:"Fazer login",handler:function(){l.navCtrl.push(ml)}},{text:"Ok"}]}).present()},l.prototype.cadastrar1=function(l){var n=this;this.arroz&&this.itens.produtos.push("arroz"),this.feijao&&this.itens.produtos.push("feijão"),this.oleo&&this.itens.produtos.push("óleo"),this.acucar&&this.itens.produtos.push("açúcar"),this.sal&&this.itens.produtos.push("sal"),this.cafe&&this.itens.produtos.push("café"),this.leiteempo&&this.itens.produtos.push("leite em pó"),this.macarrao&&this.itens.produtos.push("macarrão"),this.extratoTomate&&this.itens.produtos.push("extrato de tomate"),this.tempero&&this.itens.produtos.push("tempero completo"),this.achocolatado&&this.itens.produtos.push("Achocolatado em pó"),this.molhoTomate&&this.itens.produtos.push("molho de tomate"),this.farinhaTrigo&&this.itens.produtos.push("farinha de trigo"),this.gelatina&&this.itens.produtos.push("gelatina"),this.biscoito&&this.itens.produtos.push("biscoito"),this.milho&&this.itens.produtos.push("milho verde"),this.itens.nome=l,this.lista.push(this.itens).then(function(){n.itens=new fl}),this.arroz=!1,this.feijao=!1,this.oleo=!1,this.acucar=!1,this.cafe=!1,this.leiteempo=!1,this.sal=!1,this.macarrao=!1,this.extratoTomate=!1,this.tempero=!1,this.achocolatado=!1,this.molhoTomate=!1,this.farinhaTrigo=!1,this.gelatina=!1,this.biscoito=!1,this.milho=!1},l.prototype.cadastrar=function(){var l,n=this;this.alertCtrl.create({title:"Nova lista de compras",message:"Digite o nome da sua lista de compras",inputs:[{name:"title",placeholder:"Nome"}],buttons:[{text:"Cancelar",handler:function(n){l=null,console.log("Cancel clicked")}},{text:"Salvar",handler:function(u){console.log("Save clicked"),l=u.title,n.cadastrar1(l)}}]}).present()},l.prototype.obterValor=function(l){console.log("era pra abrir as listas salvas!!!!!"),this.navCtrl.push(el)},l}(),Cl=function(){function l(l,n,u){this.platform=l,this.statusBar=n,this.splashScreen=u,this.rootPage=nl,this.initializeApp(),this.pages=[{title:"Login",component:ml},{title:"Home",component:nl},{title:"Mapa",component:ul},{title:"Lista de compras",component:kl}]}return l.prototype.initializeApp=function(){var l=this;this.platform.ready().then(function(){l.statusBar.overlaysWebView(!0),l.statusBar.backgroundColorByHexString("#cc6908"),l.splashScreen.hide()})},l.prototype.openPage=function(l){this.nav.setRoot(l.component)},l}(),yl=function(){return function(){}}(),vl=u(14),Fl=u(184),Pl=u(8),Ml=u(17),Al=u(7),Tl=u(11),Sl=u(139),Ol=u(185),Il=u(90),wl=u(226),Ll=u(144),jl=u(84),Dl=u(141),Rl=u(20),El=u(108),xl=u(22),Ul=u(69),Nl=u(107),zl=u(140),Gl=u(70),Bl=u(51),Hl=u(63),Vl=u(347),ql=u(348),Kl=u(349),Wl=u(350),$l=u(351),Jl=u(77),Zl=u(28),Xl=u(1),Yl=u(36),Ql=u(43),ln=u(138),nn=u(352),un=u(104),en=u(3),tn=u(55),an=u(37),on=u(6),_n=u(163),rn=u(24),sn=u(46),cn=u(34),dn=u(23),hn=u(47),gn=u(21),pn=u(18),bn=u(88),mn=u(353),fn=u(89),kn=u(40),Cn=[],yn=O._3({encapsulation:2,styles:Cn,data:{}}),vn=O._2("ng-component",Cl,function(l){return O._27(0,[(l()(),O._5(0,null,null,1,"ng-component",[],null,null,null,t,yn)),O._4(49152,null,0,Cl,[en.a,U.a,N.a],null,null)],null,null)},{},{},[]),Fn=u(85),Pn=u(98),Mn=u(137),An=u(29),Tn=u(65),Sn=u(35),On=u(15),In=u(44),wn=u(45),Ln=u(237),jn=u(86),Dn=u(238),Rn=u(54),En=u(102),xn=u(71),Un=[],Nn=O._3({encapsulation:2,styles:Un,data:{}}),zn=O._2("page-home",nl,function(l){return O._27(0,[(l()(),O._5(0,null,null,1,"page-home",[],null,null,null,o,Nn)),O._4(49152,null,0,nl,[L.a,K,E.a,xn.a,Q],null,null)],null,null)},{},{},[]),Gn=[],Bn=O._3({encapsulation:2,styles:Gn,data:{}}),Hn=O._2("mapa-page",ul,function(l){return O._27(0,[(l()(),O._5(0,null,null,1,"mapa-page",[],null,null,null,i,Bn)),O._4(49152,null,0,ul,[pn.a,w.a],null,null)],null,null)},{},{},[]),Vn=u(53),qn=u(354),Kn=u(100),Wn=u(16),$n=[],Jn=O._3({encapsulation:2,styles:$n,data:{}}),Zn=O._2("page-lista",kl,function(l){return O._27(0,[(l()(),O._5(0,null,null,1,"page-lista",[],null,null,null,_,Jn)),O._4(49152,null,0,kl,[jl.a,xn.a,Wn.a,pn.a,Nl.a,Hl.a],null,null)],null,null)},{},{},[]),Xn=u(99),Yn=u(136),Qn=[],lu=O._3({encapsulation:2,styles:Qn,data:{}}),nu=O._2("page-listassalvas",el,function(l){return O._27(0,[(l()(),O._5(0,null,null,1,"page-listassalvas",[],null,null,null,s,lu)),O._4(49152,null,0,el,[pn.a,Wn.a,xn.a,Hl.a],null,null)],null,null)},{},{},[]),uu=u(111),eu=[],tu=O._3({encapsulation:2,styles:eu,data:{}}),au=O._2("page-autenticacao",ml,function(l){return O._27(0,[(l()(),O._5(0,null,null,1,"page-autenticacao",[],null,null,null,k,tu)),O._4(49152,null,0,ml,[pn.a,Wn.a,Gl.a,jl.a,Hl.a,_l,Ul.a,w.a,z.a],null,null)],null,null)},{},{},[]),ou=u(239),iu=u(87),_u=[],ru=O._3({encapsulation:2,styles:_u,data:{}}),su=O._2("page-criarconta",hl,function(l){return O._27(0,[(l()(),O._5(0,null,null,1,"page-criarconta",[],null,null,null,P,ru)),O._4(49152,null,0,hl,[pn.a,Wn.a,_l,Gl.a,Ul.a],null,null)],null,null)},{},{},[]),cu=[],du=O._3({encapsulation:2,styles:cu,data:{}}),hu=O._2("page-login",pl,function(l){return O._27(0,[(l()(),O._5(0,null,null,1,"page-login",[],null,null,null,T,du)),O._4(49152,null,0,pl,[pn.a,Wn.a,Gl.a,_l,Ul.a,Hl.a],null,null)],null,null)},{},{},[]),gu=u(189),pu=u(95),bu=u(188),mu=u(142),fu=u(106),ku=u(143),Cu=u(80),yu=this&&this.__extends||function(){var l=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var u in n)n.hasOwnProperty(u)&&(l[u]=n[u])};return function(n,u){function e(){this.constructor=n}l(n,u),n.prototype=null===u?Object.create(u):(e.prototype=u.prototype,new e)}}(),vu=function(l){function n(n){return l.call(this,n,[Vl.a,ql.a,Kl.a,Wl.a,$l.a,vn,zn,Hn,Zn,nu,au,su,hu],[ql.a])||this}return yu(n,l),Object.defineProperty(n.prototype,"_LOCALE_ID_28",{get:function(){return null==this.__LOCALE_ID_28&&(this.__LOCALE_ID_28=O._16(this.parent.get(O.u,null))),this.__LOCALE_ID_28},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_NgLocalization_29",{get:function(){return null==this.__NgLocalization_29&&(this.__NgLocalization_29=new vl.j(this._LOCALE_ID_28)),this.__NgLocalization_29},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_APP_ID_30",{get:function(){return null==this.__APP_ID_30&&(this.__APP_ID_30=O._7()),this.__APP_ID_30},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_IterableDiffers_31",{get:function(){return null==this.__IterableDiffers_31&&(this.__IterableDiffers_31=O._13()),this.__IterableDiffers_31},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_KeyValueDiffers_32",{get:function(){return null==this.__KeyValueDiffers_32&&(this.__KeyValueDiffers_32=O._15()),this.__KeyValueDiffers_32},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_DomSanitizer_33",{get:function(){return null==this.__DomSanitizer_33&&(this.__DomSanitizer_33=new S.s(this.parent.get(S.b))),this.__DomSanitizer_33},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Sanitizer_34",{get:function(){return null==this.__Sanitizer_34&&(this.__Sanitizer_34=this._DomSanitizer_33),this.__Sanitizer_34},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_HAMMER_GESTURE_CONFIG_35",{get:function(){return null==this.__HAMMER_GESTURE_CONFIG_35&&(this.__HAMMER_GESTURE_CONFIG_35=new Ll.a),this.__HAMMER_GESTURE_CONFIG_35},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_EVENT_MANAGER_PLUGINS_36",{get:function(){return null==this.__EVENT_MANAGER_PLUGINS_36&&(this.__EVENT_MANAGER_PLUGINS_36=[new S.l(this.parent.get(S.b)),new S.p(this.parent.get(S.b)),new S.o(this.parent.get(S.b),this._HAMMER_GESTURE_CONFIG_35)]),this.__EVENT_MANAGER_PLUGINS_36},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_EventManager_37",{get:function(){return null==this.__EventManager_37&&(this.__EventManager_37=new S.e(this._EVENT_MANAGER_PLUGINS_36,this.parent.get(O.z))),this.__EventManager_37},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵDomSharedStylesHost_38",{get:function(){return null==this.__ɵDomSharedStylesHost_38&&(this.__ɵDomSharedStylesHost_38=new S.n(this.parent.get(S.b))),this.__ɵDomSharedStylesHost_38},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵDomRendererFactory2_39",{get:function(){return null==this.__ɵDomRendererFactory2_39&&(this.__ɵDomRendererFactory2_39=new S.m(this._EventManager_37,this._ɵDomSharedStylesHost_38)),this.__ɵDomRendererFactory2_39},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_RendererFactory2_40",{get:function(){return null==this.__RendererFactory2_40&&(this.__RendererFactory2_40=this._ɵDomRendererFactory2_39),this.__RendererFactory2_40},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵSharedStylesHost_41",{get:function(){return null==this.__ɵSharedStylesHost_41&&(this.__ɵSharedStylesHost_41=this._ɵDomSharedStylesHost_38),this.__ɵSharedStylesHost_41},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Testability_42",{get:function(){return null==this.__Testability_42&&(this.__Testability_42=new O.N(this.parent.get(O.z))),this.__Testability_42},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Meta_43",{get:function(){return null==this.__Meta_43&&(this.__Meta_43=new S.h(this.parent.get(S.b))),this.__Meta_43},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Title_44",{get:function(){return null==this.__Title_44&&(this.__Title_44=new S.j(this.parent.get(S.b))),this.__Title_44},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_45",{get:function(){return null==this.__ɵi_45&&(this.__ɵi_45=new tl.q),this.__ɵi_45},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_46",{get:function(){return null==this.__FormBuilder_46&&(this.__FormBuilder_46=new tl.d),this.__FormBuilder_46},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FirebaseApp_49",{get:function(){return null==this.__FirebaseApp_49&&(this.__FirebaseApp_49=gu.c(this._FirebaseAppConfigToken_47,this._FirebaseAppName_48)),this.__FirebaseApp_49},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_AngularFireDatabase_50",{get:function(){return null==this.__AngularFireDatabase_50&&(this.__AngularFireDatabase_50=wl.b(this._FirebaseApp_49)),this.__AngularFireDatabase_50},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_AlertController_54",{get:function(){return null==this.__AlertController_54&&(this.__AlertController_54=new jl.a(this._App_8,this._Config_5)),this.__AlertController_54},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Events_55",{get:function(){return null==this.__Events_55&&(this.__Events_55=new Dl.a),this.__Events_55},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Form_56",{get:function(){return null==this.__Form_56&&(this.__Form_56=new Rl.a),this.__Form_56},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Haptic_57",{get:function(){return null==this.__Haptic_57&&(this.__Haptic_57=new El.a(this._Platform_4)),this.__Haptic_57},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Keyboard_58",{get:function(){return null==this.__Keyboard_58&&(this.__Keyboard_58=new xl.a(this._Config_5,this._Platform_4,this.parent.get(O.z),this._DomController_6)),this.__Keyboard_58},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_LoadingController_59",{get:function(){return null==this.__LoadingController_59&&(this.__LoadingController_59=new Ul.a(this._App_8,this._Config_5)),this.__LoadingController_59},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_LocationStrategy_60",{get:function(){return null==this.__LocationStrategy_60&&(this.__LocationStrategy_60=Ol.b(this.parent.get(vl.q),this._APP_BASE_HREF_52,this._Config_5)),this.__LocationStrategy_60},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Location_61",{get:function(){return null==this.__Location_61&&(this.__Location_61=new vl.e(this._LocationStrategy_60)),this.__Location_61},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_UrlSerializer_62",{get:function(){return null==this.__UrlSerializer_62&&(this.__UrlSerializer_62=pu.d(this._App_8,this._DeepLinkConfigToken_10)),this.__UrlSerializer_62},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_DeepLinker_63",{get:function(){return null==this.__DeepLinker_63&&(this.__DeepLinker_63=kn.b(this._App_8,this._UrlSerializer_62,this._Location_61,this._ModuleLoader_13,this.componentFactoryResolver)),this.__DeepLinker_63},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ModalController_64",{get:function(){return null==this.__ModalController_64&&(this.__ModalController_64=new Nl.a(this._App_8,this._Config_5,this._DeepLinker_63)),this.__ModalController_64},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_TapClick_67",{get:function(){return null==this.__TapClick_67&&(this.__TapClick_67=new zl.a(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this._GestureController_9)),this.__TapClick_67},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ToastController_68",{get:function(){return null==this.__ToastController_68&&(this.__ToastController_68=new Gl.a(this._App_8,this._Config_5)),this.__ToastController_68},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_TransitionController_69",{get:function(){return null==this.__TransitionController_69&&(this.__TransitionController_69=new Bl.a(this._Platform_4,this._Config_5)),this.__TransitionController_69},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Storage_71",{get:function(){return null==this.__Storage_71&&(this.__Storage_71=bu.c(this._StorageConfigToken_70)),this.__Storage_71},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_StatusBar_72",{get:function(){return null==this.__StatusBar_72&&(this.__StatusBar_72=new U.a),this.__StatusBar_72},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_SplashScreen_73",{get:function(){return null==this.__SplashScreen_73&&(this.__SplashScreen_73=new N.a),this.__SplashScreen_73},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Geolocation_74",{get:function(){return null==this.__Geolocation_74&&(this.__Geolocation_74=new w.a),this.__Geolocation_74},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Camera_75",{get:function(){return null==this.__Camera_75&&(this.__Camera_75=new L.a),this.__Camera_75},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_BarcodeScanner_76",{get:function(){return null==this.__BarcodeScanner_76&&(this.__BarcodeScanner_76=new E.a),this.__BarcodeScanner_76},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Facebook_77",{get:function(){return null==this.__Facebook_77&&(this.__Facebook_77=new x.a),this.__Facebook_77},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_NativeGeocoder_78",{get:function(){return null==this.__NativeGeocoder_78&&(this.__NativeGeocoder_78=new z.a),this.__NativeGeocoder_78},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_AngularFireAuth_79",{get:function(){return null==this.__AngularFireAuth_79&&(this.__AngularFireAuth_79=new Hl.a(this._FirebaseApp_49)),this.__AngularFireAuth_79},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_PhotoProvider_80",{get:function(){return null==this.__PhotoProvider_80&&(this.__PhotoProvider_80=new K(this._AlertController_54,this._Geolocation_74,this._AngularFireDatabase_50,this._ToastController_68)),this.__PhotoProvider_80},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_AuthProvider_81",{get:function(){return null==this.__AuthProvider_81&&(this.__AuthProvider_81=new _l(this._AngularFireAuth_79,this._Facebook_77,this._ToastController_68)),this.__AuthProvider_81},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_BarcodeProvider_82",{get:function(){return null==this.__BarcodeProvider_82&&(this.__BarcodeProvider_82=new Q(this._AlertController_54)),this.__BarcodeProvider_82},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new vl.c,this._ErrorHandler_1=new Fl.a,this._ConfigToken_2=null,this._PlatformConfigToken_3=mu.b(),this._Platform_4=en.b(this.parent.get(S.b),this._PlatformConfigToken_3,this.parent.get(O.z)),this._Config_5=Xl.c(this._ConfigToken_2,this._Platform_4),this._DomController_6=new Pl.a(this._Platform_4),this._MenuController_7=new Ml.a,this._App_8=new Al.a(this._Config_5,this._Platform_4,this._MenuController_7),this._GestureController_9=new Tl.h(this._App_8),this._DeepLinkConfigToken_10=null,this._Compiler_11=new O.i,this._NgModuleLoader_12=new Sl.a(this._Compiler_11),this._ModuleLoader_13=fu.c(this._NgModuleLoader_12,this),this._APP_INITIALIZER_14=[O._19,S.r(this.parent.get(S.i,null),this.parent.get(O.y,null)),ku.a(this._Config_5),Dl.b(this._Platform_4,this._DomController_6),zl.b(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this._GestureController_9),fu.d(this._Config_5,this._DeepLinkConfigToken_10,this._ModuleLoader_13,this.parent.get(O.z))],this._ApplicationInitStatus_15=new O.d(this._APP_INITIALIZER_14),this._ɵf_16=new O._6(this.parent.get(O.z),this.parent.get(O.Z),this,this._ErrorHandler_1,this.componentFactoryResolver,this._ApplicationInitStatus_15),this._ApplicationRef_17=this._ɵf_16,this._ApplicationModule_18=new O.e(this._ApplicationRef_17),this._BrowserModule_19=new S.a(this.parent.get(S.a,null)),this._ɵba_20=new tl.o,this._FormsModule_21=new tl.e,this._ReactiveFormsModule_22=new tl.m,this._IonicModule_23=new Ol.a,this._IonicStorageModule_24=new j.a,this._AngularFireModule_25=new Il.a,this._AngularFireDatabaseModule_26=new wl.a,this._AppModule_27=new yl,this._FirebaseAppConfigToken_47={apiKey:"AIzaSyDgf-dUG_gcr608Jpm1m1p_zs2vzP2JizY",authDomain:"previa-1.firebaseapp.com",databaseURL:"https://previa-1.firebaseio.com",projectId:"previa-1",storageBucket:"previa-1.appspot.com",messagingSenderId:"816587470633"},this._FirebaseAppName_48=void 0,this._AppRootToken_51=Cl,this._APP_BASE_HREF_52="/",this._StorageConfigToken_70=null,this._AppModule_27},n.prototype.getInternal=function(l,n){return l===vl.c?this._CommonModule_0:l===O.l?this._ErrorHandler_1:l===Xl.b?this._ConfigToken_2:l===mu.a?this._PlatformConfigToken_3:l===en.a?this._Platform_4:l===Xl.a?this._Config_5:l===Pl.a?this._DomController_6:l===Ml.a?this._MenuController_7:l===Al.a?this._App_8:l===Tl.h?this._GestureController_9:l===pu.a?this._DeepLinkConfigToken_10:l===O.i?this._Compiler_11:l===Sl.a?this._NgModuleLoader_12:l===fu.b?this._ModuleLoader_13:l===O.c?this._APP_INITIALIZER_14:l===O.d?this._ApplicationInitStatus_15:l===O._6?this._ɵf_16:l===O.f?this._ApplicationRef_17:l===O.e?this._ApplicationModule_18:l===S.a?this._BrowserModule_19:l===tl.o?this._ɵba_20:l===tl.e?this._FormsModule_21:l===tl.m?this._ReactiveFormsModule_22:l===Ol.a?this._IonicModule_23:l===j.a?this._IonicStorageModule_24:l===Il.a?this._AngularFireModule_25:l===wl.a?this._AngularFireDatabaseModule_26:l===yl?this._AppModule_27:l===O.u?this._LOCALE_ID_28:l===vl.k?this._NgLocalization_29:l===O.b?this._APP_ID_30:l===O.s?this._IterableDiffers_31:l===O.t?this._KeyValueDiffers_32:l===S.c?this._DomSanitizer_33:l===O.I?this._Sanitizer_34:l===S.f?this._HAMMER_GESTURE_CONFIG_35:l===S.d?this._EVENT_MANAGER_PLUGINS_36:l===S.e?this._EventManager_37:l===S.n?this._ɵDomSharedStylesHost_38:l===S.m?this._ɵDomRendererFactory2_39:l===O.G?this._RendererFactory2_40:l===S.q?this._ɵSharedStylesHost_41:l===O.N?this._Testability_42:l===S.h?this._Meta_43:l===S.j?this._Title_44:l===tl.q?this._ɵi_45:l===tl.d?this._FormBuilder_46:l===gu.b?this._FirebaseAppConfigToken_47:l===Il.c?this._FirebaseAppName_48:l===gu.a?this._FirebaseApp_49:l===xn.a?this._AngularFireDatabase_50:l===Cu.a?this._AppRootToken_51:l===vl.a?this._APP_BASE_HREF_52:l===jl.a?this._AlertController_54:l===Dl.a?this._Events_55:l===Rl.a?this._Form_56:l===El.a?this._Haptic_57:l===xl.a?this._Keyboard_58:l===Ul.a?this._LoadingController_59:l===vl.f?this._LocationStrategy_60:l===vl.e?this._Location_61:l===pu.b?this._UrlSerializer_62:l===kn.a?this._DeepLinker_63:l===Nl.a?this._ModalController_64:l===zl.a?this._TapClick_67:l===Gl.a?this._ToastController_68:l===Bl.a?this._TransitionController_69:l===bu.b?this._StorageConfigToken_70:l===bu.a?this._Storage_71:l===U.a?this._StatusBar_72:l===N.a?this._SplashScreen_73:l===w.a?this._Geolocation_74:l===L.a?this._Camera_75:l===E.a?this._BarcodeScanner_76:l===x.a?this._Facebook_77:l===z.a?this._NativeGeocoder_78:l===Hl.a?this._AngularFireAuth_79:l===K?this._PhotoProvider_80:l===_l?this._AuthProvider_81:l===Q?this._BarcodeProvider_82:n},n.prototype.destroyInternal=function(){this._ɵf_16.ngOnDestroy(),this.__ɵDomSharedStylesHost_38&&this._ɵDomSharedStylesHost_38.ngOnDestroy()},n}(O._0),Fu=new O.w(vu,yl);Object(O.T)(),Object(S.k)().bootstrapModuleFactory(Fu)}},[240]);
+webpackJsonp([0],{
+
+/***/ 153:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export Foto */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PhotoProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_firebase__ = __webpack_require__(441);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_firebase__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_geolocation__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2_database__ = __webpack_require__(65);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var Foto = (function () {
+    function Foto() {
+    }
+    return Foto;
+}());
+
+var PhotoProvider = (function () {
+    function PhotoProvider(alertCtrl, geolocation, db, toastCtrl) {
+        this.alertCtrl = alertCtrl;
+        this.geolocation = geolocation;
+        this.db = db;
+        this.toastCtrl = toastCtrl;
+        try {
+            this.lista = db.list('/caminho_das_imagens/');
+        }
+        catch (error) {
+            console.log(error);
+        }
+        this.foto = new Foto;
+    }
+    PhotoProvider.prototype.uploadPhoto = function (captureDataUrl) {
+        var _this = this;
+        var storageRef = __WEBPACK_IMPORTED_MODULE_1_firebase___default.a.storage().ref('/Users/');
+        var filename = Math.floor(Date.now() / 1000);
+        var uploadTask = storageRef.child(filename + ".jpg");
+        uploadTask.putString(captureDataUrl, __WEBPACK_IMPORTED_MODULE_1_firebase___default.a.storage.StringFormat.DATA_URL)
+            .then(function (snapshot) {
+            _this.foto.nome = filename.toString();
+            _this.foto.local = "ainda a definir";
+            _this.foto.url = snapshot.downloadURL;
+            _this.lista.push(_this.foto);
+            var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+            var toast = _this.toastCtrl.create({
+                message: progress.toString() + '% done',
+                showCloseButton: true
+            });
+            toast.present();
+            _this.foto = new Foto;
+        })
+            .catch(function (erro) {
+            var toast = _this.toastCtrl.create({
+                message: erro.message,
+                showCloseButton: true
+            });
+            toast.present();
+        });
+    };
+    PhotoProvider.prototype.alertaDeUpload = function () {
+        var alert = this.alertCtrl.create({
+            title: 'Foto enviada com sucesso!!',
+            subTitle: 'Imagem foi enviada para o firebase ',
+            buttons: ['OK']
+        });
+        alert.present();
+    };
+    return PhotoProvider;
+}());
+PhotoProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* AlertController */],
+        __WEBPACK_IMPORTED_MODULE_4__ionic_native_geolocation__["a" /* Geolocation */],
+        __WEBPACK_IMPORTED_MODULE_5_angularfire2_database__["a" /* AngularFireDatabase */],
+        __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["k" /* ToastController */]])
+], PhotoProvider);
+
+//# sourceMappingURL=photo.js.map
+
+/***/ }),
+
+/***/ 160:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export User */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AutenticacaoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__criarconta_criarconta__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__login_login__ = __webpack_require__(310);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_native_geocoder__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_geolocation__ = __webpack_require__(80);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+var User = (function () {
+    function User() {
+    }
+    return User;
+}());
+
+var AutenticacaoPage = (function () {
+    function AutenticacaoPage(navCtrl, navParams, toastCtrl, alertCtrl, angFireAuth, authService, carregarCtrl, geolocation, geocoder) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.toastCtrl = toastCtrl;
+        this.alertCtrl = alertCtrl;
+        this.angFireAuth = angFireAuth;
+        this.authService = authService;
+        this.carregarCtrl = carregarCtrl;
+        this.geolocation = geolocation;
+        this.geocoder = geocoder;
+        this.user = new User();
+        this.versao = "FREE";
+        this.localizacao = "";
+        this.areaAdm = " - ";
+        try {
+            if (this.angFireAuth.auth.currentUser == null) {
+                this.logado = false;
+                this.naologado = true;
+            }
+            else {
+                this.nome = this.angFireAuth.auth.currentUser.displayName;
+                this.email = this.angFireAuth.auth.currentUser.email;
+                this.logado = true;
+                this.naologado = false;
+            }
+        }
+        catch (error) {
+            console.log(error);
+        }
+        this.geolocation.getCurrentPosition().then(function (resp) {
+            _this.geocoder.reverseGeocode(resp.coords.latitude, resp.coords.longitude)
+                .then(function (result) {
+                console.log(JSON.stringify(result));
+                _this.localizacao = result.locality.toLocaleUpperCase();
+                _this.areaAdm += result.administrativeArea.toLocaleUpperCase();
+            })
+                .catch(function (error) {
+                console.log(error);
+                var toast = _this.toastCtrl.create({ duration: 3000, message: _this.localizacao });
+                toast.present();
+            });
+        }).catch(function (error) {
+            var toast = _this.toastCtrl.create({ message: error, duration: 3000 });
+            toast.present();
+            console.log('Error getting location', error);
+        });
+    }
+    AutenticacaoPage.prototype.signIn = function () {
+        var _this = this;
+        var carregando = this.carregarCtrl.create({
+            content: "Entrando...",
+            duration: 500
+        });
+        if (this.user.email.indexOf('@') == -1)
+            this.user.email = this.user.email + '@uft.edu.br';
+        if (this.form.form.valid) {
+            this.authService.signIn(this.user)
+                .then(function () {
+                carregando.present(); // CARREGANDO
+                _this.authService.blockLogin = true; // bloqueia a página de login
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__home_home__["a" /* HomePage */]); // entra na pagina Home
+            })
+                .catch(function (error) {
+                var toast = _this.toastCtrl.create({ duration: 3000, position: 'bottom' });
+                if (error.code == 'auth/invalid-email') {
+                    toast.setMessage('O e-mail digitado não é valido.');
+                }
+                else if (error.code == 'auth/user-disabled') {
+                    toast.setMessage('O usuário está desativado.');
+                }
+                else if (error.code == 'auth/user-not-found') {
+                    toast.setMessage('O usuário não foi encontrado.');
+                }
+                else if (error.code == 'auth/wrong-password') {
+                    toast.setMessage('A senha digitada não é valida.');
+                }
+                toast.present();
+            });
+        }
+    };
+    AutenticacaoPage.prototype.signOut = function () {
+        var carregando = this.carregarCtrl.create({
+            content: "Saindo...",
+            duration: 500
+        });
+        this.authService.signOutFirebase();
+        carregando.present();
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__home_home__["a" /* HomePage */]);
+    };
+    AutenticacaoPage.prototype.openPage = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__criarconta_criarconta__["a" /* CriarContaPage */]);
+    };
+    AutenticacaoPage.prototype.signInWithFacebook = function () {
+        this.authService.signInWithFacebook();
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__home_home__["a" /* HomePage */]);
+    };
+    AutenticacaoPage.prototype.abrirPaginaLogin = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__login_login__["a" /* LoginPage */]);
+    };
+    AutenticacaoPage.prototype.deletarConta = function () {
+        var _this = this;
+        var toast = this.toastCtrl.create({
+            duration: 3000,
+            message: 'Conta excluída com sucesso!'
+        });
+        var alert = this.alertCtrl.create({
+            title: 'Você está certo disso?',
+            subTitle: 'Você está prestes a excluir sua conta',
+            buttons: [
+                {
+                    text: 'Cancelar',
+                },
+                {
+                    text: 'Excluir',
+                    handler: function () {
+                        _this.authService.deleteAccount().
+                            catch(function (err) {
+                            console.log(err);
+                        });
+                        toast.present();
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__home_home__["a" /* HomePage */]);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    return AutenticacaoPage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('form'),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* NgForm */])
+], AutenticacaoPage.prototype, "form", void 0);
+AutenticacaoPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-autenticacao',template:/*ion-inline-start:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/autenticacao/autenticacao.html"*/'<ion-header>\n    <ion-navbar color="laranja">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>\n            Login\n        </ion-title>\n        <ion-buttons end>\n            <button ion-button (click)="signOut()" *ngIf="logado">sair</button>\n        </ion-buttons>\n    </ion-navbar>\n\n</ion-header>\n\n\n\n  \n  \n<ion-content padding>\n\n    <button ion-button (click)="signInWithFacebook()" block color="facebook" *ngIf="naologado">\n        FACEBOOK\n    </button>\n\n    <br *ngIf="naologado">\n\n  \n    <button ion-button block color="primary" (click)="abrirPaginaLogin()" *ngIf="naologado">\n        ENTRAR\n    </button>\n    \n    <br *ngIf="naologado">\n  \n    <button ion-button block clear (click)="openPage()" *ngIf="naologado">\n        OU CRIAR UMA CONTA\n    </button>\n\n\n    <ion-card *ngIf="logado" >\n        <ion-card-header>            \n            {{email}}\n        </ion-card-header>\n        <ion-list>\n            <button ion-item>\n                <ion-icon name="pin" item-start color="laranja"></ion-icon>\n                {{localizacao}} {{areaAdm}}\n            </button>\n            <button ion-item>\n                <ion-icon name="ribbon" item-start color="laranja"></ion-icon>\n                VERSÃO {{versao}}\n            </button>\n        </ion-list>\n    </ion-card>\n    \n\n    <ion-footer no-shadow *ngIf="logado">\n        <ion-toolbar position="bottom">\n            <button ion-button color="danger" block (click)="deletarConta()">\n                EXCLUIR MINHA CONTA\n            </button>\n        </ion-toolbar>\n    </ion-footer>    \n  \n</ion-content>\n\n'/*ion-inline-end:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/autenticacao/autenticacao.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+        __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__["a" /* AngularFireAuth */],
+        __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */],
+        __WEBPACK_IMPORTED_MODULE_9__ionic_native_geolocation__["a" /* Geolocation */],
+        __WEBPACK_IMPORTED_MODULE_8__ionic_native_native_geocoder__["a" /* NativeGeocoder */]])
+], AutenticacaoPage);
+
+//# sourceMappingURL=autenticacao.js.map
+
+/***/ }),
+
+/***/ 168:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 168;
+
+/***/ }),
+
+/***/ 209:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 209;
+
+/***/ }),
+
+/***/ 304:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BarcodeProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_barcode_scanner__ = __webpack_require__(289);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var BarcodeProvider = (function () {
+    function BarcodeProvider(alertCtrl, bcs) {
+        this.alertCtrl = alertCtrl;
+        this.bcs = bcs;
+    }
+    BarcodeProvider.prototype.alertaCodBarras = function () {
+        var _this = this;
+        this.bcs.scan().then(function (barcodeData) {
+            var alert = _this.alertCtrl.create({
+                title: 'Código de barras lido!!',
+                subTitle: barcodeData.text,
+                buttons: ['OK']
+            });
+            alert.present();
+        }, function (err) {
+            var alert = _this.alertCtrl.create({
+                title: 'Erro ao ler código de barras!',
+                subTitle: err,
+                buttons: ['OK']
+            });
+            alert.present();
+        });
+    };
+    return BarcodeProvider;
+}());
+BarcodeProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]])
+], BarcodeProvider);
+
+//# sourceMappingURL=barcode.js.map
+
+/***/ }),
+
+/***/ 305:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PromocaoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_photo_photo__ = __webpack_require__(153);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+//import { ToastController } from 'ionic-angular';
+var PromocaoPage = (function () {
+    function PromocaoPage(photoPrvd, navPrm) {
+        this.photoPrvd = photoPrvd;
+        this.navPrm = navPrm;
+        try {
+            this.promocao = navPrm.data;
+        }
+        catch (error) {
+            console.log(error);
+        }
+    }
+    PromocaoPage.prototype.irParaLocal = function () {
+    };
+    PromocaoPage.prototype.abrirImagem = function () {
+        //imagem 360 WIDTH x 240 HEIGHT
+        console.log('função abrir imagem');
+    };
+    return PromocaoPage;
+}());
+PromocaoPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-promocao',template:/*ion-inline-start:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/promocao/promocao.html"*/'<ion-header>\n\n    <ion-navbar>\n        <ion-title>{{promocao.nome}}</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    \n    <ion-card>\n        <img src="{{promocao.url}}"/>\n        <ion-card-content>\n            <ion-card-title>\n                {{promocao.nome}}\n            </ion-card-title>\n            <p>\n                {{promocao.local}}\n            </p>\n        </ion-card-content>\n\n        <ion-row no-padding>\n            <ion-col>\n                <button ion-button clear small color="danger" icon-start>\n                    <ion-icon name=\'heart\'></ion-icon>\n                    Salvar\n                </button>\n            </ion-col>\n            <ion-col text-right>\n                <button ion-button clear small color="laranja" icon-start>\n                    <ion-icon name=\'pin\'></ion-icon>\n                    Ir até {{promocao.local}}\n                </button>\n            </ion-col>\n        </ion-row>\n    </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/promocao/promocao.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__providers_photo_photo__["a" /* PhotoProvider */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+], PromocaoPage);
+
+//# sourceMappingURL=promocao.js.map
+
+/***/ }),
+
+/***/ 306:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MapaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__ = __webpack_require__(80);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var MapaPage = (function () {
+    function MapaPage(navCtrl, geolocation) {
+        this.navCtrl = navCtrl;
+        this.geolocation = geolocation;
+        this.loadMap();
+    }
+    MapaPage.prototype.loadMap = function () {
+        var _this = this;
+        this.geolocation.getCurrentPosition().then(function (position) {
+            var latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+            var mapOptions = {
+                center: latLng,
+                zoom: 15,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            _this.map = new google.maps.Map(_this.mapElement.nativeElement, mapOptions);
+        }, function (err) {
+            console.log(err);
+        });
+    };
+    MapaPage.prototype.addMarker = function () {
+        var marker = new google.maps.Marker({
+            map: this.map,
+            animation: google.maps.Animation.DROP,
+            position: this.map.getCenter()
+        });
+        var content = "<h4>Information!</h4>";
+        this.addInfoWindow(marker, content);
+    };
+    MapaPage.prototype.addInfoWindow = function (marker, content) {
+        var _this = this;
+        var infoWindow = new google.maps.InfoWindow({
+            content: content
+        });
+        google.maps.event.addListener(marker, 'click', function () {
+            infoWindow.open(_this.map, marker);
+        });
+    };
+    return MapaPage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('map'),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */])
+], MapaPage.prototype, "mapElement", void 0);
+MapaPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'mapa-page',template:/*ion-inline-start:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/mapa/mapa.html"*/'<ion-header>\n    <ion-navbar color="laranja">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n    <ion-title>\n        Mapa\n    </ion-title>\n        <ion-buttons end>\n            <button ion-button (click)="addMarker()"><ion-icon name="add"></ion-icon>Adicionar marcador</button>\n        </ion-buttons>  \n    </ion-navbar>\n</ion-header>\n \n<ion-content>\n    <div style="width:100%; height:100%" #map id="map"></div>  \n</ion-content>'/*ion-inline-end:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/mapa/mapa.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__["a" /* Geolocation */]])
+], MapaPage);
+
+//# sourceMappingURL=mapa.js.map
+
+/***/ }),
+
+/***/ 307:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export Itens */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__listassalvas_listassalvas__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angularfire2_auth__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__autenticacao_autenticacao__ = __webpack_require__(160);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+var Itens = (function () {
+    function Itens() {
+        this.produtos = new Array();
+    }
+    return Itens;
+}());
+
+var ListaPage = (function () {
+    function ListaPage(alertCtrl, db, navParams, navCtrl, modalCtrl, angFireAuth) {
+        this.alertCtrl = alertCtrl;
+        this.db = db;
+        this.navCtrl = navCtrl;
+        this.modalCtrl = modalCtrl;
+        this.angFireAuth = angFireAuth;
+        try {
+            if (this.angFireAuth.auth.currentUser != null)
+                this.lista = db.list('/itens_usuarios/' + this.angFireAuth.auth.currentUser.uid);
+            else {
+                this.lista = db.list('/itens_anonimos');
+                this.alerta();
+            }
+        }
+        catch (error) {
+            console.log(error);
+        }
+        this.itens = new Itens;
+    }
+    //Função que avisa caso o usuário ainda não tenha logado
+    ListaPage.prototype.alerta = function () {
+        var _this = this;
+        var alerta = this.alertCtrl.create({
+            title: 'Voce não está logado. Por favor, faça login.',
+            message: 'Se você não logar, suas listas serão criadas ' +
+                'em uma pasta onde todos tem acesso',
+            buttons: [
+                {
+                    text: 'Fazer login',
+                    handler: function () {
+                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__autenticacao_autenticacao__["a" /* AutenticacaoPage */]);
+                    }
+                },
+                {
+                    text: 'Ok'
+                }
+            ]
+        });
+        alerta.present();
+    };
+    ListaPage.prototype.cadastrar1 = function (nome) {
+        var _this = this;
+        if (this.arroz)
+            this.itens.produtos.push("arroz");
+        if (this.feijao)
+            this.itens.produtos.push("feijão");
+        if (this.oleo)
+            this.itens.produtos.push("óleo");
+        if (this.acucar)
+            this.itens.produtos.push("açúcar");
+        if (this.sal)
+            this.itens.produtos.push("sal");
+        if (this.cafe)
+            this.itens.produtos.push("café");
+        if (this.leiteempo)
+            this.itens.produtos.push("leite em pó");
+        if (this.macarrao)
+            this.itens.produtos.push("macarrão");
+        if (this.extratoTomate)
+            this.itens.produtos.push("extrato de tomate");
+        if (this.tempero)
+            this.itens.produtos.push("tempero completo");
+        if (this.achocolatado)
+            this.itens.produtos.push("Achocolatado em pó");
+        if (this.molhoTomate)
+            this.itens.produtos.push("molho de tomate");
+        if (this.farinhaTrigo)
+            this.itens.produtos.push("farinha de trigo");
+        if (this.gelatina)
+            this.itens.produtos.push("gelatina");
+        if (this.biscoito)
+            this.itens.produtos.push("biscoito");
+        if (this.milho)
+            this.itens.produtos.push("milho verde");
+        this.itens.nome = nome;
+        this.lista.push(this.itens).then(function () {
+            _this.itens = new Itens();
+        });
+        //Setando checkbox false após criar nova lista de compras
+        this.arroz = false;
+        this.feijao = false;
+        this.oleo = false;
+        this.acucar = false;
+        this.cafe = false;
+        this.leiteempo = false;
+        this.sal = false;
+        this.macarrao = false;
+        this.extratoTomate = false;
+        this.tempero = false;
+        this.achocolatado = false;
+        this.molhoTomate = false;
+        this.farinhaTrigo = false;
+        this.gelatina = false;
+        this.biscoito = false;
+        this.milho = false;
+    };
+    ListaPage.prototype.cadastrar = function () {
+        var _this = this;
+        var nome;
+        var prompt = this.alertCtrl.create({
+            title: 'Nova lista de compras',
+            message: "Digite o nome da sua lista de compras",
+            inputs: [{
+                    name: 'title',
+                    placeholder: 'Nome'
+                }],
+            buttons: [{
+                    text: 'Cancelar',
+                    handler: function (data) {
+                        nome = null;
+                        console.log('Cancel clicked');
+                    }
+                },
+                {
+                    text: 'Salvar',
+                    handler: function (data) {
+                        console.log('Save clicked');
+                        nome = data.title;
+                        _this.cadastrar1(nome);
+                    }
+                }
+            ]
+        });
+        prompt.present();
+    };
+    //Função que chama pagina das listas salvas
+    ListaPage.prototype.obterValor = function (value) {
+        console.log("era pra abrir as listas salvas!!!!!");
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__listassalvas_listassalvas__["a" /* ListassalvasPage */]);
+    };
+    return ListaPage;
+}());
+ListaPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-lista',template:/*ion-inline-start:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/listadecompras/listadecompras.html"*/'\n<ion-header>\n    <ion-navbar color="laranja">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Lista de compras</ion-title>\n        <ion-buttons end>\n            <button ion-button (click)="obterValor({value: 0})">listas salvas</button>\n        </ion-buttons> \n    </ion-navbar>\n</ion-header>\n\n\n<ion-content padding> \n\n    <ion-item>\n        <ion-label>Arroz</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="arroz"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Feijão</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="feijao"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Óleo</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="oleo"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Açúcar</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="acucar"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Café</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="cafe"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Leite em pó</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="leiteempo"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Sal</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="sal"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Macarrão</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="macarrao"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Extrato de tomate</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="extratoTomate"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Tempero completo</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="tempero"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Achocolatado em pó</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="achocolatado"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Molho de tomate</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="molhoTomate"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Farinha de trigo</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="farinhaTrigo"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Gelatina</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="gelatina"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Biscoito</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="biscoito"></ion-checkbox>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Milho verde</ion-label>\n        <ion-checkbox color="dark" [(ngModel)]="milho"></ion-checkbox>\n    </ion-item> \n    \n    <ion-fab right bottom>\n        <button ion-fab color="dark" (click)="cadastrar()">\n            <ion-icon name="add"></ion-icon>\n        </button>\n    </ion-fab>\n\n</ion-content>'/*ion-inline-end:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/listadecompras/listadecompras.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */],
+        __WEBPACK_IMPORTED_MODULE_4_angularfire2_auth__["a" /* AngularFireAuth */]])
+], ListaPage);
+
+//# sourceMappingURL=listadecompras.js.map
+
+/***/ }),
+
+/***/ 308:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export Itens */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListassalvasPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__ = __webpack_require__(54);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var Itens = (function () {
+    function Itens() {
+        this.produtos = new Array();
+    }
+    return Itens;
+}());
+
+var ListassalvasPage = (function () {
+    //itens: Itens;
+    function ListassalvasPage(navCtrl, navParams, db, angFireAuth) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.angFireAuth = angFireAuth;
+        try {
+            if (this.angFireAuth.auth.currentUser != null)
+                this.lista = db.list('/itens_usuarios/' + this.angFireAuth.auth.currentUser.uid);
+            else
+                this.lista = db.list('/itens_anonimos');
+        }
+        catch (error) {
+            console.log(error);
+        }
+        //this.itens = new Itens();
+    }
+    ListassalvasPage.prototype.editar = function () {
+        console.log("clicou editar");
+    };
+    ListassalvasPage.prototype.excluir = function (id) {
+        this.lista.remove(id).then(function () {
+            console.log("Exclui: " + id);
+        });
+    };
+    return ListassalvasPage;
+}());
+ListassalvasPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-listassalvas',template:/*ion-inline-start:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/listassalvas/listassalvas.html"*/'<ion-header>\n    <ion-navbar color="laranja">\n        <ion-title>Listas Salvas</ion-title>\n    </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n    <ion-card *ngFor="let itens of lista | async" color="laranja_c">\n        <ion-card-header>\n            {{itens.nome}}\n        </ion-card-header>\n        <ion-card-content>    \n                {{itens.produtos}}\n            <ion-item color="laranja_c">\n                <ion-avatar item-end (click)="excluir(itens.$key)">\n                    <ion-icon name="trash"></ion-icon>\n                </ion-avatar>\n                \n            </ion-item>\n        </ion-card-content>\n    </ion-card>\n\n    <!--ion-card *ngFor="let itens of lista | async" color="azul">\n        <ion-avatar item-end (click)="excluir(itens.$key)">\n            <ion-icon name="trash"></ion-icon>\n        </ion-avatar>\n        <ion-card-header>\n            {{itens.nome}}\n        </ion-card-header>\n        <ion-card-content>\n            {{itens.produtos}}\n        </ion-card-content>\n        \n    </ion-card-->\n          \n    \n    <!--ion-list *ngFor="let itens of lista | async">\n        <ion-item-sliding (ionDrag)="excluir($key)">\n            <ion-item>\n                <ion-avatar item-start>\n                    <ion-icon name="trash"></ion-icon>\n                </ion-avatar>\n                <p>{{itens.nome}}</p>\n            </ion-item>\n            <ion-item-options>\n                    <button ion-button color="light" icon-start>\n                      <ion-icon name="ios-more"></ion-icon>\n                      More\n                    </button>\n                    <button ion-button color="primary" icon-start>\n                      <ion-icon name="text"></ion-icon>\n                      Text\n                    </button>\n                    <button ion-button color="secondary" icon-start>\n                      <ion-icon name="call"></ion-icon>\n                      Call\n                    </button>\n            </ion-item-options>\n        </ion-item-sliding>    \n    </ion-list-->\n</ion-content>\n'/*ion-inline-end:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/listassalvas/listassalvas.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */],
+        __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__["a" /* AngularFireAuth */]])
+], ListassalvasPage);
+
+//# sourceMappingURL=listassalvas.js.map
+
+/***/ }),
+
+/***/ 309:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export User */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CriarContaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(68);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var User = (function () {
+    function User() {
+    }
+    return User;
+}());
+
+var CriarContaPage = (function () {
+    function CriarContaPage(navCtrl, navParams, authService, toastCtrl, carregarCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.authService = authService;
+        this.toastCtrl = toastCtrl;
+        this.carregarCtrl = carregarCtrl;
+        this.user = new User();
+    }
+    CriarContaPage.prototype.criarConta = function () {
+        var _this = this;
+        var carregando = this.carregarCtrl.create({
+            content: "Criando conta...",
+            duration: 1500
+        });
+        if (this.user.email.indexOf('@') == -1)
+            this.user.email = this.user.email + '@uft.edu.br';
+        this.authService.createUser(this.user)
+            .then(function () {
+            carregando.present();
+            _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__home_home__["a" /* HomePage */]);
+        })
+            .catch(function (error) {
+            var toast = _this.toastCtrl.create({ duration: 3000, position: 'bottom' });
+            if (error.code == 'auth/invalid-email') {
+                toast.setMessage('O e-mail digitado não é valido.');
+            }
+            else if (error.code == 'auth/user-disabled') {
+                toast.setMessage('O usuário está desativado.');
+            }
+            else if (error.code == 'auth/user-not-found') {
+                toast.setMessage('O usuário não foi encontrado.');
+            }
+            else if (error.code == 'auth/wrong-password') {
+                toast.setMessage('A senha digitada não é valida.');
+            }
+            else if (error.code == 'auth/email-already-in-use') {
+                toast.setMessage('Usuário já existe.');
+            }
+            toast.present();
+        });
+    };
+    return CriarContaPage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('form'),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* NgForm */])
+], CriarContaPage.prototype, "form", void 0);
+CriarContaPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-criarconta',template:/*ion-inline-start:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/criarconta/criarconta.html"*/'<ion-header>\n    <ion-navbar color="laranja">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>\n            Cadastro\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n  \n<ion-content padding>\n    <form #form="ngForm" novalidate>\n  \n        <ion-item>\n            <ion-label stacked>Nome completo</ion-label>\n            <ion-input type="text" name="nomeCompleto" [(ngModel)]="user.nomeCompleto" #nomeCompleto="ngModel" required></ion-input>\n        </ion-item>\n        <ion-item *ngIf="nomeCompleto.errors && (nomeCompleto.dirty || nomeCompleto.touched)" class="text-danger">\n            Campo obrigatório\n        </ion-item>\n        \n        <ion-item>\n            <ion-label stacked>Email</ion-label>\n            <ion-input type="text" name="email" [(ngModel)]="user.email" #email="ngModel" required></ion-input>\n        </ion-item>\n        <ion-item *ngIf="email.errors && (email.dirty || email.touched)" class="text-danger">\n            Campo obrigatório\n        </ion-item>\n      \n        <ion-item>\n            <ion-label stacked>Matricula</ion-label>\n            <ion-input type="text" name="matricula" [(ngModel)]="user.matricula" #matricula="ngModel" required></ion-input>\n        </ion-item>\n        <ion-item *ngIf="matricula.errors && (matricula.dirty || matricula.touched)" class="text-danger">\n            Campo obrigatório\n        </ion-item>\n        \n        <div class="spacer" style="width: 300px; height: 38px;"></div>\n        \n        <ion-item>\n            <ion-label stacked>Senha</ion-label>\n            <ion-input type="password" name="password" placeholder="Digite uma senha" [(ngModel)]="user.password" #password="ngModel" required></ion-input>\n        </ion-item>\n        <ion-item *ngIf="password.errors && (password.dirty || password.touched)" class="text-danger">\n            O campo é obrigatório\n        </ion-item>\n        <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->\n        <!--            CAMPO PARA REPETIÇÃO DE SENHA -->\n        <!-- <ion-item>\n            <ion-input type="password" name="rsenha" placeholder="Repita a senha" [(ngModel)]="rsenha" #rsenha="ngModel" required></ion-input>\n        </ion-item>\n        <ion-item *ngIf="rsenha == password" class="text-danger">\n            O campo é obrigatório\n        </ion-item> -->\n        <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->\n        <button ion-button block color="primary" [disabled]="!form.form.valid" (click)="criarConta()">\n            Criar\n        </button>\n  \n    </form>\n</ion-content>'/*ion-inline-end:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/criarconta/criarconta.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]])
+], CriarContaPage);
+
+//# sourceMappingURL=criarconta.js.map
+
+/***/ }),
+
+/***/ 310:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export User */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2_auth__ = __webpack_require__(54);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var User = (function () {
+    function User() {
+    }
+    return User;
+}());
+
+var LoginPage = (function () {
+    function LoginPage(navCtrl, navParams, toastCtrl, authService, carregarCtrl, angFireAuth) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.toastCtrl = toastCtrl;
+        this.authService = authService;
+        this.carregarCtrl = carregarCtrl;
+        this.angFireAuth = angFireAuth;
+        this.user = new User(); // providers
+    }
+    LoginPage.prototype.signIn = function () {
+        var _this = this;
+        var carregando = this.carregarCtrl.create({
+            content: "Entrando...",
+            duration: 500
+        });
+        if (this.user.email.indexOf('@') == -1)
+            this.user.email = this.user.email + '@uft.edu.br';
+        if (this.form.form.valid) {
+            this.authService.signIn(this.user)
+                .then(function () {
+                carregando.present(); // CARREGANDO
+                _this.authService.blockLogin = true; // bloqueia a página de login
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__home_home__["a" /* HomePage */]); // entra na pagina Home
+            })
+                .catch(function (error) {
+                var toast = _this.toastCtrl.create({ duration: 3000, position: 'bottom' });
+                if (error.code == 'auth/invalid-email') {
+                    toast.setMessage('O e-mail digitado não é valido.');
+                }
+                else if (error.code == 'auth/user-disabled') {
+                    toast.setMessage('O usuário está desativado.');
+                }
+                else if (error.code == 'auth/user-not-found') {
+                    toast.setMessage('O usuário não foi encontrado.');
+                }
+                else if (error.code == 'auth/wrong-password') {
+                    toast.setMessage('A senha digitada não é valida.');
+                }
+                toast.present();
+            });
+        }
+    };
+    LoginPage.prototype.resetarSenha = function () {
+        var _this = this;
+        if (this.form.form.valid) {
+            var toast_1 = this.toastCtrl.create({ duration: 3000, position: 'bottom' });
+            this.authService.resetPassword(this.user.email)
+                .then(function () {
+                toast_1.setMessage('Solicitação foi enviada para o seu e-mail.');
+                toast_1.present();
+                _this.navCtrl.pop();
+            })
+                .catch(function (error) {
+                if (error.code == 'auth/invalid-email') {
+                    toast_1.setMessage('O e-mail digitado não é valido.');
+                }
+                else if (error.code == 'auth/user-not-found') {
+                    toast_1.setMessage('O usuário não foi encontrado.');
+                }
+                toast_1.present();
+            });
+        }
+    };
+    return LoginPage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('form'),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* NgForm */])
+], LoginPage.prototype, "form", void 0);
+LoginPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-login',template:/*ion-inline-start:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/login/login.html"*/'<ion-header>\n    <ion-navbar color="laranja">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>\n            Login\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n  \n  \n<ion-content padding>\n  \n    <form #form="ngForm" novalidate>\n        <ion-list>\n    \n            <ion-item>\n                <ion-label stacked block>E-mail</ion-label>\n                <ion-input type="text" name="email" [(ngModel)]="user.email" #email="ngModel" required></ion-input>\n            </ion-item>\n            \n            <ion-item *ngIf="email.errors && (email.dirty || email.touched)" class="text-danger">\n                O campo é obrigatório\n            </ion-item>\n    \n            <ion-item>\n                <ion-label stacked block>Senha</ion-label>\n                <ion-input type="password" name="password" [(ngModel)]="user.password" #password="ngModel" required></ion-input>\n            </ion-item>\n            \n            <ion-item *ngIf="password.errors && (password.dirty || password.touched)" class="text-danger">\n                O campo é obrigatório\n            </ion-item>\n    \n        </ion-list>\n  \n        <button ion-button block color="primary" [disabled]="!form.form.valid" (click)="signIn()">\n            Entrar\n        </button>\n    </form>\n    \n    <ion-footer no-shadow>\n        <ion-toolbar position="bottom">\n            <button ion-button block (click)="resetarSenha()" [disabled]="!form.form.valid">\n                Esqueci minha senha\n            </button>\n        </ion-toolbar>\n    </ion-footer>\n  \n</ion-content>'/*ion-inline-end:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/login/login.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */],
+        __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */],
+        __WEBPACK_IMPORTED_MODULE_5_angularfire2_auth__["a" /* AngularFireAuth */]])
+], LoginPage);
+
+//# sourceMappingURL=login.js.map
+
+/***/ }),
+
+/***/ 311:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(312);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(328);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 328:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_camera__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_storage__ = __webpack_require__(376);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angularfire2__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_angularfire2_database__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angularfire2_auth__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_barcode_scanner__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_facebook__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__ = __webpack_require__(292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_native_geocoder__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__app_component__ = __webpack_require__(440);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_home_home__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_mapa_mapa__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_listadecompras_listadecompras__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_listassalvas_listassalvas__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_autenticacao_autenticacao__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_criarconta_criarconta__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_login_login__ = __webpack_require__(310);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_promocao_promocao__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__providers_photo_photo__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__providers_auth_auth__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__providers_barcode_barcode__ = __webpack_require__(304);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+//Todas os plugins adicionados
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Paginas
+
+
+
+
+
+
+
+
+
+//Providers
+
+
+
+// Initialize Firebase
+var config = {
+    apiKey: "AIzaSyDgf-dUG_gcr608Jpm1m1p_zs2vzP2JizY",
+    authDomain: "previa-1.firebaseapp.com",
+    databaseURL: "https://previa-1.firebaseio.com",
+    projectId: "previa-1",
+    storageBucket: "previa-1.appspot.com",
+    messagingSenderId: "816587470633"
+};
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_14__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_15__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_16__pages_mapa_mapa__["a" /* MapaPage */],
+            __WEBPACK_IMPORTED_MODULE_17__pages_listadecompras_listadecompras__["a" /* ListaPage */],
+            __WEBPACK_IMPORTED_MODULE_18__pages_listassalvas_listassalvas__["a" /* ListassalvasPage */],
+            __WEBPACK_IMPORTED_MODULE_19__pages_autenticacao_autenticacao__["a" /* AutenticacaoPage */],
+            __WEBPACK_IMPORTED_MODULE_20__pages_criarconta_criarconta__["a" /* CriarContaPage */],
+            __WEBPACK_IMPORTED_MODULE_21__pages_login_login__["a" /* LoginPage */],
+            __WEBPACK_IMPORTED_MODULE_22__pages_promocao_promocao__["a" /* PromocaoPage */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_14__app_component__["a" /* MyApp */]),
+            __WEBPACK_IMPORTED_MODULE_5__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
+            __WEBPACK_IMPORTED_MODULE_6_angularfire2__["a" /* AngularFireModule */].initializeApp(config),
+            __WEBPACK_IMPORTED_MODULE_7_angularfire2_database__["b" /* AngularFireDatabaseModule */]
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
+        entryComponents: [
+            __WEBPACK_IMPORTED_MODULE_14__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_15__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_16__pages_mapa_mapa__["a" /* MapaPage */],
+            __WEBPACK_IMPORTED_MODULE_17__pages_listadecompras_listadecompras__["a" /* ListaPage */],
+            __WEBPACK_IMPORTED_MODULE_18__pages_listassalvas_listassalvas__["a" /* ListassalvasPage */],
+            __WEBPACK_IMPORTED_MODULE_19__pages_autenticacao_autenticacao__["a" /* AutenticacaoPage */],
+            __WEBPACK_IMPORTED_MODULE_20__pages_criarconta_criarconta__["a" /* CriarContaPage */],
+            __WEBPACK_IMPORTED_MODULE_21__pages_login_login__["a" /* LoginPage */],
+            __WEBPACK_IMPORTED_MODULE_22__pages_promocao_promocao__["a" /* PromocaoPage */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */],
+            __WEBPACK_IMPORTED_MODULE_4__ionic_native_camera__["a" /* Camera */],
+            __WEBPACK_IMPORTED_MODULE_9__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
+            __WEBPACK_IMPORTED_MODULE_10__ionic_native_facebook__["a" /* Facebook */],
+            __WEBPACK_IMPORTED_MODULE_13__ionic_native_native_geocoder__["a" /* NativeGeocoder */],
+            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
+            __WEBPACK_IMPORTED_MODULE_8_angularfire2_auth__["a" /* AngularFireAuth */],
+            __WEBPACK_IMPORTED_MODULE_23__providers_photo_photo__["a" /* PhotoProvider */],
+            __WEBPACK_IMPORTED_MODULE_24__providers_auth_auth__["a" /* AuthProvider */],
+            __WEBPACK_IMPORTED_MODULE_25__providers_barcode_barcode__["a" /* BarcodeProvider */]
+        ]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 440:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_mapa_mapa__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_listadecompras_listadecompras__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_autenticacao_autenticacao__ = __webpack_require__(160);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        this.initializeApp();
+        // used for an example of ngFor and navigation
+        this.pages = [
+            { title: 'Login', component: __WEBPACK_IMPORTED_MODULE_7__pages_autenticacao_autenticacao__["a" /* AutenticacaoPage */] },
+            { title: 'Home', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
+            { title: 'Mapa', component: __WEBPACK_IMPORTED_MODULE_5__pages_mapa_mapa__["a" /* MapaPage */] },
+            { title: 'Lista de compras', component: __WEBPACK_IMPORTED_MODULE_6__pages_listadecompras_listadecompras__["a" /* ListaPage */] }
+        ];
+    }
+    MyApp.prototype.initializeApp = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            _this.statusBar.overlaysWebView(true);
+            //this.statusBar.styleDefault();
+            _this.statusBar.backgroundColorByHexString('#cc6908');
+            _this.splashScreen.hide();
+        });
+    };
+    MyApp.prototype.openPage = function (page) {
+        // Reset the content nav to have just this page
+        // we wouldn't want the back button to show in this scenario
+        this.nav.setRoot(page.component);
+    };
+    return MyApp;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
+], MyApp.prototype, "nav", void 0);
+MyApp = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/app/app.html"*/'<ion-menu [content]="content">\n    <ion-header>\n        <ion-toolbar color="laranja">\n            <ion-title>Menu</ion-title>\n        </ion-toolbar>\n    </ion-header>\n\n    <ion-content>\n        <ion-list>\n            <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n                {{p.title}}\n            </button>\n        </ion-list>\n    </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to   -go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/app/app.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+], MyApp);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 68:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_photo_photo__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_barcode_barcode__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2_database__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__promocao_promocao__ = __webpack_require__(305);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+//import { ToastController } from 'ionic-angular';
+var HomePage = (function () {
+    function HomePage(camera, photoPrvd, navCtrl, navPrm, db, barcodeprvd) {
+        this.camera = camera;
+        this.photoPrvd = photoPrvd;
+        this.navCtrl = navCtrl;
+        this.navPrm = navPrm;
+        this.db = db;
+        this.barcodeprvd = barcodeprvd;
+        try {
+            this.lista = db.list('/caminho_das_imagens/');
+        }
+        catch (error) {
+            console.log(error);
+        }
+    }
+    HomePage.prototype.pickImageFromGallery = function () {
+        var _this = this;
+        this.camera.getPicture({
+            destinationType: this.camera.DestinationType.DATA_URL,
+            sourceType: this.camera.PictureSourceType.SAVEDPHOTOALBUM,
+            saveToPhotoAlbum: true,
+            correctOrientation: true,
+            allowEdit: true
+        }).then(function (imageData) {
+            _this.base64Image = "data:image/jpeg;base64," + imageData;
+            _this.photoPrvd.uploadPhoto(_this.base64Image);
+        }, function (err) {
+            console.log(err);
+        });
+    };
+    HomePage.prototype.takePicture = function () {
+        var _this = this;
+        this.camera.getPicture({
+            destinationType: this.camera.DestinationType.DATA_URL,
+            sourceType: this.camera.PictureSourceType.CAMERA,
+            encodingType: this.camera.EncodingType.PNG,
+            saveToPhotoAlbum: true,
+            correctOrientation: true,
+            allowEdit: true
+        }).then(function (imageData) {
+            _this.base64Image = "data:image/jpeg;base64," + imageData;
+            _this.photoPrvd.uploadPhoto(_this.base64Image);
+        }).catch(function (erro) {
+            console.log("ERROR -> " + JSON.stringify(erro));
+        });
+    };
+    HomePage.prototype.baixarArquivo = function (nome) {
+        var storageRef = firebase.storage().ref('/Users/');
+        var caminho = storageRef.child('images/' + nome);
+        caminho.getDownloadURL().then(function (url) {
+            console.log(url); // AQUI VOCÊ JÁ TEM O ARQUIVO
+        });
+    };
+    HomePage.prototype.codigoBarras = function () {
+        this.barcodeprvd.alertaCodBarras();
+    };
+    HomePage.prototype.abrirPromocao = function (promo) {
+        //Passar como parêmatro a promoção clicada!
+        console.log('ide: ' + promo);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__promocao_promocao__["a" /* PromocaoPage */], promo);
+    };
+    return HomePage;
+}());
+HomePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-home',template:/*ion-inline-start:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/home/home.html"*/'<ion-header>\n    <ion-navbar color="laranja">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Home</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  \n    <ion-header>\n        <ion-navbar>\n            <ion-title>Recomendado para você</ion-title>\n        </ion-navbar>\n    </ion-header>\n\n    <ion-card *ngFor="let imgs of lista | async">\n        <img src="{{imgs.url}}"/>\n        <ion-card-content>\n            <ion-card-title>\n                {{imgs.nome}}\n            </ion-card-title>\n            <p>\n                {{imgs.local}}\n            </p>\n        </ion-card-content>\n        <ion-row no-padding>\n            <ion-col>\n                <button ion-button clear small color="danger" icon-start>\n                <ion-icon name=\'heart\'></ion-icon>\n                    Salvar\n                </button>\n            </ion-col>\n            <ion-col text-right>\n                <button ion-button clear small color="laranja" icon-start>\n                <ion-icon name=\'pin\'></ion-icon>\n                    Ir até {{imgs.local}}\n                </button>\n            </ion-col>\n        </ion-row>\n    </ion-card>\n\n    <!--ion-card-content>\n        Latest Picture:\n        <img [src]="base64Image" *ngIf="base64Image" />\n    </ion-card-content-->\n\n\n\n    <ion-fab right bottom>\n        <button ion-fab color="verde">\n            <ion-icon name="add"></ion-icon>\n        </button>\n        <ion-fab-list side="top">\n            \n            <button ion-fab (click)="takePicture()"><ion-icon name="camera"></ion-icon></button>\n            <button ion-fab (click)="pickImageFromGallery()"><ion-icon name="photos"></ion-icon></button>\n            <button ion-fab (click)="codigoBarras()"><ion-icon name="barcode"></ion-icon></button>\n        \n        </ion-fab-list>\n    </ion-fab>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/fernando/Documentos/UFT/Hibridos/hibridos/src/pages/home/home.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */],
+        __WEBPACK_IMPORTED_MODULE_3__providers_photo_photo__["a" /* PhotoProvider */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_5_angularfire2_database__["a" /* AngularFireDatabase */],
+        __WEBPACK_IMPORTED_MODULE_4__providers_barcode_barcode__["a" /* BarcodeProvider */]])
+], HomePage);
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 92:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export User */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_firebase_app__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_firebase_app___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_firebase_app__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_facebook__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic_angular__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var User = (function () {
+    function User() {
+    }
+    return User;
+}());
+
+var AuthProvider = (function () {
+    function AuthProvider(autenticacaoAF, facebook, toastCtrl) {
+        this.autenticacaoAF = autenticacaoAF;
+        this.facebook = facebook;
+        this.toastCtrl = toastCtrl;
+        this.blockLogin = false;
+    }
+    AuthProvider.prototype.createUser = function (user) {
+        return this.autenticacaoAF.auth.createUserWithEmailAndPassword(user.email, user.password);
+    };
+    AuthProvider.prototype.signIn = function (user) {
+        return this.autenticacaoAF.auth.signInWithEmailAndPassword(user.email, user.password);
+    };
+    AuthProvider.prototype.signOutFirebase = function () {
+        return this.autenticacaoAF.auth.signOut();
+    };
+    AuthProvider.prototype.resetPassword = function (email) {
+        return this.autenticacaoAF.auth.sendPasswordResetEmail(email);
+    };
+    AuthProvider.prototype.signInWithFacebook = function () {
+        var _this = this;
+        return this.facebook.login(['public_profile', 'email'])
+            .then(function (res) {
+            return _this.autenticacaoAF.auth.signInWithCredential(__WEBPACK_IMPORTED_MODULE_3_firebase_app__["auth"].FacebookAuthProvider.credential(res.authResponse.accessToken));
+        })
+            .catch(function (e) {
+            var alerta = _this.toastCtrl.create({
+                duration: 3000,
+                position: 'top'
+            });
+            alerta.setMessage(e);
+            alerta.present();
+        });
+    };
+    AuthProvider.prototype.signOut = function () {
+        var _this = this;
+        if (this.autenticacaoAF.auth.currentUser.providerData.length) {
+            for (var i = 0; i < this.autenticacaoAF.auth.currentUser.providerData.length; i++) {
+                var provider = this.autenticacaoAF.auth.currentUser.providerData[i];
+                if (provider.providerId == __WEBPACK_IMPORTED_MODULE_3_firebase_app__["auth"].FacebookAuthProvider.PROVIDER_ID) {
+                    return this.facebook.logout().then(function () {
+                        return _this.signOutFirebase();
+                    });
+                }
+            }
+        }
+        return this.signOutFirebase();
+    };
+    AuthProvider.prototype.deleteAccount = function () {
+        try {
+            return this.autenticacaoAF.auth.currentUser.delete();
+            /*
+            let user = firebase.auth().currentUser;
+            user.delete().then( () => {
+                (<any>window).location = 'index.html';
+             }, (err) => {
+                 console.log(JSON.stringify(err));
+             });
+             */
+        }
+        catch (err) {
+            console.log(JSON.stringify(err));
+        }
+    };
+    return AuthProvider;
+}());
+AuthProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__["a" /* AngularFireAuth */],
+        __WEBPACK_IMPORTED_MODULE_4__ionic_native_facebook__["a" /* Facebook */],
+        __WEBPACK_IMPORTED_MODULE_5_ionic_angular__["k" /* ToastController */]])
+], AuthProvider);
+
+//# sourceMappingURL=auth.js.map
+
+/***/ })
+
+},[311]);
+//# sourceMappingURL=main.js.map

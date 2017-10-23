@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-navbar color="laranja">
+        <ion-title>Suas promoções salvas</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-card *ngFor="let promo of promoSalvas | async">
+        <img src="{{promo.url}}"/>
+        <ion-card-content>
+            <ion-card-title>
+                {{promo.nome}}
+            </ion-card-title>
+            <p>
+                {{promo.local}}
+            </p>
+        </ion-card-content>
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear small color="danger" icon-start (click)="excluir(promo.$key)">
+                <ion-icon name='trash'></ion-icon>
+                    Excluir
+                </button>
+            </ion-col>
+            <ion-col text-right>
+                <button ion-button clear small color="laranja" icon-start>
+                <ion-icon name='pin'></ion-icon>
+                    Ir até {{promo.local}}
+                </button>
+            </ion-col>
+        </ion-row>
+    </ion-card>
+
+</ion-content>
