@@ -9,7 +9,6 @@ import { ToastController} from 'ionic-angular';
 export class User{
     nomeCompleto: string;
     email: string;
-    matricula: string;
     password: string;
 }
 

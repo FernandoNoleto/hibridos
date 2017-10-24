@@ -33,7 +33,8 @@ export class LoginPage {
         private authService: AuthProvider,
         private carregarCtrl: LoadingController,
         private angFireAuth: AngularFireAuth
-    ) {}
+    ) {
+    }
 
 
     signIn() {

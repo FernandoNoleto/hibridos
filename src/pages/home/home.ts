@@ -7,15 +7,13 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 import { AngularFireAuth } from 'angularfire2/auth';
 import { ToastController } from 'ionic-angular';
 import { AutenticacaoPage } from '../autenticacao/autenticacao';
-
+import { MapapromocoesPage } from '../mapapromocoes/mapapromocoes';
 
 
 @Component({
   	selector: 'page-home',
   	templateUrl: 'home.html'
 })
-
-
 export class HomePage {
 
     public base64Image: string;
@@ -35,7 +33,7 @@ export class HomePage {
     ) {        
         
         try {
-            this.lista = db.list('/caminho_das_imagens/');         
+            this.lista = db.list('/caminho_das_imagens/');
         } catch (error) {
             console.log(error);
         }
@@ -45,43 +43,65 @@ export class HomePage {
 
 
 	pickImageFromGallery(){
-        
 
-		this.camera.getPicture({
-			destinationType: this.camera.DestinationType.DATA_URL,
-			sourceType: this.camera.PictureSourceType.SAVEDPHOTOALBUM,
-            saveToPhotoAlbum: true,
-            correctOrientation: true,
-            allowEdit: true
-		}).then((imageData) => {
-            this.base64Image = "data:image/jpeg;base64," + imageData;
-            this.photoPrvd.uploadPhoto(this.base64Image);
-		}, (err) => {
-			console.log(err);
-        });
-        
+        try {
+            //Só pode pegar imagem com login
+            if(this.angFireAuth.auth.currentUser != null){            
+                this.camera.getPicture({
+                    destinationType: this.camera.DestinationType.DATA_URL,
+                    sourceType: this.camera.PictureSourceType.SAVEDPHOTOALBUM,
+                    allowEdit: true
+                }).then((imageData) => {
+                    this.base64Image = "data:image/jpeg;base64," + imageData;
+                    this.photoPrvd.uploadPhoto(this.base64Image);
+                }, (err) => {
+                    console.log(err);
+                });
+            }
+            else{
+                //Alerta caso não teha login
+                this.alerta();
+            }
+        } catch (error) {
+            console.log(error);
+        }
+
     }
     
     
     takePicture(){
+
+        try {
+            //Só pode pegar imagem com login
+            if(this.angFireAuth.auth.currentUser != null){
+
+                this.camera.getPicture({
+                    destinationType : this.camera.DestinationType.DATA_URL,
+                    sourceType : this.camera.PictureSourceType.CAMERA,
+                    encodingType: this.camera.EncodingType.PNG,
+                    saveToPhotoAlbum: true,
+                    allowEdit: true
+                }).then((imageData) => {
+                    this.base64Image = "data:image/jpeg;base64," + imageData;
+                    this.photoPrvd.uploadPhoto(this.base64Image);
+                }, (err) =>  {
+                    console.log(err);
+                });
+
+         
+            } else {
+                //Alerta caso não teha login
+                this.alerta();
+            }
+
+        } catch (error) {
+            console.log(error);
+        }
         
-        this.camera.getPicture({
-            destinationType : this.camera.DestinationType.DATA_URL,
-            sourceType : this.camera.PictureSourceType.CAMERA,
-            encodingType: this.camera.EncodingType.PNG,
-            saveToPhotoAlbum: true,
-            correctOrientation: true,
-            allowEdit: true
-        }).then(imageData => {
-            this.base64Image = "data:image/jpeg;base64," + imageData;
-            this.photoPrvd.uploadPhoto(this.base64Image);
-            
-        }).catch((erro) => {
-            
-            console.log("ERROR -> " + JSON.stringify(erro));
-        });
+       
     }
     
+    /*
     baixarArquivo(nome: string){
         let storageRef = firebase.storage().ref('/Users/');
         let caminho = storageRef.child('images/'+nome);
@@ -89,8 +109,10 @@ export class HomePage {
            console.log(url); // AQUI VOCÊ JÁ TEM O ARQUIVO
         });
     }
+    */
 
     codigoBarras(){
+        //Código de barras -> Única coisa que não me deu trabalho nessa porra :)
         this.barcodeprvd.alertaCodBarras();
     }
 
@@ -139,6 +161,14 @@ export class HomePage {
         });
         alerta.present();
 
+    }
+
+    irParaMapa(img_selec){
+        try {
+            this.navCtrl.push(MapapromocoesPage, img_selec);
+        } catch (error) {
+            console.log(error);
+        }
     }
 
 }

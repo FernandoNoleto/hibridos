@@ -18,7 +18,6 @@ export class User{
 }
 
 
-
 @Component({
   selector: 'page-autenticacao',
   templateUrl: 'autenticacao.html',
@@ -70,9 +69,9 @@ export class AutenticacaoPage {
             
             this.geocoder.reverseGeocode(resp.coords.latitude, resp.coords.longitude)
             .then((result: NativeGeocoderReverseResult) =>{
-            console.log(JSON.stringify(result));
-            this.localizacao = result.locality.toLocaleUpperCase();
-            this.areaAdm += result.administrativeArea.toLocaleUpperCase();
+                console.log(JSON.stringify(result));
+                this.localizacao = result.locality.toLocaleUpperCase();
+                this.areaAdm += result.administrativeArea.toLocaleUpperCase();
             })
             .catch((error: any) => {
                 console.log(error);
@@ -184,5 +183,7 @@ export class AutenticacaoPage {
     abrirPromocoesSalvas(){
         this.navCtrl.push(PromocoessalvasPage);
     }
+
+    
     
 }

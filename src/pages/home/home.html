@@ -33,9 +33,9 @@
                 </button>
             </ion-col>
             <ion-col text-right>
-                <button ion-button clear small color="laranja" icon-start>
+                <button ion-button clear small color="laranja" icon-start (click)="irParaMapa(imgs)" >
                 <ion-icon name='pin'></ion-icon>
-                    Ir até {{imgs.local}}
+                    Mostrar no mapa
                 </button>
             </ion-col>
         </ion-row>

@@ -24,6 +24,7 @@ import { AutenticacaoPage } from '../pages/autenticacao/autenticacao';
 import { CriarContaPage } from '../pages/criarconta/criarconta';
 import { LoginPage } from '../pages/login/login';
 import { PromocoessalvasPage } from '../pages/promocoessalvas/promocoessalvas';
+import { MapapromocoesPage } from '../pages/mapapromocoes/mapapromocoes'
 
 //Providers
 import { PhotoProvider } from '../providers/photo/photo';
@@ -51,7 +52,8 @@ var config = {
     AutenticacaoPage,
     CriarContaPage,
     LoginPage,
-    PromocoessalvasPage
+    PromocoessalvasPage,
+    MapapromocoesPage
   ],
   imports: [
     BrowserModule,
@@ -70,7 +72,8 @@ var config = {
     AutenticacaoPage,
     CriarContaPage,
     LoginPage,
-    PromocoessalvasPage
+    PromocoessalvasPage,
+    MapapromocoesPage
   ],
   providers: [
     StatusBar,

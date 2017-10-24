@@ -7,7 +7,6 @@ import { HomePage } from '../home/home';
 export class User{
     nomeCompleto: string;
     email: string;
-    matricula: string;
     password: string;
 }
 
