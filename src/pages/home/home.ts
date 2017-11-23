@@ -8,6 +8,8 @@ import { AngularFireAuth } from 'angularfire2/auth';
 import { ToastController } from 'ionic-angular';
 import { AutenticacaoPage } from '../autenticacao/autenticacao';
 import { MapapromocoesPage } from '../mapapromocoes/mapapromocoes';
+import { RangeProvider } from '../../providers/range/range';
+import { LocalizacaoProvider } from '../../providers/localizacao/localizacao';
 
 
 @Component({
@@ -19,6 +21,9 @@ export class HomePage {
     public base64Image: string;
     lista: FirebaseListObservable<any>;
     promocoeslista: FirebaseListObservable<any>;
+    range: number;
+    localAtualLat: any;
+    localAtualLng: any;
     
 
     constructor(
@@ -29,7 +34,9 @@ export class HomePage {
         private angFireAuth: AngularFireAuth,
         private barcodeprvd: BarcodeProvider,
         private alertCtrl: AlertController,
-        private navCtrl: NavController      
+        private navCtrl: NavController,
+        public rangeProvider: RangeProvider,
+        private localPrvd: LocalizacaoProvider   
     ) {        
         
         try {
@@ -37,7 +44,9 @@ export class HomePage {
         } catch (error) {
             console.log(error);
         }
-
+        this.range = this.rangeProvider.range;
+        this.localAtualLat = this.localPrvd.localizacaoLat;
+        this.localAtualLng = this.localPrvd.localizacaoLng;
         
     }
 
@@ -169,6 +178,31 @@ export class HomePage {
         } catch (error) {
             console.log(error);
         }
+    }
+
+    Range(){
+        if(!this.range)
+            this.range = 0;
+        console.log(this.range);
+        alert(this.range);
+    }
+
+    calcularDistancia(){
+        //this.lista.
+        var deg2rad = 0.017453292519943295; // === Math.PI / 180
+        var cos = Math.cos;
+        this.localAtualLat *= deg2rad;
+        this.localAtualLng *= deg2rad;
+        //lat2 *= deg2rad;
+        //lon2 *= deg2rad;
+        var diam = 12742; // Diameter of the earth in km (2 * 6371)
+        //var dLat = lat2 - lat1;
+        //var dLon = lon2 - lon1;
+        //var a = ( (1 - cos(dLat)) +
+        //        (1 - cos(dLon)) * cos(lat1) * cos(lat2)
+        //) / 2;
+
+        //return diam * Math.asin(Math.sqrt(a)) * 1000;
     }
 
 }

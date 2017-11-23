@@ -4,7 +4,7 @@
             <ion-icon name="menu"></ion-icon>
         </button>
         <ion-title>
-            Login
+            MINHA CONTA
         </ion-title>
         <ion-buttons end>
             <button ion-button (click)="signOut()" *ngIf="logado">sair</button>
@@ -43,7 +43,7 @@
         </ion-card-header>
         <ion-list>
             <button ion-item>
-                <ion-icon name="pin" item-start color="laranja"></ion-icon>
+                <ion-icon name="locate" item-start color="laranja"></ion-icon>
                 {{localizacao}} {{areaAdm}}
             </button>
             <button ion-item>
@@ -52,10 +52,22 @@
             </button>
             <button ion-item (click)="abrirPromocoesSalvas()">
                 <ion-icon name="list" item-start color="laranja"></ion-icon>
-                Promoções salvas
+                PROMOÇÕES SALVAS
             </button>
         </ion-list>
     </ion-card>
+
+    <ion-list *ngIf="logado">
+        <ion-list-header>
+            CONFIGURAÇÃOES
+        </ion-list-header>
+        <ion-item>
+            <ion-range min="0" max="80" step="5" pin="true" snaps="true" [(ngModel)]="range" color="laranja" (ionChange)="salvarConfigs()">
+                <ion-icon range-left small color="laranja" name="funnel"></ion-icon>
+                <ion-icon range-right color="laranja" name="funnel"></ion-icon>
+            </ion-range>
+        </ion-item>
+    </ion-list>
     
 
     <ion-footer no-shadow *ngIf="logado">

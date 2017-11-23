@@ -30,15 +30,18 @@ import { MapapromocoesPage } from '../pages/mapapromocoes/mapapromocoes'
 import { PhotoProvider } from '../providers/photo/photo';
 import { AuthProvider } from '../providers/auth/auth';
 import { BarcodeProvider } from '../providers/barcode/barcode';
+import { RangeProvider } from '../providers/range/range';
+import { LocalizacaoProvider } from '../providers/localizacao/localizacao';
 
   // Initialize Firebase
 var config = {
-      apiKey: "AIzaSyDgf-dUG_gcr608Jpm1m1p_zs2vzP2JizY",
-      authDomain: "previa-1.firebaseapp.com",
-      databaseURL: "https://previa-1.firebaseio.com",
-      projectId: "previa-1",
-      storageBucket: "previa-1.appspot.com",
-      messagingSenderId: "816587470633"
+    apiKey: "AIzaSyCEV8h6K8l1MQin4R4LNkqgj7kp3ArLBZ0",
+    authDomain: "promomax-54fa1.firebaseapp.com",
+    databaseURL: "https://promomax-54fa1.firebaseio.com",
+    projectId: "promomax-54fa1",
+    storageBucket: "promomax-54fa1.appspot.com",
+    messagingSenderId: "71185522087"
+
 };
   
 
@@ -87,7 +90,9 @@ var config = {
     AngularFireAuth,
     PhotoProvider,
     AuthProvider,
-    BarcodeProvider
+    BarcodeProvider,
+    RangeProvider,
+    LocalizacaoProvider
   ]
 })
 export class AppModule {}

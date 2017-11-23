@@ -1,6 +1,7 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavParams } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
+import { LoadingController } from 'ionic-angular';
 import { NativeGeocoder, NativeGeocoderReverseResult } from '@ionic-native/native-geocoder';
 
 declare var google;
@@ -16,13 +17,20 @@ export class MapapromocoesPage {
     map: any;
     img_selec;
     local: string = "";
+    loading: any;
  
     constructor(
         private geolocation: Geolocation,
         private navPrms: NavParams,
-        private geocoder: NativeGeocoder
+        private geocoder: NativeGeocoder,
+        private loadingCtrl: LoadingController
     ) {
         this.img_selec = this.navPrms.data;
+        this.loading = this.loadingCtrl.create({
+            content: 'Carregando mapa...'            
+        });
+        this.loading.present();
+        
         this.loadMap();
     }
  
@@ -49,6 +57,8 @@ export class MapapromocoesPage {
  
         this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
         this.addMarker();
+
+        this.loading.dismissAll();
         
         },
         (err) => {

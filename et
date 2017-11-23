@@ -1,0 +1,53 @@
+[33mcommit c8a42012935c056a2dac566c9df7d109fb40341d[m
+Author: FernandoNoleto <fernandoleto@hotmail.com>
+Date:   Tue Oct 24 00:01:34 2017 -0300
+
+    função de mostrar no mapa local da foto adicionado
+
+[33mcommit df1e93e6624b002e365c6a5149604b73905c8721[m
+Author: FernandoNoleto <fernandoleto@hotmail.com>
+Date:   Sun Oct 22 22:06:35 2017 -0300
+
+    adicionada a página de promoções salvas
+
+[33mcommit 6751e373f12981c25bc3fc32989103223894c12e[m
+Author: FernandoNoleto <fernandoleto@hotmail.com>
+Date:   Sun Oct 22 19:36:16 2017 -0300
+
+    Página home alterada. Adicionado botão de salvar e ir até local
+
+[33mcommit 215b5a7225dabac8ca7e979388d3a6c8395c4781[m
+Author: FernandoNoleto <fernandoleto@hotmail.com>
+Date:   Sun Oct 22 01:32:37 2017 -0300
+
+    página home com ion-cards usando imagens do firebase
+
+[33mcommit 8bc46330b218ac2ca499f585e45dccf90740e589[m
+Author: FernandoNoleto <fernandoleto@hotmail.com>
+Date:   Sat Oct 21 13:48:36 2017 -0300
+
+    melhorada a página de autenticação
+
+[33mcommit a4e990883c7152119ff2815d252043215ebc533c[m
+Author: FernandoNoleto <fernandoleto@hotmail.com>
+Date:   Sat Oct 21 01:11:16 2017 -0300
+
+    função de excluir conta adicionada
+
+[33mcommit d5f3cdd594deacd19e8de4124c1aec239a3ea359[m
+Author: FernandoNoleto <fernandoleto@hotmail.com>
+Date:   Sat Oct 21 00:06:09 2017 -0300
+
+    função de resetar password adicionada
+
+[33mcommit 1c4de2a43128425205119a5cde3bb4aba41ddc2d[m
+Author: FernandoNoleto <fernandoleto@hotmail.com>
+Date:   Fri Oct 20 21:13:13 2017 -0300
+
+    adicionado método de login por facebook
+
+[33mcommit 004b67de577763237c31534c54e932497c5de00e[m
+Author: FernandoNoleto <fernandoleto@hotmail.com>
+Date:   Tue Oct 17 18:16:47 2017 -0300
+
+    first commit

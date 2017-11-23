@@ -8,7 +8,8 @@ import { LoginPage } from '../login/login';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { NativeGeocoder, NativeGeocoderReverseResult } from '@ionic-native/native-geocoder';
 import { Geolocation } from '@ionic-native/geolocation';
-import { PromocoessalvasPage } from '../promocoessalvas/promocoessalvas'
+import { PromocoessalvasPage } from '../promocoessalvas/promocoessalvas';
+import { RangeProvider } from '../../providers/range/range';
 
 export class User{
     nomeCompleto: string;
@@ -35,6 +36,7 @@ export class AutenticacaoPage {
     versao: string = "FREE";
     localizacao: string = "";
     areaAdm: string = " - ";
+    range: number = 0;
 
     constructor(
         public navCtrl: NavController,
@@ -45,7 +47,8 @@ export class AutenticacaoPage {
         private authService: AuthProvider,
         private carregarCtrl: LoadingController,
         private geolocation: Geolocation,
-        private geocoder: NativeGeocoder
+        private geocoder: NativeGeocoder,
+        public rangeProvider: RangeProvider
     ) {
         try {
             if(this.angFireAuth.auth.currentUser == null){
@@ -62,6 +65,7 @@ export class AutenticacaoPage {
         } catch (error) {
             console.log(error);
         }
+        this.range = this.rangeProvider.range;
 
       
         
@@ -85,7 +89,7 @@ export class AutenticacaoPage {
             console.log('Error getting location', error);
         });
         
-
+        console.log(this.range);
        
 
     }
@@ -184,6 +188,8 @@ export class AutenticacaoPage {
         this.navCtrl.push(PromocoessalvasPage);
     }
 
-    
+    salvarConfigs(){
+        this.rangeProvider.setRange(this.range);
+    }
     
 }
